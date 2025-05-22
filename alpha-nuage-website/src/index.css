@@ -1,0 +1,14 @@
+.header {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-size: 150px;
+  border-radius: 20px;
+}
+
+.subheader {
+  text-align: center;
+  font-size: 50px;
+}

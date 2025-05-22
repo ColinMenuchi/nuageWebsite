@@ -1,11 +1,12 @@
-
+import Header from './components/Header.jsx'
+import Subheader from './components/Subheader.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <Header></Header>
+      <Subheader></Subheader>
     </>
   )
 }
