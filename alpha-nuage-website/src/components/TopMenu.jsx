@@ -1,10 +1,11 @@
+import TopMenuOption from "./TopMenuOption";
 
 function TopMenu() {
     return(<div className='topMenu'>
-        <p>NUAGE </p>
-        <p>About Us </p>
-        <p>Games </p>
-        <p>Donate </p>
+        <TopMenuOption name="NUAGE"></TopMenuOption>
+        <TopMenuOption name="About Us"></TopMenuOption>
+        <TopMenuOption name="Games"></TopMenuOption>
+        <TopMenuOption name="Donate"></TopMenuOption>
     </div>);
 }
 
