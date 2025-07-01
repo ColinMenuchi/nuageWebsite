@@ -1,5 +1,7 @@
 .topMenu {
   text-align: center;
+  background-color: cyan;
+  border-radius: 20px;
 }
 
 .topMenuOption {
@@ -19,6 +21,7 @@
 }
 
 .subheader {
+  margin: 10px;
   text-align: center;
   font-size: 50px;
 }
