@@ -1,7 +1,7 @@
 
 function TopMenuOption(props) {
     return(<>
-    <p>{props.name}</p>
+    <p className="topMenuOption">{props.name}</p>
     </>);
 }
 
