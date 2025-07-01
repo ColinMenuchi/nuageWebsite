@@ -1,10 +1,10 @@
 
 function TopMenu() {
     return(<div className='topMenu'>
-        <p className='topMenuOption'>NUAGE </p>
-        <p className='topMenuOption'>About Us</p>
-        <p className='topMenuOption'>Games</p>
-        <p className='topMenuOption'>Donate</p>
+        <p>NUAGE </p>
+        <p>About Us </p>
+        <p>Games </p>
+        <p>Donate </p>
     </div>);
 }
 

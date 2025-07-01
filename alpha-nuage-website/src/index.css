@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.topMenuOption {
-  white-space: nowrap;
-  display: inline-block;
-}
-
 .header {
   max-width: 100%;
   height: auto;
