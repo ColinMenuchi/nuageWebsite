@@ -1,19 +1,18 @@
-import TopMenu from './components/TopMenu.jsx'
-import Header from './components/Header.jsx'
-import Subheader from './components/Subheader.jsx'
-import Card from './components/Card.jsx'
-import Home from './components/Home.jsx'
-
-import calendar from './assets/calendar.jpeg'
-import boardGameCollection from './assets/boardGameCollection.jpeg'
-import lightbulb from './assets/lightbulb.jpeg'
+import {useState} from "react";
+import Home from './components/Home.jsx';
 
 
 function App() {
+  const [page, setPage] = useState("home"); // used to track which page to display
 
   return (
     <>
-      <Home></Home>
+      <nav style={{ marginBottom: "20px" }}>
+        <button onClick={() => setPage("home")}>Home</button>
+        <button onClick={() => setPage("about")}>About</button>
+      </nav>
+
+      {page === "home" && <Home></Home>}
     </>
   )
 }
