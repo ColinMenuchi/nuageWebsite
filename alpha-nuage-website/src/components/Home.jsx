@@ -11,7 +11,6 @@ function Home() {
 
   return (
     <>
-      <TopMenu></TopMenu>
       <Header></Header>
       <Subheader></Subheader>
       <Card image={calendar} title="Upcoming Events" text="Discover Our Events!"></Card>

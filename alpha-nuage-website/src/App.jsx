@@ -1,4 +1,5 @@
 import {useState} from "react";
+import TopMenu from "./components/TopMenu.jsx";
 import Home from './components/Home.jsx';
 
 
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <>
+      <TopMenu></TopMenu>
       <nav style={{ marginBottom: "20px" }}>
         <button onClick={() => setPage("home")}>Home</button>
         <button onClick={() => setPage("about")}>About</button>
