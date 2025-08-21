@@ -50,3 +50,7 @@
   margin-left: 60px;
   margin-right: 60px;
 }
+
+.topMenuOption:hover {
+  background-color: white;
+}
