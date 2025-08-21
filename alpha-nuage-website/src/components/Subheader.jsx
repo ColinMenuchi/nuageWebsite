@@ -3,7 +3,7 @@ function Subheader() {
 
     return(
         <div>
-            <h3 className='subheader'>Welcome to NUAGE, Northeastern University's
+            <h3 className='subheader'>Northeastern University's
                  student led board game club!
             </h3>
             <h5>
