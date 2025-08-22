@@ -1,6 +1,7 @@
 import {useState} from "react";
 import TopMenu from "./components/TopMenu.jsx";
 import Home from './components/Home.jsx';
+import About from './components/About.jsx'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <TopMenu currentPage={page} onNavigate={setPage} />
 
       {page === "home" && <Home></Home>}
+      {page === "about" && <About></About>}
     </>
   )
 }
