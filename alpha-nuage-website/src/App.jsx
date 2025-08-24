@@ -8,12 +8,12 @@ function App() {
   const [page, setPage] = useState("home"); // used to determine which page to display
 
   return (
-    <>
+    <div className={`page-${page}`}> 
       <TopMenu currentPage={page} onNavigate={setPage} />
 
       {page === "home" && <Home></Home>}
       {page === "about" && <About></About>}
-    </>
+    </div>
   )
 }
 
