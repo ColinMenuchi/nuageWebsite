@@ -14,6 +14,11 @@ function About() {
             Meet Our Team:
         </h1>
         <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
+        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
+        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
+        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
+        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
+        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
     </div>
     );
 }

@@ -10,12 +10,32 @@
   display: inline-block;
 }
 
-.card .card-image {
+.page-about .card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.page-home .card .card-image {
   max-width: 60px;
   height: auto;
   border-radius: 5%;
   margin-bottom: 10px;
 
+}
+
+.page-about .card .card-image {
+  max-width: 400px;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 10px;
 }
 
 .card .card-title {
