@@ -1,4 +1,5 @@
 import nuageBanner from '../assets/nuageBanner.jpg'
+import businessWoman from '../assets/businessWoman.jpeg'
 import Card from './Card.jsx'
 
 function About() {
@@ -13,7 +14,7 @@ function About() {
         >
             Meet Our Team:
         </h1>
-        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
+        <Card image={businessWoman} title="Jane Doe" text="Club Secretary and Gravwell Enthusiast"></Card>
         <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
         <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
         <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
