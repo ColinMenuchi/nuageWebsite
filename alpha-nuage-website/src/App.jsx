@@ -1,7 +1,8 @@
 import {useState} from "react";
 import TopMenu from "./components/TopMenu.jsx";
 import Home from './components/Home.jsx';
-import About from './components/About.jsx'
+import About from './components/About.jsx';
+import Games from './components/Games.jsx';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
       {page === "home" && <Home></Home>}
       {page === "about" && <About></About>}
+      {page === "games" && <Games></Games>}
     </div>
   )
 }
