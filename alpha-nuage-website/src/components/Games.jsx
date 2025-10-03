@@ -2,12 +2,13 @@ import { useState } from "react";
 
 import Card from "./Card.jsx"
 import nuageBanner from "../assets/nuageBanner.jpg";
-import botc from "../assets/botc.webp";
-import cosmicEncounter from "../assets/cosmicEncounter.jpeg";
-import forestShuffle from "../assets/forestShuffle.webp";
-import fromage from "../assets/fromage.jpeg";
-import slayTheSpire from "../assets/slayTheSpire.jpeg";
-import spiritIsland from "../assets/spiritIsland.webp";
+import botc from "../assets/gamePhotos/botc.webp";
+import cosmicEncounter from "../assets/gamePhotos/cosmicEncounter.jpeg";
+import forestShuffle from "../assets/gamePhotos/forestShuffle.webp";
+import fromage from "../assets/gamePhotos/fromage.jpeg";
+import slayTheSpire from "../assets/gamePhotos/slayTheSpire.jpeg";
+import spiritIsland from "../assets/gamePhotos/spiritIsland.webp";
+import games_database from "../GamesDB.jsx"
 
 function Games() {
 
@@ -19,8 +20,7 @@ function Games() {
         { image: fromage, title: "Fromage", text: "TBA"},
         { image: slayTheSpire, title: "Slay the Spire", text: "TBA"},
         { image: spiritIsland, title: "Spirit Island", text: "TBA"},
-
-    ];
+    ]
 
     // State for Search
     const [search, setSearch] = useState("");
