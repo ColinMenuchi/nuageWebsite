@@ -1,26 +1,14 @@
 import { useState } from "react";
 
 import Card from "./Card.jsx"
-import nuageBanner from "../assets/nuageBanner.jpg";
-import botc from "../assets/gamePhotos/botc.webp";
-import cosmicEncounter from "../assets/gamePhotos/cosmicEncounter.jpeg";
-import forestShuffle from "../assets/gamePhotos/forestShuffle.webp";
-import fromage from "../assets/gamePhotos/fromage.jpeg";
-import slayTheSpire from "../assets/gamePhotos/slayTheSpire.jpeg";
-import spiritIsland from "../assets/gamePhotos/spiritIsland.webp";
+
 import games_database from "../GamesDB.jsx"
+import AboutPopUp from "./AboutPopUp.jsx";
 
 function Games() {
 
     // Array of Games
-    const games_list = [
-        { image: botc, title: "Blood on the Clocktower", text: "TBA"},
-        { image: cosmicEncounter, title: "Cosmic Encounter", text: "TBA"},
-        { image: forestShuffle, title: "Forest Shuffle", text: "TBA"},
-        { image: fromage, title: "Fromage", text: "TBA"},
-        { image: slayTheSpire, title: "Slay the Spire", text: "TBA"},
-        { image: spiritIsland, title: "Spirit Island", text: "TBA"},
-    ]
+    const games_list = games_database
 
     // State for Search
     const [search, setSearch] = useState("");
@@ -53,11 +41,11 @@ function Games() {
         {/* Game Cards */}
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginLeft: "50px" }}>
             {filteredGames.map((game) => (
-                <Card
+                <AboutPopUp
                 key={game.title}
                 image={game.image}
                 title={game.title}
-                text={game.text}
+                text={game.description}
             />
         ))}
         </div>

@@ -19,7 +19,7 @@ function AboutPopUp(props) {
                     <div className="popup" onClick={(e) => e.stopPropagation()}>
                         <button onClick={() => setIsOpen(false)}>X</button>
                         <h2>Hello!</h2>
-                        <p>This is a popup in the middle of the screen.</p>
+                        <p>{props.text}</p>
                     </div>
                 </div>
             )}

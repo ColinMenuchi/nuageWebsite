@@ -7,7 +7,7 @@ import Games from './components/Games.jsx';
 
 function App() {
   const [page, setPage] = useState("home"); // used to determine which page to display
-
+  console.log("App is running")
   return (
     <div className={`page-${page}`}> 
       <TopMenu currentPage={page} onNavigate={setPage} />

@@ -6,10 +6,12 @@ import slayTheSpire from "./assets/gamePhotos/slayTheSpire.jpeg";
 import spiritIsland from "./assets/gamePhotos/spiritIsland.webp";
 
 const games_database = [
-    { image: botc, title: "Blood on the Clocktower", text: "TBA"},
-    { image: cosmicEncounter, title: "Cosmic Encounter", text: "TBA"},
-    { image: forestShuffle, title: "Forest Shuffle", text: "TBA"},
-    { image: fromage, title: "Fromage", text: "TBA"},
-    { image: slayTheSpire, title: "Slay the Spire", text: "TBA"},
-    { image: spiritIsland, title: "Spirit Island", text: "TBA"},
+    { image: botc, title: "Blood on the Clocktower", description: "TBA"},
+    { image: cosmicEncounter, title: "Cosmic Encounter", description: "TBA"},
+    { image: forestShuffle, title: "Forest Shuffle", description: "TBA"},
+    { image: fromage, title: "Fromage", description: "TBA"},
+    { image: slayTheSpire, title: "Slay the Spire", description: "TBA"},
+    { image: spiritIsland, title: "Spirit Island", description: "TBA"},
 ]
+
+export default games_database;
