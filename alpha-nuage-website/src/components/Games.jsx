@@ -45,7 +45,8 @@ function Games() {
                 key={game.title}
                 image={game.image}
                 title={game.title}
-                text={game.description}
+                cardText={game.storageLocation}
+                popUpText={game.description}
             />
         ))}
         </div>

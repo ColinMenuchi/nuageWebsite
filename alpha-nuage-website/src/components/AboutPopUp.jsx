@@ -5,12 +5,17 @@ import Card from './Card.jsx';
 function AboutPopUp(props) {
     const [isOpen, setIsOpen] = useState(false);
 
+    let prefix = ""
+    if (props.cardText?.includes("Locker")) {
+        prefix = "Stored at: "
+    }
+
     return (
         <div>
             <Card 
                 image={props.image} 
                 title={props.title}
-                text={props.text}
+                text={prefix + props.cardText}
                 onClick={() => setIsOpen(true)}>
             </Card>
 
@@ -19,7 +24,7 @@ function AboutPopUp(props) {
                     <div className="popup" onClick={(e) => e.stopPropagation()}>
                         <button onClick={() => setIsOpen(false)}>X</button>
                         <h2>Hello!</h2>
-                        <p>{props.text}</p>
+                        <p>{props.popUpText}</p>
                     </div>
                 </div>
             )}
@@ -27,5 +32,9 @@ function AboutPopUp(props) {
     );
 
 }
+
+AboutPopUp.defaultProps = {
+    cardText: "Card Text"
+};
 
 export default AboutPopUp;
