@@ -25,6 +25,18 @@ import villainous from "./assets/gamePhotos/villainous.jpeg";
 import wastlandExpress from "./assets/gamePhotos/wastelandExpress.jpeg";
 import wingspan from "./assets/gamePhotos/wingspan.jpeg";
 import wingspanAisa from "./assets/gamePhotos/wingspanAsia.webp";
+import jenga from "./assets/gamePhotos/jenga.jpeg";
+import santorini from "./assets/gamePhotos/santorini.jpeg";
+import spiritIslandFeatherAndFlame from "./assets/gamePhotos/spiritIslandFeatherAndFlame.webp"
+import subdivision from "./assets/gamePhotos/subdivision.webp"
+import timeStories from "./assets/gamePhotos/timeStories.jpeg"
+import twilightImperiumRex from "./assets/gamePhotos/twilightImperiumRex.webp"
+import dominion from "./assets/gamePhotos/dominion.webp"
+import dominionAllies from "./assets/gamePhotos/dominionAllies.jpeg"
+import dominionDarkAges from "./assets/gamePhotos/dominionDarkAges.jpeg"
+import dominionSeaside from "./assets/gamePhotos/dominionSeaside.webp"
+
+
 
 
 const games_database = [
@@ -40,6 +52,30 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Shelf Locker G-Left",
     },
+    {
+        image: dominion,
+        title: "Dominion",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F"
+    },
+    {
+        image: dominionAllies,
+        title: "Dominion: Allies",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F"
+    },
+    {
+        image: dominionDarkAges,
+        title: "Dominion: Dark Ages",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F"
+    },
+    {
+        image: dominionSeaside,
+        title: "Dominion: Seaside",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F"
+    },
     { 
         image: forestShuffle, 
         title: "Forest Shuffle", 
@@ -53,10 +89,22 @@ const games_database = [
         storageLocation: "Top Shelf Locker B",
     },
     {
+        image: jenga,
+        title: "Jenga",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F",
+    },
+    {
         image: paranormalDetectives,
         title: "Paranormal Detectives",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
+    },
+    {
+        image: santorini,
+        title: "Santorini",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F",
     },
     { 
         image: slayTheSpire, 
@@ -71,10 +119,22 @@ const games_database = [
         storageLocation: "3rd Shelf Locker B",
     },
     {
+        image: spiritIslandFeatherAndFlame,
+        title: "Spirit Island: Feather and Flame",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F",
+    },
+    {
         image: stardewValley,
         title: "Stardew Valley",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
+    },
+    {
+        image: subdivision,
+        title: "Subdivision",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F",
     },
     {
         image: suburbia,
@@ -131,6 +191,12 @@ const games_database = [
         storageLocation: "Top Shelf Locker F",
     },
     {
+        image: timeStories,
+        title: "Time Stories",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F",
+    },
+    {
         image: trains,
         title: "Trains",
         description: "TBA",
@@ -141,6 +207,12 @@ const games_database = [
         title: "Trickerion",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
+    },
+    {
+        image: twilightImperiumRex,
+        title: "Twilight Imperium Rex: Final Days of an Empire",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker F",
     },
     {
         image: tzokin,
