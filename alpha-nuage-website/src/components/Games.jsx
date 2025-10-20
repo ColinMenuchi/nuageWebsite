@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import Card from "./Card.jsx"
-
 import games_database from "../GamesDB.jsx"
 import AboutPopUp from "./AboutPopUp.jsx";
 
@@ -43,7 +41,7 @@ function Games() {
             {filteredGames.map((game) => (
                 <AboutPopUp
                 key={game.title}
-                image={game.image}
+                imagePath={game.imagePath}
                 title={game.title}
                 cardText={game.storageLocation}
                 popUpText={game.description}

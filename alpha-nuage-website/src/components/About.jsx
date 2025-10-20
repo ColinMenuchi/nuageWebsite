@@ -1,5 +1,3 @@
-import nuageBanner from '../assets/nuageBanner.jpg'
-import businessWoman from '../assets/businessWoman.jpeg'
 import Card from './Card.jsx'
 import AboutPopUp from './AboutPopUp.jsx'
 
@@ -15,12 +13,12 @@ function About() {
         >
             Meet Our Team:
         </h1>
-        <AboutPopUp image={businessWoman} title="Jane Doe" cardText="Club Secretary and Gravwell Enthusiast" popUpText="Idk man..... :/"></AboutPopUp>
-        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
-        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
-        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
-        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
-        <Card image={nuageBanner} title="Leader's Name" text="Text About Them"></Card>
+        <AboutPopUp imagePath='./src/assets/businessWoman.jpeg' title="Jane Doe" cardText="Club Secretary and Gravwell Enthusiast" popUpText="Idk man..... :/"></AboutPopUp>
+        <Card imagePath='./src/assets/nuageBanner.jpg' title="Leader's Name" text="Text About Them"></Card>
+        <Card imagePath='./src/assets/nuageBanner.jpg' title="Leader's Name" text="Text About Them"></Card>
+        <Card imagePath='./src/assets/nuageBanner.jpg' title="Leader's Name" text="Text About Them"></Card>
+        <Card imagePath='./src/assets/nuageBanner.jpg' title="Leader's Name" text="Text About Them"></Card>
+        <Card imagePath='./src/assets/nuageBanner.jpg' title="Leader's Name" text="Text About Them"></Card>
     </div>
     );
 }

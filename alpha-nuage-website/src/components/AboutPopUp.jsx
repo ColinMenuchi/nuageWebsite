@@ -1,5 +1,5 @@
 import { useState } from "react";
-import businessWoman from '../assets/businessWoman.jpeg'
+
 import Card from './Card.jsx';
 
 function AboutPopUp(props) {
@@ -13,7 +13,7 @@ function AboutPopUp(props) {
     return (
         <div>
             <Card 
-                image={props.image} 
+                imagePath={props.imagePath} 
                 title={props.title}
                 text={prefix + props.cardText}
                 onClick={() => setIsOpen(true)}>
