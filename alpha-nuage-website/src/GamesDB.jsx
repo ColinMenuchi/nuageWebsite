@@ -44,17 +44,47 @@ const games_database = [
         description: "TBA",
         storageLocation: "2nd Shelf Locker G-Left",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/automobiles.png",
+        title: "Automobiles",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/battlestarGalactica.jpeg",
+        title: "Battlestar Galactica",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/betweenTwoCastlesOfMadKingLudwig.jpeg",
+        title: "Between Two Castles of Mad King Ludwig",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker G-Left",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/botc.webp",
         title: "Blood on the Clocktower", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker G-Right",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/bloodRage.webp",
+        title: "Blood Rage",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker G-Left",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/cosmicEncounter.jpeg", 
         title: "Cosmic Encounter", 
         description: "TBA",
         storageLocation: "Bottom Shelf Locker G-Left",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/daybreak.jpeg", 
+        title: "Daybreak", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker G-Left",
     },
     { 
         imagePath: "./src/assets/gamePhotos/dixitOdyssey.png", 
