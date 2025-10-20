@@ -66,7 +66,7 @@ const games_database = [
         imagePath: "./src/assets/gamePhotos/botc.webp",
         title: "Blood on the Clocktower", 
         description: "TBA",
-        storageLocation: "3rd Shelf Locker G-Right",
+        storageLocation: "Below Drawers Locker G-Right",
     },
     {
         imagePath: "./src/assets/gamePhotos/bloodRage.webp",
@@ -111,6 +111,30 @@ const games_database = [
         storageLocation: "4th Shelf Locker G-Left",
     },
     { 
+        imagePath: "./src/assets/gamePhotos/cityOfGears.jpeg", 
+        title: "City of gears", 
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker G-Left",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/cityOfIron.jpeg", 
+        title: "City of Iron", 
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker G-Left",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/clank.jpeg", 
+        title: "Clank!", 
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker G-Left",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/concept.jpeg", 
+        title: "Concept", 
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker G-Left",
+    },
+    { 
         imagePath: "./src/assets/gamePhotos/cosmicEncounter.jpeg", 
         title: "Cosmic Encounter", 
         description: "TBA",
@@ -121,6 +145,24 @@ const games_database = [
         title: "Daybreak", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker G-Left",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/deadOfWinter.webp", 
+        title: "Dead of Winter", 
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker G-Right",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/decorum.jpeg", 
+        title: "Décorum", 
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker G-Right",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/dinosaurIsland.jpeg", 
+        title: "Dinosaur Island", 
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker G-Right",
     },
     { 
         imagePath: "./src/assets/gamePhotos/dixitOdyssey.png", 
@@ -152,6 +194,18 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F"
     },
+    { 
+        imagePath: "./src/assets/gamePhotos/dune.webp", 
+        title: "Dune", 
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker G-Right",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/duneImperium.jpeg", 
+        title: "Dune: Imperium", 
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker G-Right",
+    },
     {
         imagePath: "./src/assets/gamePhotos/eldritchHorror.jpeg",
         title: "Eldritch Horror",
@@ -163,6 +217,30 @@ const games_database = [
         title: "Eldritch Horror: Mountains of Madness",
         description: "TBA",
         storageLocation: "2nd Shelf Locker G-Left"
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/everdell.jpeg", 
+        title: "Everdell", 
+        description: "TBA",
+        storageLocation: "Below Drawers Locker G-Right",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/everdellBellfaire.jpeg", 
+        title: "Everdell: Bellfaire", 
+        description: "TBA",
+        storageLocation: "Below Drawers Locker G-Right",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/everdellNewLeaf.jpeg", 
+        title: "Everdell: New Leaf", 
+        description: "TBA",
+        storageLocation: "Below Drawers Locker G-Right",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/evolution.jpeg", 
+        title: "Evolution", 
+        description: "TBA",
+        storageLocation: "Below Drawers Locker G-Right",
     },
     { 
         imagePath: "./src/assets/gamePhotos/forestShuffle.webp", 
