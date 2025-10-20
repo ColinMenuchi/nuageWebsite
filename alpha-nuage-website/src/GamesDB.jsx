@@ -74,6 +74,42 @@ const games_database = [
         description: "TBA",
         storageLocation: "3rd Shelf Locker G-Left",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/bulletStar.jpeg",
+        title: "Bullet Star",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/bunnyKingdom.jpeg",
+        title: "Bunny Kingdom",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/bunnyKingdomInTheSky.webp",
+        title: "Bunny Kingdom in the Sky",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/captainSonar.webp",
+        title: "Captain Sonar",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/castlesOfMadKingLudwig.jpeg",
+        title: "Castles of Mad King Ludwig",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/championsOfMidgard.webp",
+        title: "Champions of Midgard",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker G-Left",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/cosmicEncounter.jpeg", 
         title: "Cosmic Encounter", 
