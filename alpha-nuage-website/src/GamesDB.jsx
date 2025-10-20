@@ -1,47 +1,49 @@
-import botc from "./assets/gamePhotos/botc.webp";
-import cosmicEncounter from "./assets/gamePhotos/cosmicEncounter.jpeg";
-import forestShuffle from "./assets/gamePhotos/forestShuffle.webp";
-import fromage from "./assets/gamePhotos/fromage.jpeg";
-import paranormalDetectives from "./assets/gamePhotos/paranormalDetectives.jpeg";
-import slayTheSpire from "./assets/gamePhotos/slayTheSpire.jpeg";
-import spiritIsland from "./assets/gamePhotos/spiritIsland.webp";
-import stardewValley from "./assets/gamePhotos/stardewValley.jpeg";
-import suburbia from "./assets/gamePhotos/suburbia.jpeg";
-import takenoko from "./assets/gamePhotos/takenoko.jpeg";
-import terraformingMars from "./assets/gamePhotos/terraformingMars.jpeg";
-import terraformingMarsAresExpedition from "./assets/gamePhotos/terraformingMarsAresExpedition.jpeg";
-import terraformingMarsColonies from "./assets/gamePhotos/terraformingMarsColonies.jpeg";
-import terrorInMeepleCity from "./assets/gamePhotos/terrorInMeepleCity.webp";
-import ticketToRide from "./assets/gamePhotos/ticketToRide.jpeg";
-import ticketToRideUnitedKingdom from "./assets/gamePhotos/ticketToRideUnitedKingdom.webp";
-import tigrisAndEuphrates from "./assets/gamePhotos/tigrisAndEuphrates.jpeg";
-import trains from "./assets/gamePhotos/trains.jpeg";
-import trickerion from "./assets/gamePhotos/trickerion.jpeg";
-import tzokin from "./assets/gamePhotos/tzokin.webp"
-import underwaterCities from "./assets/gamePhotos/underwaterCities.jpeg";
-import underwaterCitiesNewDiscoveries from "./assets/gamePhotos/underwaterCitiesNewDiscoveries.jpeg";
-import unfair from "./assets/gamePhotos/unfair.jpeg";
-import villainous from "./assets/gamePhotos/villainous.jpeg";
-import wastlandExpress from "./assets/gamePhotos/wastelandExpress.jpeg";
-import wingspan from "./assets/gamePhotos/wingspan.jpeg";
-import wingspanAisa from "./assets/gamePhotos/wingspanAsia.webp";
-import jenga from "./assets/gamePhotos/jenga.jpeg";
-import santorini from "./assets/gamePhotos/santorini.jpeg";
-import spiritIslandFeatherAndFlame from "./assets/gamePhotos/spiritIslandFeatherAndFlame.webp"
-import subdivision from "./assets/gamePhotos/subdivision.webp"
-import timeStories from "./assets/gamePhotos/timeStories.jpeg"
-import twilightImperiumRex from "./assets/gamePhotos/twilightImperiumRex.webp"
-import dominion from "./assets/gamePhotos/dominion.webp"
-import dominionAllies from "./assets/gamePhotos/dominionAllies.jpeg"
-import dominionDarkAges from "./assets/gamePhotos/dominionDarkAges.jpeg"
-import dominionSeaside from "./assets/gamePhotos/dominionSeaside.webp"
-
-
-
 {/* Check which Fallout game we have. Goes in Top Shelf Locker B */}
 
 
 const games_database = [
+    {
+        imagePath: "./src/assets/gamePhotos/7wonders.webp",
+        title: "7 Wonders",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/aboveAndBelow.jpeg",
+        title: "Above and Below",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/alhambra.jpeg",
+        title: "Alhambra",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/alienFrontiers.webp",
+        title: "Alien Frontiers",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/amunRe.webp",
+        title: "Amun-Re",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/arkhamHorror.webp",
+        title: "Arkham Horror",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/arkhamHorrorDunwich.jpeg",
+        title: "Arkham Horror: The Dunwich Legacy",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker G-Left",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/botc.webp",
         title: "Blood on the Clocktower", 
@@ -53,6 +55,12 @@ const games_database = [
         title: "Cosmic Encounter", 
         description: "TBA",
         storageLocation: "Bottom Shelf Locker G-Left",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/dixitOdyssey.png", 
+        title: "Dixit: Odyssey", 
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker G-Left",
     },
     {
         imagePath: "./src/assets/gamePhotos/dominion.webp",
@@ -77,6 +85,18 @@ const games_database = [
         title: "Dominion: Seaside",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F"
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/eldritchHorror.jpeg",
+        title: "Eldritch Horror",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker G-Left"
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/eldritchHorrorMountainsOfMadness.png",
+        title: "Eldritch Horror: Mountains of Madness",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker G-Left"
     },
     { 
         imagePath: "./src/assets/gamePhotos/forestShuffle.webp", 
