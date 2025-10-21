@@ -243,14 +243,50 @@ const games_database = [
         storageLocation: "Below Drawers Locker G-Right",
     },
     { 
+        imagePath: "./src/assets/gamePhotos/explodingKittens.jpeg", 
+        title: "Exploding Kittens", 
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
+    { 
         imagePath: "./src/assets/gamePhotos/forestShuffle.webp", 
         title: "Forest Shuffle", 
         description: "TBA",
-        storageLocation: "Drawers Locker G-Right",
+        storageLocation: "Top Drawer Locker G-Right",
     },
     { 
         imagePath: "./src/assets/gamePhotos/fromage.jpeg",
         title: "Fromage", 
+        description: "TBA",
+        storageLocation: "Top Shelf Locker B",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/funemployed.jpeg", 
+        title: "Funemployed", 
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/furyOfDracula.webp", 
+        title: "Fury of Dracula", 
+        description: "TBA",
+        storageLocation: "Top Shelf Locker B",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/gameOfThrones.webp", 
+        title: "Game of Thrones", 
+        description: "TBA",
+        storageLocation: "Top Shelf Locker B",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/hanabi.jpeg", 
+        title: "Hanabi", 
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/heat.jpeg", 
+        title: "Heat: Pedal to the Metal", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
@@ -260,17 +296,59 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
     },
+    { 
+        imagePath: "./src/assets/gamePhotos/lettersFromWhitechapel.png", 
+        title: "Letters from Whitechapel", 
+        description: "TBA",
+        storageLocation: "Top Shelf Locker B",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/libertalia.webp", 
+        title: "Libertalia", 
+        description: "TBA",
+        storageLocation: "Top Shelf Locker B",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/mysterium.jpeg", 
+        title: "Mysterium", 
+        description: "TBA",
+        storageLocation: "Top Shelf Locker B",
+    },
     {
         imagePath: "./src/assets/gamePhotos/paranormalDetectives.jpeg",
         title: "Paranormal Detectives",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
+    { 
+        imagePath: "./src/assets/gamePhotos/saboteur.jpeg", 
+        title: "Saboteur", 
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
     {
         imagePath: "./src/assets/gamePhotos/santorini.jpeg",
         title: "Santorini",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/Scout.jpeg", 
+        title: "Scout", 
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/Set.webp", 
+        title: "Set", 
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/shadowsOverCamelot.webp",
+        title: "Shadows Over Camelot",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker F"
     },
     { 
         imagePath: "./src/assets/gamePhotos/slayTheSpire.jpeg", 
@@ -308,6 +386,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
+    { 
+        imagePath: "./src/assets/gamePhotos/sushiGo.png", 
+        title: "Sushi Go!", 
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
     {
         imagePath: "./src/assets/gamePhotos/takenoko.jpeg",
         title: "Takenoko",
@@ -337,6 +421,24 @@ const games_database = [
         title: "Terror in Meeplecity",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/theArrival.avif", 
+        title: "The Arrival", 
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/theFoxInTheForest.webp",
+        title: "The Fox in the Forest",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/theIsleOfCats.jpeg",
+        title: "The Isle of Cats",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/ticketToRide.jpeg",
@@ -375,7 +477,7 @@ const games_database = [
         storageLocation: "2nd Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/spiritIslandFeatherAndFlame.webp",
+        imagePath: "./src/assets/gamePhotos/twilightImperiumRex.webp",
         title: "Twilight Imperium Rex: Final Days of an Empire",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
@@ -405,6 +507,12 @@ const games_database = [
         storageLocation: "2nd Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/uno.jpeg",
+        title: "Uno",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/villainous.jpeg",
         title: "Villainous",
         description: "TBA",
@@ -417,6 +525,12 @@ const games_database = [
         storageLocation: "2nd Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/weDidntPlaytestThisAtAll.jpeg",
+        title: "We Didn't Playtest This at All",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/wingspan.jpeg",
         title: "Wingspan",
         description: "TBA",
@@ -427,6 +541,12 @@ const games_database = [
         title: "Wingspan: Asia",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/zombieDice.jpeg",
+        title: "Zombie Dice",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
     },
 ]
 
