@@ -33,6 +33,12 @@ const games_database = [
         storageLocation: "Top Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/arboretum.jpeg",
+        title: "Arboretum",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/arkhamHorror.webp",
         title: "Arkham Horror",
         description: "TBA",
@@ -105,6 +111,12 @@ const games_database = [
         storageLocation: "4th Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/catInTheBox.webp",
+        title: "Cat In The Box",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/championsOfMidgard.webp",
         title: "Champions of Midgard",
         description: "TBA",
@@ -128,6 +140,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Shelf Locker G-Left",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/cockroachPoker.jpeg",
+        title: "Cockroach Poker",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/concept.jpeg", 
         title: "Concept", 
@@ -140,6 +158,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Shelf Locker G-Left",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/coup.jpeg",
+        title: "Coup",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/daybreak.jpeg", 
         title: "Daybreak", 
@@ -151,6 +175,12 @@ const games_database = [
         title: "Dead of Winter", 
         description: "TBA",
         storageLocation: "Bottom Shelf Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/deckOfCards.jpeg",
+        title: "Decks of Cards",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
     },
     { 
         imagePath: "./src/assets/gamePhotos/decorum.jpeg", 
@@ -296,6 +326,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/lemonadeStand.jpeg",
+        title: "Lemonade Stand",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/lettersFromWhitechapel.png", 
         title: "Letters from Whitechapel", 
@@ -308,6 +344,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/loveLetterPrincessPrincessEverAfter.jpeg",
+        title: "Love Letter: Princess Princess Ever After",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/mysterium.jpeg", 
         title: "Mysterium", 
@@ -315,10 +357,28 @@ const games_database = [
         storageLocation: "Top Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/noThanks.jpeg",
+        title: "No Thanks!",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/oneNightUltimateWerewolf.webp",
+        title: "One Night Ultimate Werewolf",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/paranormalDetectives.jpeg",
         title: "Paranormal Detectives",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/railroadInkChallenge.png",
+        title: "Railroad Ink Challenge",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
     },
     { 
         imagePath: "./src/assets/gamePhotos/saboteur.jpeg", 
@@ -349,6 +409,12 @@ const games_database = [
         title: "Shadows Over Camelot",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F"
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/skull.jpeg",
+        title: "Skull",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
     },
     { 
         imagePath: "./src/assets/gamePhotos/slayTheSpire.jpeg", 
@@ -429,6 +495,12 @@ const games_database = [
         storageLocation: "2nd Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/theCrewMissionDeepSea.webp",
+        title: "The Crew: Mission Deep Sea",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/theFoxInTheForest.webp",
         title: "The Fox in the Forest",
         description: "TBA",
@@ -439,6 +511,18 @@ const games_database = [
         title: "The Isle of Cats",
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/theResistance.jpeg",
+        title: "The Resistance",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/theTeaDragonSociety.jpeg",
+        title: "The Tea Dragon Society",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
     },
     {
         imagePath: "./src/assets/gamePhotos/ticketToRide.jpeg",
@@ -529,6 +613,12 @@ const games_database = [
         title: "We Didn't Playtest This at All",
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/werewords.jpeg",
+        title: "Werewords",
+        description: "TBA",
+        storageLocation: "2nd Drawer Locker G-Right",
     },
     {
         imagePath: "./src/assets/gamePhotos/wingspan.jpeg",
