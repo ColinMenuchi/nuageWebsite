@@ -380,11 +380,29 @@ const games_database = [
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/memoir44.webp",
+        title: "Memoir '44",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/miceAndMystics.webp",
+        title: "Mice & Mystics",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/mysterium.jpeg", 
         title: "Mysterium", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/mysticPaths.jpeg",
+        title: "Mystic Paths",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/noThanks.jpeg",
@@ -393,10 +411,28 @@ const games_database = [
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
+        imagePath: "./src/assets/gamePhotos/oceans.jpeg",
+        title: "Oceans",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/oneNightUltimateWerewolf.webp",
         title: "One Night Ultimate Werewolf",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/pandemicIberia.jpeg",
+        title: "Pandemic: Iberia",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/pandemicOnTheBrink.webp",
+        title: "Pandemic: On the brink",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/paranormalDetectives.jpeg",
@@ -405,10 +441,40 @@ const games_database = [
         storageLocation: "Top Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/planes.jpeg",
+        title: "Planes",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/planet.jpeg",
+        title: "Planet",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/potionExplosion.png",
+        title: "Potion Explosion",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/puertoRico.jpeg",
+        title: "Puerto Rico",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/railroadInkChallenge.png",
         title: "Railroad Ink Challenge",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/rollForTheGalaxy.png",
+        title: "Roll for the Galaxy",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
     },
     { 
         imagePath: "./src/assets/gamePhotos/saboteur.jpeg", 
@@ -559,6 +625,12 @@ const games_database = [
         title: "The Resistance",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/theSearchForPlanetX.jpeg",
+        title: "The Search for Planet X",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/theTeaDragonSociety.jpeg",
