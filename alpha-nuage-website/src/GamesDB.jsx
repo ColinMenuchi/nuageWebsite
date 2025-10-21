@@ -81,6 +81,12 @@ const games_database = [
         storageLocation: "3rd Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/bohnanza.jpeg",
+        title: "Bohnanza",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker G-Right",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/bulletStar.jpeg",
         title: "Bullet Star",
         description: "TBA",
@@ -145,6 +151,12 @@ const games_database = [
         title: "Cockroach Poker",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/Codenames.webp",
+        title: "Codenames",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker G-Right",
     },
     { 
         imagePath: "./src/assets/gamePhotos/concept.jpeg", 
@@ -282,7 +294,7 @@ const games_database = [
         imagePath: "./src/assets/gamePhotos/forestShuffle.webp", 
         title: "Forest Shuffle", 
         description: "TBA",
-        storageLocation: "Top Drawer Locker G-Right",
+        storageLocation: "Bottom Drawer Locker G-Right",
     },
     { 
         imagePath: "./src/assets/gamePhotos/fromage.jpeg",
@@ -321,16 +333,34 @@ const games_database = [
         storageLocation: "Top Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/incanGold.png",
+        title: "Incan Gold",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker G-Right",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/jenga.jpeg",
         title: "Jenga",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/justOne.jpeg",
+        title: "Just One",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker G-Right",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/lemonadeStand.jpeg",
         title: "Lemonade Stand",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/letterJam.jpeg",
+        title: "Letter Jam",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker G-Right",
     },
     { 
         imagePath: "./src/assets/gamePhotos/lettersFromWhitechapel.png", 
@@ -422,6 +452,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "3rd Shelf Locker B",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/soClover.jpeg",
+        title: "So Clover",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker G-Right",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/spiritIsland.webp",
         title: "Spirit Island", 
@@ -457,6 +493,12 @@ const games_database = [
         title: "Sushi Go!", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/sushiGoParty.webp",
+        title: "Sushi Go Party!",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker G-Right",
     },
     {
         imagePath: "./src/assets/gamePhotos/takenoko.jpeg",
@@ -615,7 +657,7 @@ const games_database = [
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/werewords.jpeg",
+        imagePath: "./src/assets/gamePhotos/werewords.webp",
         title: "Werewords",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
