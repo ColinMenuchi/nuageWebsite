@@ -9,6 +9,18 @@ const games_database = [
         storageLocation: "Top Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/7wondersDuel.jpeg",
+        title: "7 Wonders: Duel",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/7wondersDuelPantheon.avif",
+        title: "7 Wonders: Duel Pantheon",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/aboveAndBelow.jpeg",
         title: "Above and Below",
         description: "TBA",
@@ -75,6 +87,18 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/bananagrams.png",
+        title: "Bananagrams",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/baseballHighlights2045.webp",
+        title: "Baseball Highlights 2045",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/battlestarGalactica.jpeg",
         title: "Battlestar Galactica",
         description: "TBA",
@@ -121,6 +145,12 @@ const games_database = [
         title: "Bunny Kingdom in the Sky",
         description: "TBA",
         storageLocation: "4th Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/burgleBros.jpeg",
+        title: "Burgle Bros",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/canvas.jpeg",
@@ -229,6 +259,12 @@ const games_database = [
         title: "Décorum", 
         description: "TBA",
         storageLocation: "Bottom Shelf Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/diceCity.jpeg",
+        title: "Dice City",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
     },
     { 
         imagePath: "./src/assets/gamePhotos/dinosaurIsland.jpeg", 
@@ -417,6 +453,12 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/lanternsTheHarvestFestival.jpeg",
+        title: "Lanterns: The Harvest Festival",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/lemonadeStand.jpeg",
         title: "Lemonade Stand",
         description: "TBA",
@@ -434,11 +476,23 @@ const games_database = [
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/liarsDice.jpeg",
+        title: "Liar's Dice",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/libertalia.webp", 
         title: "Libertalia", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/lostCities.jpeg",
+        title: "Lost Cities",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/loveLetterPrincessPrincessEverAfter.jpeg",
@@ -565,6 +619,12 @@ const games_database = [
         title: "Railroad Ink Challenge",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/raiseYourGoblets.jpeg",
+        title: "Raise Your Goblets",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/redRising.jpeg",
@@ -819,6 +879,12 @@ const games_database = [
         storageLocation: "2nd Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/tuscanyEssentialEdition.jpeg",
+        title: "Tuscany: Essential Edition",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/twilightImperiumRex.webp",
         title: "Twilight Imperium Rex: Final Days of an Empire",
         description: "TBA",
@@ -861,10 +927,22 @@ const games_database = [
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
+        imagePath: "./src/assets/gamePhotos/vastTheCrystalCaverns.webp",
+        title: "Vast: The Crystal Caverns",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/villainous.jpeg",
         title: "Villainous",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/viticulture.webp",
+        title: "Viticulture",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/warChest.jpeg",
@@ -913,6 +991,12 @@ const games_database = [
         title: "Wingspan: Asia",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/worldsFair1893.jpeg",
+        title: "World's Fair: 1893",
+        description: "TBA",
+        storageLocation: "Bottom Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/zombieDice.jpeg",
