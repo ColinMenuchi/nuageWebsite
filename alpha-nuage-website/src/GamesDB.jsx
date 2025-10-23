@@ -801,7 +801,13 @@ const games_database = [
         storageLocation: "Top Drawer Locker G-Right",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/Set.webp", 
+        imagePath: "./src/assets/gamePhotos/scoville.webp", 
+        title: "Scoville", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/set.webp", 
         title: "Set", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
@@ -811,6 +817,12 @@ const games_database = [
         title: "Shadows Over Camelot",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F"
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/sheriffOfNottingham.webp", 
+        title: "Sheriff of Nottingham", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/skull.jpeg",
@@ -914,6 +926,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
     },
+    { 
+        imagePath: "./src/assets/gamePhotos/sythe.webp", 
+        title: "Sythe", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
+    },
     {
         imagePath: "./src/assets/gamePhotos/takenoko.jpeg",
         title: "Takenoko",
@@ -974,6 +992,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
+    { 
+        imagePath: "./src/assets/gamePhotos/theRepublicOfRome.jpeg", 
+        title: "The Republic of Rome", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
+    },
     {
         imagePath: "./src/assets/gamePhotos/theResistance.jpeg",
         title: "The Resistance",
@@ -1015,6 +1039,12 @@ const games_database = [
         title: "Time Stories",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/tomorrow.jpeg", 
+        title: "Tomorrow", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/trains.jpeg",
@@ -1094,11 +1124,23 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
+    { 
+        imagePath: "./src/assets/gamePhotos/wanderingTowers.jpeg", 
+        title: "Wandering Towers", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
+    },
     {
         imagePath: "./src/assets/gamePhotos/warChest.jpeg",
         title: "War Chest",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/warOfWhispers.jpeg", 
+        title: "War of Whispers", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/wastelandExpress.jpeg",
@@ -1106,11 +1148,23 @@ const games_database = [
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
+    { 
+        imagePath: "./src/assets/gamePhotos/waterfallPark.jpeg", 
+        title: "Waterfall Park", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
+    },
     {
         imagePath: "./src/assets/gamePhotos/watergate.jpeg",
         title: "Watergate",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/wavelength.jpeg", 
+        title: "Wavelength", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/weDidntPlaytestThisAtAll.jpeg",
@@ -1142,11 +1196,23 @@ const games_database = [
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
+    { 
+        imagePath: "./src/assets/gamePhotos/witsAndWagers.jpeg", 
+        title: "Wits & Wagers", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
+    },
     {
         imagePath: "./src/assets/gamePhotos/worldsFair1893.jpeg",
         title: "World's Fair: 1893",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
+    },
+    { 
+        imagePath: "./src/assets/gamePhotos/yetiInMySpaghetti.avif", 
+        title: "Yeti in My Spaghetti", 
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/zombieDice.jpeg",
