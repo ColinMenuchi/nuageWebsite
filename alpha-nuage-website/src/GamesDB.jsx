@@ -75,6 +75,12 @@ const games_database = [
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
+        imagePath: "./src/assets/gamePhotos/arcs.webp",
+        title: "Arcs",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/arkhamHorror.webp",
         title: "Arkham Horror",
         description: "TBA",
@@ -567,6 +573,12 @@ const games_database = [
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
+        imagePath: "./src/assets/gamePhotos/mageKnight.webp",
+        title: "Mage Knight",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/memoir44.webp",
         title: "Memoir '44",
         description: "TBA",
@@ -577,6 +589,18 @@ const games_database = [
         title: "Mice & Mystics",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/monopolyCheatersEdition.jpeg",
+        title: "Monopoly: Cheater's Edition",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/monopolyScoobyDooEdition.jpeg",
+        title: "Monopoly: Scooby-Doo Edition",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
     },
     { 
         imagePath: "./src/assets/gamePhotos/mysterium.jpeg", 
@@ -669,6 +693,12 @@ const games_database = [
         storageLocation: "2nd Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/powerGrid.jpeg",
+        title: "Power Grid",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/puertoRico.jpeg",
         title: "Puerto Rico",
         description: "TBA",
@@ -685,6 +715,12 @@ const games_database = [
         title: "Railroad Ink Challenge",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/railwaysOfTheWorld.jpeg",
+        title: "Railways of the World",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/raiseYourGoblets.jpeg",
@@ -704,6 +740,30 @@ const games_database = [
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/root.webp",
+        title: "Root",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/rootTheMarauderExpansion.webp",
+        title: "Root: The Marauder Expansion",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/rootTheRiverfolkExpansion.webp",
+        title: "Root: The Riverfolk Expansion",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/rootTheUnderworldExpansion.webp",
+        title: "Root: The Underworld Expansion",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/saboteur.jpeg", 
         title: "Saboteur", 
@@ -715,6 +775,24 @@ const games_database = [
         title: "Santorini",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/scoobyDooBetrayalAtMysteryMansion.jpeg",
+        title: "Scooby-Doo! Betrayal at Mystery Mansion",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/scoobyDooHideAndShriekGame.webp",
+        title: "Scooby-Doo! Hide and Shriek Game",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/scoobyDooThrillsAndSpillsGame.jpeg",
+        title: "Scooby-Doo! Thrills and Spills Game",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
     },
     { 
         imagePath: "./src/assets/gamePhotos/Scout.jpeg", 
@@ -889,6 +967,12 @@ const games_database = [
         title: "The Isle of Cats",
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/theQuacksOfQuedlinburg.jpeg",
+        title: "The Quacks of Quedlinburg",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/theResistance.jpeg",
