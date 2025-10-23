@@ -1,5 +1,5 @@
 {/* Check which Fallout game we have. Goes in Top Shelf Locker B */}
-
+{/* Figure out what "born" is in Locker C 4th Shelf */}
 
 const games_database = [
     {
@@ -213,6 +213,12 @@ const games_database = [
         storageLocation: "4th Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/chess.jpeg",
+        title: "Chess",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/citiesOfSplendor.jpeg",
         title: "Cities of Splendor",
         description: "TBA",
@@ -307,6 +313,12 @@ const games_database = [
         title: "Dice City",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/diceForge.jpeg",
+        title: "Dice Forge",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
     },
     { 
         imagePath: "./src/assets/gamePhotos/dinosaurIsland.jpeg", 
@@ -447,6 +459,12 @@ const games_database = [
         storageLocation: "Top Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/go.jpeg",
+        title: "Go",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/gonutsForDonuts.jpeg",
         title: "Gonuts for Donuts",
         description: "TBA",
@@ -457,6 +475,12 @@ const games_database = [
         title: "Hanabi", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/harmonies.jpeg",
+        title: "Harmonies",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
     },
     { 
         imagePath: "./src/assets/gamePhotos/heat.jpeg", 
@@ -481,6 +505,18 @@ const games_database = [
         title: "Hyperborea",
         description: "TBA",
         storageLocation: "Top Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/iceCool.jpeg",
+        title: "Ice Cool",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/iceCool2.jpeg",
+        title: "Ice Cool 2",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/incanGold.png",
@@ -711,6 +747,12 @@ const games_database = [
         storageLocation: "Bottom Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/raidersOfTheNorthSea.jpeg",
+        title: "Raiders of the North Sea",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/railroadInkChallenge.png",
         title: "Railroad Ink Challenge",
         description: "TBA",
@@ -823,6 +865,12 @@ const games_database = [
         title: "Sheriff of Nottingham", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/shogi.jpeg",
+        title: "Shogi",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/skull.jpeg",
@@ -957,6 +1005,18 @@ const games_database = [
         storageLocation: "Top Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/terrorBelow.jpeg",
+        title: "Terror Below",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/terrorBelowHiddenCache.jpeg",
+        title: "Terror Below: Hidden Cache",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/terrorInMeepleCity.webp",
         title: "Terror in Meeplecity",
         description: "TBA",
@@ -1053,6 +1113,12 @@ const games_database = [
         storageLocation: "2nd Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/trajan.webp",
+        title: "Trajan",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/trickerion.jpeg",
         title: "Trickerion",
         description: "TBA",
@@ -1069,6 +1135,12 @@ const games_database = [
         title: "Twilight Imperium Rex: Final Days of an Empire",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/twilightInscription.jpeg",
+        title: "Twilight Inscription",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/twoRoomsAndABoom.jpeg",
@@ -1099,6 +1171,24 @@ const games_database = [
         title: "Unfair",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/unlock.jpeg",
+        title: "Unlock!",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/unlockSecretAdventuresANosideStory.jpeg",
+        title: "Unlock! Secret Adventures: A Noside Story",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/unlockSecretAdventuresTheAdventuresOfOz.webp",
+        title: "Unlock! Secret Adventures: The Adventures of Oz",
+        description: "TBA",
+        storageLocation: "4th Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/uno.jpeg",
