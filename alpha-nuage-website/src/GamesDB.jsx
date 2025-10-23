@@ -333,6 +333,12 @@ const games_database = [
         storageLocation: "Top Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/horizonsOfSpiritIsland.jpeg",
+        title: "Horizons of Spirit Island",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/incanGold.png",
         title: "Incan Gold",
         description: "TBA",
@@ -471,10 +477,22 @@ const games_database = [
         storageLocation: "2nd Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/quoridor.jpeg",
+        title: "Quoridor",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/railroadInkChallenge.png",
         title: "Railroad Ink Challenge",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/redRising.jpeg",
+        title: "Red Rising",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/rollForTheGalaxy.png",
@@ -522,7 +540,19 @@ const games_database = [
         imagePath: "./src/assets/gamePhotos/slayTheSpire.jpeg", 
         title: "Slay the Spire", 
         description: "TBA",
-        storageLocation: "3rd Shelf Locker B",
+        storageLocation: "Bottom Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/smallworld.jpeg",
+        title: "Smallworld",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/smallworldUndergroundjpeg",
+        title: "Smallworld: Underground",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/soClover.jpeg",
@@ -530,17 +560,29 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/specterOps.jpeg",
+        title: "Specter Ops",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker B",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/spiritIsland.webp",
         title: "Spirit Island", 
         description: "TBA",
-        storageLocation: "3rd Shelf Locker B",
+        storageLocation: "Bottom Shelf Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/spiritIslandFeatherAndFlame.webp",
         title: "Spirit Island: Feather and Flame",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/spiritIslandJaggedEarth.jpeg",
+        title: "Spirit Island: Jagged Earth",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/stardewValley.jpeg",
