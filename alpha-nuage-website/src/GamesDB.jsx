@@ -441,6 +441,12 @@ const games_database = [
         storageLocation: "Top Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/pennyPress.avif",
+        title: "Penny Press",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/planes.jpeg",
         title: "Planes",
         description: "TBA",
