@@ -141,7 +141,7 @@ const games_database = [
         storageLocation: "3rd Shelf Locker G-Left",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/botc.webp",
+        imagePath: "./src/assets/gamePhotos/bloodOnTheClocktower.webp",
         title: "Blood on the Clocktower", 
         description: "TBA",
         storageLocation: "Below Drawers Locker G-Right",
@@ -157,6 +157,18 @@ const games_database = [
         title: "Bohnanza",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/brassBirmingham.jpeg",
+        title: "Brass: Birmingham",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/brassLancashire.jpeg",
+        title: "Brass: Lancashire",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/bulletStar.jpeg",
@@ -178,7 +190,7 @@ const games_database = [
     },
     {
         imagePath: "./src/assets/gamePhotos/burgleBros.jpeg",
-        title: "Burgle Bros",
+        title: "Burgle Bros.",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
@@ -199,6 +211,12 @@ const games_database = [
         title: "Castles of Mad King Ludwig",
         description: "TBA",
         storageLocation: "4th Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/catanStarfarers.png",
+        title: "Catan Starfarers",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/catInTheBox.webp",
@@ -277,6 +295,18 @@ const games_database = [
         title: "Coup",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/cthulhuWars.jpeg",
+        title: "Cthulhu Wars",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/cthulhuWarsTchoTcho.webp",
+        title: "Cthulhu Wars: Tcho Tcho",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/cyclades.jpeg",
@@ -638,6 +668,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/myFathersWork.jpeg",
+        title: "My Father's Work",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker C",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/mysterium.jpeg", 
         title: "Mysterium", 
@@ -949,6 +985,12 @@ const games_database = [
         title: "Stardew Valley",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/starWarsRebellion.jpeg",
+        title: "Star Wars Rebellion",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/subdivision.webp",
