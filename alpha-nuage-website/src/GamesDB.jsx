@@ -51,10 +51,22 @@ const games_database = [
         storageLocation: "Top Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/amerigo.jpeg",
+        title: "Amerigo",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/amunRe.webp",
         title: "Amun-Re",
         description: "TBA",
         storageLocation: "Top Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/anachrony.jpeg",
+        title: "Anachrony",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/arboretum.jpeg",
@@ -73,6 +85,18 @@ const games_database = [
         title: "Arkham Horror: The Dunwich Legacy",
         description: "TBA",
         storageLocation: "2nd Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/arkNova.jpeg",
+        title: "Ark Nova",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/arkNovaMarineWorlds.jpeg",
+        title: "Ark Nova: Marine Worlds",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/automobiles.png",
@@ -224,6 +248,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Shelf Locker G-Left",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/concordia.jpeg",
+        title: "Concordia",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/cosmicEncounter.jpeg", 
         title: "Cosmic Encounter", 
@@ -235,6 +265,12 @@ const games_database = [
         title: "Coup",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/cyclades.jpeg",
+        title: "Cyclades",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
     },
     { 
         imagePath: "./src/assets/gamePhotos/daybreak.jpeg", 
@@ -302,6 +338,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F"
     },
+    {
+        imagePath: "./src/assets/gamePhotos/dontBreakTheIce.avif",
+        title: "Don't Break the Ice",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/dune.webp", 
         title: "Dune", 
@@ -313,6 +355,12 @@ const games_database = [
         title: "Dune: Imperium", 
         description: "TBA",
         storageLocation: "Bottom Shelf Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/eclipse.jpeg",
+        title: "Eclipse",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/eldritchHorror.jpeg",
@@ -417,6 +465,18 @@ const games_database = [
         storageLocation: "Bottom Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/horselessCarriage.webp",
+        title: "Horseless Carriage",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/hyperborea.jpeg",
+        title: "Hyperborea",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/incanGold.png",
         title: "Incan Gold",
         description: "TBA",
@@ -493,6 +553,12 @@ const games_database = [
         title: "Lost Cities",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/lostRuinsOfArnak.jpeg",
+        title: "Lost Ruins of Arnak",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker C",
     },
     {
         imagePath: "./src/assets/gamePhotos/loveLetterPrincessPrincessEverAfter.jpeg",
