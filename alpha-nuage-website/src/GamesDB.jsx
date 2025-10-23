@@ -15,6 +15,18 @@ const games_database = [
         storageLocation: "Top Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/agathaChristiesDeathOnTheCards.jpeg",
+        title: "Agatha Christie's Death on the Cards",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/airLandAndSeaCrittersAtWar.jpeg",
+        title: "Air, Land, and Sea Critters at War",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/alhambra.jpeg",
         title: "Alhambra",
         description: "TBA",
@@ -55,6 +67,12 @@ const games_database = [
         title: "Automobiles",
         description: "TBA",
         storageLocation: "3rd Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/avalon.jpeg",
+        title: "Avalon",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/battlestarGalactica.jpeg",
@@ -105,6 +123,12 @@ const games_database = [
         storageLocation: "4th Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/canvas.jpeg",
+        title: "Canvas",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/captainSonar.webp",
         title: "Captain Sonar",
         description: "TBA",
@@ -127,6 +151,12 @@ const games_database = [
         title: "Champions of Midgard",
         description: "TBA",
         storageLocation: "4th Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/citiesOfSplendor.jpeg",
+        title: "Cities of Splendor",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
     },
     { 
         imagePath: "./src/assets/gamePhotos/cityOfGears.jpeg", 
@@ -314,11 +344,23 @@ const games_database = [
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/fuse.jpeg",
+        title: "Fuse",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/gameOfThrones.webp", 
         title: "Game of Thrones", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/gonutsForDonuts.jpeg",
+        title: "Gonuts for Donuts",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
     },
     { 
         imagePath: "./src/assets/gamePhotos/hanabi.jpeg", 
@@ -351,10 +393,28 @@ const games_database = [
         storageLocation: "Bottom Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/jungleSpeed.jpeg",
+        title: "Jungle Speed",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/justOne.jpeg",
         title: "Just One",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/kingdomino.jpeg",
+        title: "Kingdomino",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/kyotoMoneyMakesTheWorldGoDown.jpeg",
+        title: "Kyoto: Money Makes the World Go Down",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/lemonadeStand.jpeg",
@@ -411,6 +471,12 @@ const games_database = [
         storageLocation: "2nd Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/nertz.jpeg",
+        title: "Nertz",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/noThanks.jpeg",
         title: "No Thanks!",
         description: "TBA",
@@ -445,6 +511,18 @@ const games_database = [
         title: "Paranormal Detectives",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/parks.webp",
+        title: "Parks",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/patchwork.jpeg",
+        title: "Patchwork",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/pennyPress.avif",
@@ -549,10 +627,16 @@ const games_database = [
         storageLocation: "Bottom Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/smallworldUndergroundjpeg",
+        imagePath: "./src/assets/gamePhotos/smallworldUnderground.jpeg",
         title: "Smallworld: Underground",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/snollygoster.jpeg",
+        title: "Snollygoster",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/soClover.jpeg",
@@ -583,6 +667,18 @@ const games_database = [
         title: "Spirit Island: Jagged Earth",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/splendor.jpeg",
+        title: "Splendor",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/spyfall.webp",
+        title: "Spyfall",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/stardewValley.jpeg",
@@ -729,6 +825,12 @@ const games_database = [
         storageLocation: "Bottom Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/twoRoomsAndABoom.jpeg",
+        title: "Two Rooms and a Boom",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/tzokin.webp",
         title: "Tzolk'In",
         description: "TBA",
@@ -765,16 +867,34 @@ const games_database = [
         storageLocation: "2nd Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/warChest.jpeg",
+        title: "War Chest",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/wastelandExpress.jpeg",
         title: "Wasteland Express",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/watergate.jpeg",
+        title: "Watergate",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/weDidntPlaytestThisAtAll.jpeg",
         title: "We Didn't Playtest This at All",
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/welcomeToYourPerfectHome.jpeg",
+        title: "Welcome to Your Perfect Home",
+        description: "TBA",
+        storageLocation: "Top Drawer Locker B",
     },
     {
         imagePath: "./src/assets/gamePhotos/werewords.webp",
