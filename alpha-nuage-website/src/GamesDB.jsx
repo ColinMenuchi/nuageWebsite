@@ -3,6 +3,12 @@
 
 const games_database = [
     {
+        imagePath: "./src/assets/gamePhotos/5minuteDungeon.jpeg",
+        title: "5-Minute Dungeon",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/7wonders.webp",
         title: "7 Wonders",
         description: "TBA",
@@ -33,6 +39,12 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/agricola.jpeg",
+        title: "Agricola",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/airLandAndSeaCrittersAtWar.jpeg",
         title: "Air, Land, and Sea Critters at War",
         description: "TBA",
@@ -57,6 +69,12 @@ const games_database = [
         storageLocation: "Top Shelf Locker C",
     },
     {
+        imagePath: "./src/assets/gamePhotos/amongTheStars.png",
+        title: "Among The Stars",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/amunRe.webp",
         title: "Amun-Re",
         description: "TBA",
@@ -69,10 +87,22 @@ const games_database = [
         storageLocation: "Top Shelf Locker C",
     },
     {
+        imagePath: "./src/assets/gamePhotos/applesToApples.jpeg",
+        title: "Apples to Apples",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/arboretum.jpeg",
         title: "Arboretum",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/architectsOfTheWestKingdom.jpeg",
+        title: "Architects of the West Kingdom",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
     },
     {
         imagePath: "./src/assets/gamePhotos/arcs.webp",
@@ -117,6 +147,18 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/azul.jpeg",
+        title: "Azul",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/azulSummerPavillion.webp",
+        title: "Azul: Summer Pavillion",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/bananagrams.png",
         title: "Bananagrams",
         description: "TBA",
@@ -140,8 +182,20 @@ const games_database = [
         description: "TBA",
         storageLocation: "3rd Shelf Locker G-Left",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/betweenTwoCities.png",
+        title: "Between Two Cities",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/bloodborneTheCardGame.jpeg",
+        title: "Bloodborne: The Card Game",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
+    },
     { 
-        imagePath: "./src/assets/gamePhotos/bloodOnTheClocktower.webp",
+        imagePath: "./src/assets/gamePhotos/bloodOnTheClocktower.jpeg",
         title: "Blood on the Clocktower", 
         description: "TBA",
         storageLocation: "Below Drawers Locker G-Right",
@@ -151,6 +205,12 @@ const games_database = [
         title: "Blood Rage",
         description: "TBA",
         storageLocation: "3rd Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/bobRossArtOfChillGame.jpeg",
+        title: "Bob Ross: Art of Chill Game",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker E",
     },
     {
         imagePath: "./src/assets/gamePhotos/bohnanza.jpeg",
