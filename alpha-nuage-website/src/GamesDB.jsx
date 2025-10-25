@@ -574,6 +574,12 @@ const games_database = [
         storageLocation: "Top Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/fogOfLove.jpeg",
+        title: "Fog of Love",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/foodChainMagnate.jpeg",
         title: "Food Chain Magnate",
         description: "TBA",
@@ -814,6 +820,12 @@ const games_database = [
         storageLocation: "2nd Shelf Locker C",
     },
     {
+        imagePath: "./src/assets/gamePhotos/mansionsOfMadness.jpeg",
+        title: "Mansions of Madness",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/medici.jpeg",
         title: "Medici",
         description: "TBA",
@@ -1036,6 +1048,12 @@ const games_database = [
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
+        imagePath: "./src/assets/gamePhotos/sagrada.jpeg",
+        title: "Sagrada",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/santorini.jpeg",
         title: "Santorini",
         description: "TBA",
@@ -1234,6 +1252,12 @@ const games_database = [
         storageLocation: "Top Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/terraMystica.jpeg",
+        title: "terra Mystica",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/terrorBelow.jpeg",
         title: "Terror Below",
         description: "TBA",
@@ -1354,10 +1378,22 @@ const games_database = [
         storageLocation: "2nd Shelf Locker F",
     },
     {
+        imagePath: "./src/assets/gamePhotos/tsukuyumi.jpeg",
+        title: "Tsukuyumi",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/tuscanyEssentialEdition.jpeg",
         title: "Tuscany: Essential Edition",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/twilightImperium.webp",
+        title: "Twilight Imperium",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker E",
     },
     {
         imagePath: "./src/assets/gamePhotos/twilightImperiumRex.webp",
@@ -1526,6 +1562,12 @@ const games_database = [
         title: "World's Fair: 1893",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/xiaLegendsOfADriftSystem.jpeg",
+        title: "Xia: Legends of a Drift System",
+        description: "TBA",
+        storageLocation: "Bottom Shelf Locker E",
     },
     { 
         imagePath: "./src/assets/gamePhotos/yetiInMySpaghetti.avif", 
