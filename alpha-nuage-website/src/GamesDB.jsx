@@ -567,6 +567,18 @@ const games_database = [
         description: "TBA",
         storageLocation: "2nd Shelf Locker E",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/fiveTribes.jpeg",
+        title: "Five Tribes",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/foodChainMagnate.jpeg",
+        title: "Food Chain Magnate",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
+    },
     { 
         imagePath: "./src/assets/gamePhotos/forestShuffle.webp", 
         title: "Forest Shuffle", 
@@ -614,6 +626,18 @@ const games_database = [
         title: "Gonuts for Donuts",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/grandAustriaHotel.webp",
+        title: "Grand Austria Hotel",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/gravwell.jpeg",
+        title: "Gravwell",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
     },
     { 
         imagePath: "./src/assets/gamePhotos/hanabi.jpeg", 
@@ -670,6 +694,12 @@ const games_database = [
         storageLocation: "Bottom Drawer Locker G-Right",
     },
     {
+        imagePath: "./src/assets/gamePhotos/irishGauge.jpeg",
+        title: "Irish Gauge",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/jenga.jpeg",
         title: "Jenga",
         description: "TBA",
@@ -688,6 +718,18 @@ const games_database = [
         storageLocation: "Bottom Drawer Locker G-Right",
     },
     {
+        imagePath: "./src/assets/gamePhotos/keyflower.png",
+        title: "Keyflower",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/keyflowerTheMerchants.jpeg",
+        title: "Keyflower the Merchants",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/kingdomino.jpeg",
         title: "Kingdomino",
         description: "TBA",
@@ -704,6 +746,12 @@ const games_database = [
         title: "Lanterns: The Harvest Festival",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/leHavre.webp",
+        title: "Le Havre",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
     },
     {
         imagePath: "./src/assets/gamePhotos/lemonadeStand.jpeg",
@@ -754,10 +802,22 @@ const games_database = [
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
+        imagePath: "./src/assets/gamePhotos/machiKoro.jpeg",
+        title: "Machi Koro",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/mageKnight.webp",
         title: "Mage Knight",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/medici.jpeg",
+        title: "Medici",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
     },
     {
         imagePath: "./src/assets/gamePhotos/memoir44.webp",
@@ -766,10 +826,22 @@ const games_database = [
         storageLocation: "2nd Shelf Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/mentalBlocks.jpeg",
+        title: "Mental Blocks",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/miceAndMystics.webp",
         title: "Mice & Mystics",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/modernArt.jpeg",
+        title: "Modern Art",
+        description: "TBA",
+        storageLocation: "3rd Shelf Locker E",
     },
     {
         imagePath: "./src/assets/gamePhotos/monopolyCheatersEdition.jpeg",
