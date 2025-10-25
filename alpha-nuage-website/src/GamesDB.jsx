@@ -1,5 +1,6 @@
 {/* Check which Fallout game we have. Goes in Top Shelf Locker B */}
 {/* Figure out what "born" is in Locker C 4th Shelf */}
+{/* Figure out what "Castles of Burgundy" is in Locker E 2nd Shelf */}
 
 const games_database = [
     {
@@ -177,6 +178,12 @@ const games_database = [
         storageLocation: "3rd Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/betrayalAtHouseOnTheHill.jpeg",
+        title: "Betrayal at House on the Hill",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/betweenTwoCastlesOfMadKingLudwig.jpeg",
         title: "Between Two Castles of Mad King Ludwig",
         description: "TBA",
@@ -196,7 +203,7 @@ const games_database = [
     },
     { 
         imagePath: "./src/assets/gamePhotos/bloodOnTheClocktower.jpeg",
-        title: "Blood on the Clocktower", 
+        title: "Blood on the Clocktower",
         description: "TBA",
         storageLocation: "Below Drawers Locker G-Right",
     },
@@ -255,6 +262,12 @@ const games_database = [
         storageLocation: "Bottom Drawer Locker B",
     },
     {
+        imagePath: "./src/assets/gamePhotos/calico.jpeg",
+        title: "Calico",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/canvas.jpeg",
         title: "Canvas",
         description: "TBA",
@@ -267,10 +280,28 @@ const games_database = [
         storageLocation: "4th Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/carcassonne.webp",
+        title: "Carcassonne",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker E",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/cascadia.jpeg",
+        title: "Cascadia",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/castlesOfMadKingLudwig.jpeg",
         title: "Castles of Mad King Ludwig",
         description: "TBA",
         storageLocation: "4th Shelf Locker G-Left",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/catan.webp",
+        title: "Catan",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker E",
     },
     {
         imagePath: "./src/assets/gamePhotos/catanStarfarers.png",
@@ -321,6 +352,12 @@ const games_database = [
         storageLocation: "Bottom Shelf Locker G-Left",
     },
     {
+        imagePath: "./src/assets/gamePhotos/clue.jpeg",
+        title: "Clue",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/cockroachPoker.jpeg",
         title: "Cockroach Poker",
         description: "TBA",
@@ -357,6 +394,12 @@ const games_database = [
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
+        imagePath: "./src/assets/gamePhotos/cryptid.jpeg",
+        title: "Cryptid",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker E",
+    },
+    {
         imagePath: "./src/assets/gamePhotos/cthulhuWars.jpeg",
         title: "Cthulhu Wars",
         description: "TBA",
@@ -373,6 +416,12 @@ const games_database = [
         title: "Cyclades",
         description: "TBA",
         storageLocation: "Top Shelf Locker C",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/darkestNight.webp",
+        title: "Darkest Night",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker E",
     },
     { 
         imagePath: "./src/assets/gamePhotos/daybreak.jpeg", 
@@ -511,6 +560,12 @@ const games_database = [
         title: "Exploding Kittens", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
+    },
+    {
+        imagePath: "./src/assets/gamePhotos/fitToPrint.jpeg",
+        title: "Fit to Print",
+        description: "TBA",
+        storageLocation: "2nd Shelf Locker E",
     },
     { 
         imagePath: "./src/assets/gamePhotos/forestShuffle.webp", 
