@@ -97,7 +97,7 @@
   min-width: 300px;
   max-width: 90%;
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
-  text-align: right;
+  text-align: left;
   position: relative;
   margin: 60px;
 }
