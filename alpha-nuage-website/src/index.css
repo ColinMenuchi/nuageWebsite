@@ -100,6 +100,22 @@
   text-align: left;
   position: relative;
   margin: 60px;
+  position: relative;
+  display: inline-block;
+}
+
+.page-about .popup img {
+  display: block;
+  padding-right: 100px;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.page-games .popup img {
+  display: block;
+  padding-right: 100px;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 .popup-overlay {
@@ -135,4 +151,21 @@
 
 .topMenuOption:hover {
   background-color: white;
+}
+
+.top-right-button {
+  /* Positioning */
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  
+  /* Appearance */
+  border: 2px solid cyan;
+  font-weight: bold;
+  font-size: large;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+
+
 }

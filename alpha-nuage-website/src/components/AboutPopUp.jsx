@@ -23,7 +23,7 @@ function AboutPopUp(props) {
                 <div className="popup-overlay" onClick={() => setIsOpen(false)}>
                     <div className="popup" onClick={(e) => e.stopPropagation()}>
                         <img src={props.imagePath} alt="Image Not Found"></img>
-                        <button onClick={() => setIsOpen(false)}>X</button>
+                        <button className="top-right-button" onClick={() => setIsOpen(false)}>X</button>
                         <h2>Hello!</h2>
                         <p>{props.popUpText}</p>
                     </div>
