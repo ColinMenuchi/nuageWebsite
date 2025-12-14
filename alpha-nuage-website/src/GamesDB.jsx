@@ -591,6 +591,12 @@ const games_database = [
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
     },
+    {
+        imagePath: "./src/assets/gamePhotos/formaggio.jpeg",
+        title: "Formaggio",
+        description: "TBA",
+        storageLocation: "Top Shelf Locker B"
+    },
     { 
         imagePath: "./src/assets/gamePhotos/fromage.jpeg",
         title: "Fromage", 
