@@ -24,7 +24,7 @@ function AboutPopUp(props) {
                     <div className="popup" onClick={(e) => e.stopPropagation()}>
                         <img src={props.imagePath} alt="Image Not Found"></img>
                         <button className="top-right-button" onClick={() => setIsOpen(false)}>X</button>
-                        <h2>Hello!</h2>
+                        <h2>{props.title}</h2>
                         <p>{props.popUpText}</p>
                     </div>
                 </div>
