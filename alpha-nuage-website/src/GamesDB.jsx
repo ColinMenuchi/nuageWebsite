@@ -2,11 +2,13 @@
 {/* Figure out what "born" is in Locker C 4th Shelf */}
 {/* Figure out what "Castles of Burgundy" is in Locker E 2nd Shelf */}
 
+import descriptions from "./GameDescriptions.jsx";
+
 const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/5minuteDungeon.jpeg",
         title: "5-Minute Dungeon",
-        description: "TBA",
+        description: descriptions.fiveMinuteDungeon,
         storageLocation: "Top Shelf Locker E",
     },
     {
