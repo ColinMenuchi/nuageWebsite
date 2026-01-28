@@ -5,8 +5,6 @@ import AboutPopUp from "./AboutPopUp.jsx";
 
 function Games() {
 
-    // Reminder to add Tags and Filters
-
     // Array of Games
     const games_list = games_database
 
