@@ -33,7 +33,7 @@ function Games() {
             (game.tags != null && filters.complexity.includes(game.tags.complexity));
 
         const matchesPlayers = filters.players.length === 0 ||
-            filters.players.includes(game.players);
+            game.tags != null && filters.players.some(p => game.tags.players.includes(p));
 
         return matchesSearch && matchesComplexity && matchesPlayers;
     })

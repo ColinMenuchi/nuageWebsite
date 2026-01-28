@@ -12,7 +12,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {complexity: "Low",
                players: ["Many Players"],
-            }
+               genre: [""]}
     },
     {
         imagePath: "./src/assets/gamePhotos/7wonders.webp",
