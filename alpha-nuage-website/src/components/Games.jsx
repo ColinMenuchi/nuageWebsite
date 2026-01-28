@@ -11,10 +11,23 @@ function Games() {
     // State for Search
     const [search, setSearch] = useState("");
 
+    // State for Filtering
+    const [filters, setFilters] = useState({
+        complexity: "all",
+        players: "all",
+    });
+
     // Filter for Game Search
     const filteredGames = games_list.filter((game) => {
-        const matchesSearch = game.title.toLowerCase().includes(search.toLowerCase());
-        return matchesSearch === true;
+        const matchesSearch = game.title.toLowerCase().includes(search.trim().toLowerCase());
+
+        const matchesComplexity = filters.complexity === "all" ||
+            game.complexity === filters.complexity;
+
+        const matchesPlayers = filters.players === "all" ||
+            game.players.includes(Number(filters.players))
+
+        return matchesSearch && matchesComplexity && matchesPlayers;
     })
 
     return(
@@ -35,6 +48,40 @@ function Games() {
             style={{ marginLeft: "50px", marginBottom: "20px", padding: "5px" }}
         
         />
+
+        {/* Filters */}
+        <div style={{ marginLeft: "50px", marginBottom: "20px"}}>
+            <label>
+                Complexity:&nbsp;
+                <select
+                    value={filters.complexity}
+                    onChange={(e) => setFilters({ ...filters, complexity: e.target.value })
+                    }
+                >
+                    <option value="all">All</option>
+                    <option value="low">Low</option>
+                    <option value="modest">Modest</option>
+                    <option value="high">High</option>
+                </select>
+            </label>
+
+            &nbsp;&nbsp;
+
+            <label>
+                Players:&nbsp;
+                <select
+                    value={filters.players}
+                    onChange={(e) =>
+                        setFilters({ ...filters, players: e.target.value })
+                    }
+                >
+                    <option value="all">All</option>
+                    <option value="1">Single Player</option>
+                    <option value="2">Two Player</option>
+                    <option value="3">Multiplayer</option>
+                </select>
+            </label>
+        </div>
 
         {/* Game Cards */}
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginLeft: "50px" }}>
