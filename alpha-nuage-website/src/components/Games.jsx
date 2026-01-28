@@ -30,7 +30,7 @@ function Games() {
         const matchesSearch = game.title.toLowerCase().includes(search.trim().toLowerCase());
 
         const matchesComplexity = filters.complexity.length === 0 ||
-            filters.complexity.includes(game.complexity);
+            (game.tags != null && filters.complexity.includes(game.tags.complexity));
 
         const matchesPlayers = filters.players.length === 0 ||
             filters.players.includes(game.players);
@@ -80,7 +80,7 @@ function Games() {
                     }}
                 >
                     <strong>Complexity</strong>
-                    {["light", "medium", "heavy"].map(level => (
+                    {["Low", "Modest", "High"].map(level => (
                         <label key={level} style={{ display: "block" }}>
                             <input
                                 type="checkbox"
@@ -101,7 +101,7 @@ function Games() {
                     <hr />
 
                     <strong>Players</strong>
-                    {["single", "double", "multiplayer"].map(num => (
+                    {["Single-player", "Two-player", "Many Players"].map(num => (
                         <label key={num} style={{ display: "block" }}>
                             <input
                                 type="checkbox"
@@ -115,7 +115,7 @@ function Games() {
                                     })
                                 }
                             />
-                            &nbsp;{num} Players
+                            &nbsp;{num}
                         </label>
                     ))}
                     <button onClick={() => setFilters({ complexity: [], players: [] })} 
