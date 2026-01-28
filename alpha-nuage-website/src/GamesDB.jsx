@@ -10,6 +10,9 @@ const games_database = [
         title: "5-Minute Dungeon",
         description: descriptions.fiveMinuteDungeon,
         storageLocation: "Top Shelf Locker E",
+        tags: {complexity: "Low",
+               players: ["Many Players"],
+            }
     },
     {
         imagePath: "./src/assets/gamePhotos/7wonders.webp",
