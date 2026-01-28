@@ -13,19 +13,27 @@ function Games() {
 
     // State for Filtering
     const [filters, setFilters] = useState({
-        complexity: "all",
-        players: "all",
+        complexity: [],
+        players: [],
     });
+
+    // State to open/close dropdown
+    const [filtersOpen, setFiltersOpen] = useState(false);
+
+    // Track Number of Filters Used
+    const activeFilterCount =
+        filters.complexity.length +
+        filters.players.length;
 
     // Filter for Game Search
     const filteredGames = games_list.filter((game) => {
         const matchesSearch = game.title.toLowerCase().includes(search.trim().toLowerCase());
 
-        const matchesComplexity = filters.complexity === "all" ||
-            game.complexity === filters.complexity;
+        const matchesComplexity = filters.complexity.length === 0 ||
+            filters.complexity.includes(game.complexity);
 
-        const matchesPlayers = filters.players === "all" ||
-            game.players.includes(Number(filters.players))
+        const matchesPlayers = filters.players.length === 0 ||
+            filters.players.includes(game.players);
 
         return matchesSearch && matchesComplexity && matchesPlayers;
     })
@@ -49,39 +57,73 @@ function Games() {
         
         />
 
-        {/* Filters */}
-        <div style={{ marginLeft: "50px", marginBottom: "20px"}}>
-            <label>
-                Complexity:&nbsp;
-                <select
-                    value={filters.complexity}
-                    onChange={(e) => setFilters({ ...filters, complexity: e.target.value })
-                    }
-                >
-                    <option value="all">All</option>
-                    <option value="low">Low</option>
-                    <option value="modest">Modest</option>
-                    <option value="high">High</option>
-                </select>
-            </label>
+        {/* Filter Selection Menu */}
+        <div style={{ marginLeft: "50px", position: "relative" }}>
+            <button
+                onClick={() => setFiltersOpen(!filtersOpen)}
+                style={{ padding: "6px 10px", cursor: "pointer" }}
+            >
+                Filters {activeFilterCount > 0 && `(${activeFilterCount})`} ▾
+            </button>
 
-            &nbsp;&nbsp;
-
-            <label>
-                Players:&nbsp;
-                <select
-                    value={filters.players}
-                    onChange={(e) =>
-                        setFilters({ ...filters, players: e.target.value })
-                    }
+            {filtersOpen && (
+                <div
+                    style={{
+                        position: "absolute",
+                        top: "40px",
+                        left: 0,
+                        background: "white",
+                        border: "1px solid #ccc",
+                        padding: "10px",
+                        zIndex: 10,
+                        minWidth: "200px"
+                    }}
                 >
-                    <option value="all">All</option>
-                    <option value="1">Single Player</option>
-                    <option value="2">Two Player</option>
-                    <option value="3">Multiplayer</option>
-                </select>
-            </label>
+                    <strong>Complexity</strong>
+                    {["light", "medium", "heavy"].map(level => (
+                        <label key={level} style={{ display: "block" }}>
+                            <input
+                                type="checkbox"
+                                checked={filters.complexity.includes(level)}
+                                onChange={() =>
+                                    setFilters({
+                                        ...filters,
+                                        complexity: filters.complexity.includes(level)
+                                            ? filters.complexity.filter(c => c !== level)
+                                            : [...filters.complexity, level]
+                                    })
+                                }
+                            />
+                            &nbsp;{level}
+                        </label>
+                    ))}
+
+                    <hr />
+
+                    <strong>Players</strong>
+                    {["single", "double", "multiplayer"].map(num => (
+                        <label key={num} style={{ display: "block" }}>
+                            <input
+                                type="checkbox"
+                                checked={filters.players.includes(num)}
+                                onChange={() =>
+                                    setFilters({
+                                        ...filters,
+                                        players: filters.players.includes(num)
+                                            ? filters.players.filter(p => p !== num)
+                                            : [...filters.players, num]
+                                    })
+                                }
+                            />
+                            &nbsp;{num} Players
+                        </label>
+                    ))}
+                    <button onClick={() => setFilters({ complexity: [], players: [] })} 
+                        style={{ marginTop: "10px" }}>Clear Filters</button>    
+                </div>
+            )}
         </div>
+
 
         {/* Game Cards */}
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginLeft: "50px" }}>
