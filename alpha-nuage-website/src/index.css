@@ -19,9 +19,18 @@
   padding-right: 10px;
   margin-left: 60px;
   margin-bottom: 30px;
-  text-align: left;
+  text-align: center;
   display: inline-block;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.page-about .card .card-image {
+  max-height: 400px;
+  min-width: 300px;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 10px;
 }
 
 .page-games .card {
@@ -53,14 +62,6 @@
 
 .page-home .card .card-image {
   max-width: 60px;
-  height: auto;
-  border-radius: 5%;
-  margin-bottom: 10px;
-
-}
-
-.page-about .card .card-image {
-  max-width: 400px;
   height: auto;
   border-radius: 5%;
   margin-bottom: 10px;
