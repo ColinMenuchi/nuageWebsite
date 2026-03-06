@@ -3,6 +3,10 @@ import AboutPopUp from './AboutPopUp.jsx'
 
 function About() {
 
+    const taiText = "Kimberly is a 3rd year at Northeastern studying Data Science & Business Administration! " +
+                    "A fun fact about her is that she knows way too much about our club's locker system. " +
+                    "Her keys are ordered \"alphabetically\" and to her it makes perfect sense."
+
     return(
     <div>
         <h1 style={{
@@ -56,7 +60,7 @@ function About() {
             Meet Our eBoard:
         </h1>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "50px", marginLeft: "100px "}}>
-            <AboutPopUp imagePath='./src/assets/eBoardPhotos/kimberlyTai.jpeg' title="Kimberly Tai" cardText="Club President and Forest Shuffle Enthusiast" popUpText="Idk man..... :/"></AboutPopUp>
+            <AboutPopUp imagePath='./src/assets/eBoardPhotos/kimberlyTai.jpeg' title="Kimberly Tai" cardText="Club President and Forest Shuffle Enthusiast" popUpText={taiText}></AboutPopUp>
             <AboutPopUp imagePath='./src/assets/eBoardPhotos/oscarAdler.jpeg' title="Oscar Adler" cardText="Club Vice President and Ark Nova Enjoyer" popUpText="Idk man..... :/"></AboutPopUp>
             <AboutPopUp imagePath='./src/assets/eBoardPhotos/colinTroan.jpeg' title="Colin Troan" cardText="Club Treasurer and Slay the Spire Fanatic" popUpText="Idk man..... :/"></AboutPopUp>
             <AboutPopUp imagePath='./src/assets/eBoardPhotos/mattDavis.jpeg' title="Matt Davis" cardText="Club Secretary and Spirit Island Addict" popUpText="Idk man..... :/"></AboutPopUp>
