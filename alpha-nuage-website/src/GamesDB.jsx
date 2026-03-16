@@ -4,6 +4,29 @@
 
 import descriptions from "./GameDescriptions.jsx";
 
+const game_genres = {
+    adventure: "Adventure",
+    animals: "Animals",
+    based_on_a_book: "Based on a Book",
+    based_on_a_video_game: "Based on a Video Game",
+    bluffing: "Bluffing",
+    card_game: "Card Game",
+    childrens_game: "Children's Game",
+    cooperative: "Cooperative",
+    dice: "Dice",
+    environmental: "Environmental",
+    expansion: "Expansion for Base Game",
+    fantasy: "Fantasy",
+    historical: "Historical",
+    horror: "Horror",
+    humor: "Humor",
+    number_game: "Number Game",
+    party_game: "Party Game",
+    political: "Political",
+    social_deduction: "Social Deduction",
+    sports: "Sports",
+}
+
 const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/5minuteDungeon.jpeg",
@@ -12,7 +35,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {complexity: "Low",
                players: ["Many Players"],
-               genre: [""]}
+               genres: [""]}
     },
     {
         imagePath: "./src/assets/gamePhotos/7wonders.webp",

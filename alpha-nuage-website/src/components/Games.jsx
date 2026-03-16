@@ -5,6 +5,30 @@ import AboutPopUp from "./AboutPopUp.jsx";
 
 function Games() {
 
+    // Array of Game Genres
+    const game_genres = [
+        "Adventure",
+        "Animals",
+        "Based on a Book",
+        "Based on a Video Game",
+        "Bluffing",
+        "Card Game",
+        "Children's Game",
+        "Cooperative",
+        "Dice",
+        "Environmental",
+        "Expansion for Base Game",
+        "Fantasy",
+        "Historical",
+        "Horror",
+        "Humor",
+        "Number Game",
+        "Party Game",
+        "Political",
+        "Social Deduction",
+        "Sports",
+    ]
+
     // Array of Games
     const games_list = games_database
 
@@ -15,6 +39,7 @@ function Games() {
     const [filters, setFilters] = useState({
         complexity: [],
         players: [],
+        genres: [],
     });
 
     // State to open/close dropdown
@@ -23,7 +48,8 @@ function Games() {
     // Track Number of Filters Used
     const activeFilterCount =
         filters.complexity.length +
-        filters.players.length;
+        filters.players.length +
+        filters.genres.length;
 
     // Filter for Game Search
     const filteredGames = games_list.filter((game) => {
@@ -35,7 +61,10 @@ function Games() {
         const matchesPlayers = filters.players.length === 0 ||
             game.tags != null && filters.players.some(p => game.tags.players.includes(p));
 
-        return matchesSearch && matchesComplexity && matchesPlayers;
+        const matchesGenres = filters.players.length === 0 ||
+        (games_database.tags != null && filters.genres.some(g => game.tags.genres.includes(g)));
+
+        return matchesSearch && matchesComplexity && matchesPlayers && matchesGenres;
     })
 
     return(
@@ -98,7 +127,7 @@ function Games() {
                         </label>
                     ))}
 
-                    <hr />
+                    <hr/>
 
                     <strong>Players</strong>
                     {["Single-player", "Two-player", "Many Players"].map(num => (
@@ -118,6 +147,28 @@ function Games() {
                             &nbsp;{num}
                         </label>
                     ))}
+
+                    <hr/>
+
+                    <strong>Genre</strong>
+                    {game_genres.map(num => (
+                        <label key={num} style={{ display: "block" }}>
+                            <input
+                                type="checkbox"
+                                checked={filters.genres.includes(num)}
+                                onChange={() =>
+                                    setFilters({
+                                        ...filters,
+                                        genres: filters.genres.includes(num)
+                                        ? filters.genres.filter(g => g != num)
+                                        : [...filters.players, num]
+                                    })
+                                }
+                            />
+                            &nbsp;{num}
+                        </label>
+                    ))}
+
                     <button onClick={() => setFilters({ complexity: [], players: [] })} 
                         style={{ marginTop: "10px" }}>Clear Filters</button>    
                 </div>
