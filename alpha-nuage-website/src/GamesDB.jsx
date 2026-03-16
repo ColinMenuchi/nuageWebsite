@@ -25,6 +25,7 @@ const game_genres = {
     political: "Political",
     social_deduction: "Social Deduction",
     sports: "Sports",
+    strategy: "Strategy",
 }
 
 const games_database = [
@@ -35,61 +36,99 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {complexity: "Low",
                players: ["Many Players"],
-               genres: [""]}
+               genres: [game_genres.card_game, game_genres.fantasy]
+            }
     },
     {
         imagePath: "./src/assets/gamePhotos/7wonders.webp",
         title: "7 Wonders",
         description: descriptions.sevenWonders,
         storageLocation: "Top Shelf Locker G-Left",
+        tags: {complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.card_game, game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/7wondersDuel.jpeg",
         title: "7 Wonders: Duel",
         description: descriptions.sevenWondersDuel,
         storageLocation: "Bottom Drawer Locker B",
+        tags: {complexity: "Low",
+            players: ["Two-player"],
+            genres: [game_genres.card_game, game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/7wondersDuelPantheon.avif",
         title: "7 Wonders: Duel Pantheon",
         description: descriptions.sevenWondersDuelPantheon,
         storageLocation: "Bottom Drawer Locker B",
+        tags: {complexity: "Low",
+            players: ["Two-player"],
+            genres: [game_genres.card_game, game_genres.historical, game_genres.expansion,
+                game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/aboveAndBelow.jpeg",
         title: "Above and Below",
         description: descriptions.aboveAndBelow,
         storageLocation: "Top Shelf Locker G-Left",
+        tags: {complexity: "Modest",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/agathaChristiesDeathOnTheCards.jpeg",
         title: "Agatha Christie's Death on the Cards",
         description: descriptions.agathaChristieDeathOnTheCards,
         storageLocation: "Top Drawer Locker B",
+        tags: {complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.card_game, game_genres.party_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/agricola.jpeg",
         title: "Agricola",
         description: descriptions.agricola,
         storageLocation: "Top Shelf Locker E",
+        tags: {complexity: "Modest",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.animals, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/airLandAndSeaCrittersAtWar.jpeg",
         title: "Air, Land, and Sea Critters at War",
         description: descriptions.airLandAndSea,
         storageLocation: "Top Drawer Locker B",
+        tags: {complexity: "Low",
+            players: ["Two-player"],
+            genres: [game_genres.animals, game_genres.card_game, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/alhambra.jpeg",
         title: "Alhambra",
         description: descriptions.alhambra,
         storageLocation: "Top Shelf Locker G-Left",
+        tags: {complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/alienFrontiers.webp",
         title: "Alien Frontiers",
         description: descriptions.alienFrontiers,
         storageLocation: "Top Shelf Locker G-Left",
+        tags: {complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.dice, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/amerigo.jpeg",
