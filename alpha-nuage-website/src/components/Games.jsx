@@ -27,6 +27,7 @@ function Games() {
         "Political",
         "Social Deduction",
         "Sports",
+        "Strategy",
     ]
 
     // Array of Games
@@ -59,10 +60,10 @@ function Games() {
             (game.tags != null && filters.complexity.includes(game.tags.complexity));
 
         const matchesPlayers = filters.players.length === 0 ||
-            game.tags != null && filters.players.some(p => game.tags.players.includes(p));
+            (game.tags != null && filters.players.every(p => game.tags.players.includes(p)));
 
-        const matchesGenres = filters.players.length === 0 ||
-        (games_database.tags != null && filters.genres.some(g => game.tags.genres.includes(g)));
+        const matchesGenres = filters.genres.length === 0 ||
+            (game.tags != null && filters.genres.every(g => game.tags.genres.includes(g)));
 
         return matchesSearch && matchesComplexity && matchesPlayers && matchesGenres;
     })
@@ -161,7 +162,7 @@ function Games() {
                                         ...filters,
                                         genres: filters.genres.includes(num)
                                         ? filters.genres.filter(g => g != num)
-                                        : [...filters.players, num]
+                                        : [...filters.genres, num]
                                     })
                                 }
                             />
@@ -169,7 +170,7 @@ function Games() {
                         </label>
                     ))}
 
-                    <button onClick={() => setFilters({ complexity: [], players: [] })} 
+                    <button onClick={() => setFilters({ complexity: [], players: [], genres: [] })} 
                         style={{ marginTop: "10px" }}>Clear Filters</button>    
                 </div>
             )}
