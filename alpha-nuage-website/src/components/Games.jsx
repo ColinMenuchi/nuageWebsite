@@ -28,6 +28,7 @@ function Games() {
         "Social Deduction",
         "Sports",
         "Strategy",
+        "Word Game",
     ]
 
     // Array of Games

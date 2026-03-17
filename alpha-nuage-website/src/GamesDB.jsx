@@ -26,6 +26,7 @@ const game_genres = {
     social_deduction: "Social Deduction",
     sports: "Sports",
     strategy: "Strategy",
+    word_game: "Word Game",
 }
 
 const games_database = [
@@ -56,7 +57,8 @@ const games_database = [
         title: "7 Wonders: Duel",
         description: descriptions.sevenWondersDuel,
         storageLocation: "Bottom Drawer Locker B",
-        tags: {complexity: "Low",
+        tags: {storageLocker: "Locker B Drawers",
+            complexity: "Low",
             players: ["Two-player"],
             genres: [game_genres.card_game, game_genres.historical, game_genres.strategy]
         }
@@ -66,7 +68,8 @@ const games_database = [
         title: "7 Wonders: Duel Pantheon",
         description: descriptions.sevenWondersDuelPantheon,
         storageLocation: "Bottom Drawer Locker B",
-        tags: {complexity: "Low",
+        tags: {storageLocker: "Locker B Drawers",
+            complexity: "Low",
             players: ["Two-player"],
             genres: [game_genres.card_game, game_genres.historical, game_genres.expansion,
                 game_genres.strategy]
@@ -77,7 +80,8 @@ const games_database = [
         title: "Above and Below",
         description: descriptions.aboveAndBelow,
         storageLocation: "Top Shelf Locker G-Left",
-        tags: {complexity: "Modest",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
             players: ["Two-player", "Many Players"],
             genres: [game_genres.fantasy, game_genres.strategy]
         }
@@ -87,7 +91,8 @@ const games_database = [
         title: "Agatha Christie's Death on the Cards",
         description: descriptions.agathaChristieDeathOnTheCards,
         storageLocation: "Top Drawer Locker B",
-        tags: {complexity: "Low",
+        tags: {storageLocker: "Locker B Drawers",
+            complexity: "Low",
             players: ["Two-player", "Many Players"],
             genres: [game_genres.card_game, game_genres.party_game, game_genres.social_deduction]
         }
@@ -97,7 +102,8 @@ const games_database = [
         title: "Agricola",
         description: descriptions.agricola,
         storageLocation: "Top Shelf Locker E",
-        tags: {complexity: "Modest",
+        tags: {storageLocker: "Locker E",
+            complexity: "Modest",
             players: ["Single-player", "Two-player", "Many Players"],
             genres: [game_genres.animals, game_genres.strategy]
         }
@@ -107,7 +113,8 @@ const games_database = [
         title: "Air, Land, and Sea Critters at War",
         description: descriptions.airLandAndSea,
         storageLocation: "Top Drawer Locker B",
-        tags: {complexity: "Low",
+        tags: {storageLocker: "Locker B Drawers",
+            complexity: "Low",
             players: ["Two-player"],
             genres: [game_genres.animals, game_genres.card_game, game_genres.strategy]
         }
@@ -117,7 +124,8 @@ const games_database = [
         title: "Alhambra",
         description: descriptions.alhambra,
         storageLocation: "Top Shelf Locker G-Left",
-        tags: {complexity: "Low",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Low",
             players: ["Two-player", "Many Players"],
             genres: [game_genres.historical, game_genres.strategy]
         }
@@ -127,7 +135,8 @@ const games_database = [
         title: "Alien Frontiers",
         description: descriptions.alienFrontiers,
         storageLocation: "Top Shelf Locker G-Left",
-        tags: {complexity: "Low",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Low",
             players: ["Two-player", "Many Players"],
             genres: [game_genres.dice, game_genres.strategy]
         }
@@ -137,156 +146,286 @@ const games_database = [
         title: "Amerigo",
         description: descriptions.amerigo,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/amongTheStars.png",
         title: "Among The Stars",
         description: descriptions.amongTheStars,
         storageLocation: "Top Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.card_game, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/amunRe.webp",
         title: "Amun-Re",
         description: descriptions.amunRe,
         storageLocation: "Top Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
+            players: ["Many Players"],
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/anachrony.jpeg",
         title: "Anachrony",
         description: descriptions.anachrony,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "High",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/applesToApples.jpeg",
         title: "Apples to Apples",
         description: descriptions.applesToApples,
         storageLocation: "Top Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Many Players"],
+            genres: [game_genres.card_game, game_genres.party_game, game_genres.word_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/arboretum.jpeg",
         title: "Arboretum",
         description: descriptions.arboretum,
         storageLocation: "2nd Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.card_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/architectsOfTheWestKingdom.jpeg",
         title: "Architects of the West Kingdom",
         description: descriptions.architectsOfTheWestKingdom,
         storageLocation: "Top Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/arcs.webp",
         title: "Arcs",
         description: descriptions.arcs,
         storageLocation: "2nd Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/arkhamHorror.webp",
         title: "Arkham Horror",
         description: descriptions.arkhamHorror,
         storageLocation: "2nd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Heavy",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.adventure, game_genres.horror]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/arkhamHorrorDunwich.jpeg",
         title: "Arkham Horror: The Dunwich Legacy",
         description: descriptions.arkhamHorrorDunwichLegacy,
         storageLocation: "2nd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
+            players: ["Single-player", "Two-player"],
+            genres: [game_genres.adventure, game_genres.expansion, game_genres.horror]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/arkNova.jpeg",
         title: "Ark Nova",
         description: descriptions.arkNova,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.animals, game_genres.card_game, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/arkNovaMarineWorlds.jpeg",
         title: "Ark Nova: Marine Worlds",
         description: descriptions.arkNovaMarineWorlds,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Heavy",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.animals, game_genres.card_game, game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/automobiles.png",
         title: "Automobiles",
         description: descriptions.automobiles,
         storageLocation: "3rd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.sports, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/avalon.jpeg",
         title: "Avalon",
         description: descriptions.avalon,
         storageLocation: "Top Drawer Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Low",
+            players: ["Two-player"],
+            genres: [game_genres.card_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/azul.jpeg",
         title: "Azul",
         description: descriptions.azul,
         storageLocation: "Top Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/azulSummerPavillion.webp",
         title: "Azul: Summer Pavillion",
         description: descriptions.azulSummerPavillion,
         storageLocation: "Top Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/bananagrams.png",
         title: "Bananagrams",
         description: descriptions.bananagrams,
         storageLocation: "Top Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Low",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.word_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/baseballHighlights2045.webp",
         title: "Baseball Highlights 2045",
         description: descriptions.baseballHighlights2045,
         storageLocation: "Bottom Drawer Locker B",
+        tags: {storageLocker: "Locker B Drawers",
+            complexity: "Low",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.card_game, game_genres.sports, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/battlestarGalactica.jpeg",
         title: "Battlestar Galactica",
         description: descriptions.battleStarGalactica,
         storageLocation: "3rd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
+            players: ["Many Players"],
+            genres: [game_genres.bluffing, game_genres.political, game_genres.social_deduction]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/betrayalAtHouseOnTheHill.jpeg",
         title: "Betrayal at House on the Hill",
         description: descriptions.betrayalAtHouseOnTheHill,
         storageLocation: "2nd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Many Players"],
+            genres: [game_genres.adventure, game_genres.horror]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/betweenTwoCastlesOfMadKingLudwig.jpeg",
         title: "Between Two Castles of Mad King Ludwig",
         description: descriptions.betweenTwoCastlesOfMadKingLudwig,
         storageLocation: "3rd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.historical]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/betweenTwoCities.png",
         title: "Between Two Cities",
         description: descriptions.betweenTwoCities,
         storageLocation: "Top Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.historical]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/bloodborneTheCardGame.jpeg",
         title: "Bloodborne: The Card Game",
         description: descriptions.bloodborneTheCardGame,
         storageLocation: "Top Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Many Players"],
+            genres: [game_genres.based_on_a_video_game, game_genres.card_game, game_genres.horror]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/bloodOnTheClocktower.jpeg",
         title: "Blood on the Clocktower",
         description: descriptions.bloodOnTheClocktower,
         storageLocation: "Below Drawers Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Modest",
+            players: ["Many Players"],
+            genres: [game_genres.bluffing, game_genres.party_game, game_genres.social_deduction, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/bloodRage.webp",
         title: "Blood Rage",
         description: descriptions.bloodRage,
         storageLocation: "3rd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/bobRossArtOfChillGame.jpeg",
         title: "Bob Ross: Art of Chill Game",
         description: descriptions.bobRossArtOfChillGame,
         storageLocation: "Top Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.card_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/bohnanza.jpeg",
