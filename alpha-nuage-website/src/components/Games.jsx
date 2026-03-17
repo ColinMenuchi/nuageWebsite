@@ -41,6 +41,7 @@ function Games() {
         complexity: [],
         players: [],
         genres: [],
+        storageLocker: [],
     });
 
     // State to open/close dropdown
@@ -50,7 +51,8 @@ function Games() {
     const activeFilterCount =
         filters.complexity.length +
         filters.players.length +
-        filters.genres.length;
+        filters.genres.length +
+        filters.storageLocker.length;
 
     // Filter for Game Search
     const filteredGames = games_list.filter((game) => {
@@ -65,7 +67,10 @@ function Games() {
         const matchesGenres = filters.genres.length === 0 ||
             (game.tags != null && filters.genres.every(g => game.tags.genres.includes(g)));
 
-        return matchesSearch && matchesComplexity && matchesPlayers && matchesGenres;
+        const matchesStorageLocker = filters.storageLocker.length === 0 ||
+            (game.tags != null && filters.storageLocker.includes(game.tags.storageLocker));
+
+        return matchesSearch && matchesComplexity && matchesPlayers && matchesGenres && matchesStorageLocker;
     })
 
     return(
@@ -170,7 +175,29 @@ function Games() {
                         </label>
                     ))}
 
-                    <button onClick={() => setFilters({ complexity: [], players: [], genres: [] })} 
+                    <hr/>
+
+                    <strong>Storage Location</strong>
+                    {["Locker E", "Locker G-Left", "Locker G-Right",
+                        "Locker C", "Locker B", "Locker B Drawers", "Locker F"].map(locker => (
+                        <label key={locker} style={{ display: "block" }}>
+                            <input
+                                type="checkbox"
+                                checked={filters.storageLocker.includes(locker)}
+                                onChange={() =>
+                                    setFilters({
+                                        ...filters,
+                                        storageLocker: filters.storageLocker.includes(locker)
+                                            ? filters.storageLocker.filter(l => l !== locker)
+                                            : [...filters.storageLocker, locker]
+                                    })
+                                }
+                            />
+                            &nbsp;{locker}
+                        </label>
+                    ))}
+
+                    <button onClick={() => setFilters({ complexity: [], players: [], genres: [], storageLocker: [], })} 
                         style={{ marginTop: "10px" }}>Clear Filters</button>    
                 </div>
             )}

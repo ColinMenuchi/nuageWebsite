@@ -34,7 +34,8 @@ const games_database = [
         title: "5-Minute Dungeon",
         description: descriptions.fiveMinuteDungeon,
         storageLocation: "Top Shelf Locker E",
-        tags: {complexity: "Low",
+        tags: {storageLocker: "Locker E",
+               complexity: "Low",
                players: ["Many Players"],
                genres: [game_genres.card_game, game_genres.fantasy]
             }
@@ -44,7 +45,8 @@ const games_database = [
         title: "7 Wonders",
         description: descriptions.sevenWonders,
         storageLocation: "Top Shelf Locker G-Left",
-        tags: {complexity: "Low",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Low",
             players: ["Two-player", "Many Players"],
             genres: [game_genres.card_game, game_genres.historical, game_genres.strategy]
         }
