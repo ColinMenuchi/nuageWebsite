@@ -23,6 +23,7 @@ const game_genres = {
     number_game: "Number Game",
     party_game: "Party Game",
     political: "Political",
+    puzzle_game: "Puzzle Game",
     social_deduction: "Social Deduction",
     sports: "Sports",
     strategy: "Strategy",
@@ -468,7 +469,7 @@ const games_database = [
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
             players: ["Single-player", "Two-player", "Many Players"],
-            genres: [game_genres.strategy]
+            genres: [game_genres.puzzle_game]
         }
     },
     {

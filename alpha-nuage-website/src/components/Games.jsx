@@ -25,6 +25,7 @@ function Games() {
         "Number Game",
         "Party Game",
         "Political",
+        "Puzzle Game",
         "Social Deduction",
         "Sports",
         "Strategy",
