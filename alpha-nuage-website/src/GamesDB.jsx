@@ -430,26 +430,46 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/bohnanza.jpeg",
         title: "Bohnanza",
-        description: "TBA",
+        description: descriptions.bohnanza,
         storageLocation: "Bottom Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.card_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/brassBirmingham.jpeg",
         title: "Brass: Birmingham",
-        description: "TBA",
+        description: descriptions.brassBirmingham,
         storageLocation: "Bottom Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/brassLancashire.jpeg",
         title: "Brass: Lancashire",
-        description: "TBA",
+        description: descriptions.brassLancashire,
         storageLocation: "Bottom Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/bulletStar.jpeg",
         title: "Bullet Star",
         description: "TBA",
         storageLocation: "4th Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Low",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/bunnyKingdom.jpeg",
