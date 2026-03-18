@@ -463,7 +463,7 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/bulletStar.jpeg",
         title: "Bullet Star",
-        description: "TBA",
+        description: descriptions.bulletStar,
         storageLocation: "4th Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
