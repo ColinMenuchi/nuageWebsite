@@ -40,6 +40,7 @@ const descriptions = {
     brassBirmingham: "Brass: Birmingham is an economic strategy game sequel to Martin Wallace's 2007 masterpiece, Brass. This game tells the story of competing entrepreneurs in Birmingham during the industrial revolution between the years of 1770 and 1870.",
     brassLancashire: "Brass: Lancashire — first published as Brass — is an economic strategy game that tells the story of competing cotton entrepreneurs in Lancashire during the industrial revolution. You must develop, build and establish your industries and network so that you can capitalize on demand for iron, coal and cotton. The game is played over two halves: the canal phase and the rail phase. To win the game, score the most victory points (VPs), which are counted at the end of each phase.",
     bulletStar: "Assume the role of the universes' most powerful heroines as you settle their disputes with excessive firepower! Use actions to form patterns, clear bullets from your sight, and bombard the opponent! Deal with the curtain of bullets coming at you each round and be the last heroine standing to win!",
+    bunnyKingdom: "Peace has come at last to the great Bunny Kingdom! Lead your clan of rabbits to glory by gathering resources and building new cities across the land!",
 
 
 }
