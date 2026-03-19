@@ -475,8 +475,13 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/bunnyKingdom.jpeg",
         title: "Bunny Kingdom",
-        description: "TBA",
+        description: descriptions.bunnyKingdom,
         storageLocation: "4th Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.animals, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/bunnyKingdomInTheSky.webp",
