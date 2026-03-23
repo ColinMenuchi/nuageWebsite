@@ -43,6 +43,8 @@ const descriptions = {
     bunnyKingdom: "Peace has come at last to the great Bunny Kingdom! Lead your clan of rabbits to glory by gathering resources and building new cities across the land!",
     bunnyKingdomInTheSky: "Rabbit settlers fanning out across the New World are organizing into Districts, and trade has begun to flourish. Play your cards right and profit from the situation! This expansion adds a second board, a full set of pink rabbits to play with a 5th fellow bunny-lover, new cards and a new building : the Carrotadel!",
     burgleBros: "Burgle Bros. is a cooperative game. Players are unique members of a crew trying to pull off a robbery of a highly secure building — without getting caught.",
+    calico: "In Calico, players compete to sew the coziest quilt as they collect and place patches of different colors and patterns. Each quilt has a particular pattern that must be followed, and players are also trying to create color and pattern combinations that are not only aesthetically pleasing, but also able to attract the cuddliest cats!",
+    
 }
 
 export default descriptions;

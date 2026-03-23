@@ -508,8 +508,13 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/calico.jpeg",
         title: "Calico",
-        description: "TBA",
+        description: descriptions.calico,
         storageLocation: "2nd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.animals, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/canvas.jpeg",
