@@ -542,8 +542,13 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/carcassonne.webp",
         title: "Carcassonne",
-        description: "TBA",
+        description: descriptions.carcassonne,
         storageLocation: "2nd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.historical]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/cascadia.jpeg",
