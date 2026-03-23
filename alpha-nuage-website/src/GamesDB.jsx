@@ -486,8 +486,12 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/bunnyKingdomInTheSky.webp",
         title: "Bunny Kingdom in the Sky",
-        description: "TBA",
+        description: descriptions.bunnyKingdomInTheSky,
         storageLocation: "4th Shelf Locker G-Left",
+        tags: {complexity: "Modest",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.animals, game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/burgleBros.jpeg",

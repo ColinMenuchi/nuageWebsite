@@ -41,7 +41,7 @@ const descriptions = {
     brassLancashire: "Brass: Lancashire — first published as Brass — is an economic strategy game that tells the story of competing cotton entrepreneurs in Lancashire during the industrial revolution. You must develop, build and establish your industries and network so that you can capitalize on demand for iron, coal and cotton. The game is played over two halves: the canal phase and the rail phase. To win the game, score the most victory points (VPs), which are counted at the end of each phase.",
     bulletStar: "Assume the role of the universes' most powerful heroines as you settle their disputes with excessive firepower! Use actions to form patterns, clear bullets from your sight, and bombard the opponent! Deal with the curtain of bullets coming at you each round and be the last heroine standing to win!",
     bunnyKingdom: "Peace has come at last to the great Bunny Kingdom! Lead your clan of rabbits to glory by gathering resources and building new cities across the land!",
-
+    bunnyKingdomInTheSky: "Rabbit settlers fanning out across the New World are organizing into Districts, and trade has begun to flourish. Play your cards right and profit from the situation! This expansion adds a second board, a full set of pink rabbits to play with a 5th fellow bunny-lover, new cards and a new building : the Carrotadel!",
 
 }
 
