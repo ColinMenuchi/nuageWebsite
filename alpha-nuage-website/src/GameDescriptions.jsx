@@ -44,6 +44,7 @@ const descriptions = {
     bunnyKingdomInTheSky: "Rabbit settlers fanning out across the New World are organizing into Districts, and trade has begun to flourish. Play your cards right and profit from the situation! This expansion adds a second board, a full set of pink rabbits to play with a 5th fellow bunny-lover, new cards and a new building : the Carrotadel!",
     burgleBros: "Burgle Bros. is a cooperative game. Players are unique members of a crew trying to pull off a robbery of a highly secure building — without getting caught.",
     calico: "In Calico, players compete to sew the coziest quilt as they collect and place patches of different colors and patterns. Each quilt has a particular pattern that must be followed, and players are also trying to create color and pattern combinations that are not only aesthetically pleasing, but also able to attract the cuddliest cats!",
+    canvas: "In Canvas, you play as a painter competing in an art competition. Players will collect art cards, layering 3 of them together to create their own unique Painting. Each card contains a piece of artwork as well as a set of icons used during scoring. Icons will be revealed or hidden based on the way players choose to layer the cards making for an exciting puzzle. Paintings are scored based on a set of Scoring cards which will change each game. Once players have created and scored 3 paintings the game ends.",
     
 }
 

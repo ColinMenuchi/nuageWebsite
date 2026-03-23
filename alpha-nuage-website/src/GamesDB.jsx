@@ -519,8 +519,13 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/canvas.jpeg",
         title: "Canvas",
-        description: "TBA",
+        description: descriptions.canvas,
         storageLocation: "Top Drawer Locker B",
+        tags: {storageLocker: "Locker B Drawers",
+            complexity: "Low",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.card_game, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/captainSonar.webp",
