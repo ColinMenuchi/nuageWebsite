@@ -42,7 +42,7 @@ const descriptions = {
     bulletStar: "Assume the role of the universes' most powerful heroines as you settle their disputes with excessive firepower! Use actions to form patterns, clear bullets from your sight, and bombard the opponent! Deal with the curtain of bullets coming at you each round and be the last heroine standing to win!",
     bunnyKingdom: "Peace has come at last to the great Bunny Kingdom! Lead your clan of rabbits to glory by gathering resources and building new cities across the land!",
     bunnyKingdomInTheSky: "Rabbit settlers fanning out across the New World are organizing into Districts, and trade has begun to flourish. Play your cards right and profit from the situation! This expansion adds a second board, a full set of pink rabbits to play with a 5th fellow bunny-lover, new cards and a new building : the Carrotadel!",
-
+    burgleBros: "Burgle Bros. is a cooperative game. Players are unique members of a crew trying to pull off a robbery of a highly secure building — without getting caught.",
 }
 
 export default descriptions;

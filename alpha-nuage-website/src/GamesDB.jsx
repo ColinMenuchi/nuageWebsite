@@ -488,7 +488,8 @@ const games_database = [
         title: "Bunny Kingdom in the Sky",
         description: descriptions.bunnyKingdomInTheSky,
         storageLocation: "4th Shelf Locker G-Left",
-        tags: {complexity: "Modest",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
             players: ["Two-player", "Many Players"],
             genres: [game_genres.animals, game_genres.expansion, game_genres.strategy]
         }
@@ -496,8 +497,13 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/burgleBros.jpeg",
         title: "Burgle Bros.",
-        description: "TBA",
+        description: descriptions.burgleBros,
         storageLocation: "Bottom Drawer Locker B",
+        tags: {storageLocker: "Locker B Drawers",
+            complexity: "Low",
+            players: ["Single-player", "Two-player", "Many Players"],
+            genres: [game_genres.cooperative, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/calico.jpeg",
