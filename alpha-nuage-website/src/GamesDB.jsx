@@ -530,8 +530,14 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/captainSonar.webp",
         title: "Captain Sonar",
-        description: "TBA",
+        description: descriptions.captainSonar,
         storageLocation: "4th Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Low",
+            players: ["Two-player", "Many Players"],
+            genres: [game_genres.party_game, game_genres.social_deduction]
+        }
+        
     },
     {
         imagePath: "./src/assets/gamePhotos/carcassonne.webp",

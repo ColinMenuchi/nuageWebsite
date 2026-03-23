@@ -45,6 +45,7 @@ const descriptions = {
     burgleBros: "Burgle Bros. is a cooperative game. Players are unique members of a crew trying to pull off a robbery of a highly secure building — without getting caught.",
     calico: "In Calico, players compete to sew the coziest quilt as they collect and place patches of different colors and patterns. Each quilt has a particular pattern that must be followed, and players are also trying to create color and pattern combinations that are not only aesthetically pleasing, but also able to attract the cuddliest cats!",
     canvas: "In Canvas, you play as a painter competing in an art competition. Players will collect art cards, layering 3 of them together to create their own unique Painting. Each card contains a piece of artwork as well as a set of icons used during scoring. Icons will be revealed or hidden based on the way players choose to layer the cards making for an exciting puzzle. Paintings are scored based on a set of Scoring cards which will change each game. Once players have created and scored 3 paintings the game ends.",
+    captainSonar: "In Captain Sonar, you and your teammates control a state-of-the-art submarine and are trying to locate an enemy submarine in order to blow it out of the water before they can do the same to you. Every role is important, and the confrontation is merciless. Be organized and communicate, because a captain is nothing without his crew: the Chief Mate, the Radio Operator, and the Engineer",
     
 }
 
