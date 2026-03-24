@@ -9,8 +9,8 @@ const NAV_PAGES = [
 ];
 
 const SOCIAL_LINKS = [
-  { label: "Instagram", href: "#", color: "pink" },
-  { label: "Discord",   href: "#", color: "purple" },
+  { label: "Instagram", href: "#", color: "deeppink" },
+  { label: "Discord",   href: "#", color: "darkorchid" },
 ];
 
 function NewTopMenu({ onNavigate }) {
