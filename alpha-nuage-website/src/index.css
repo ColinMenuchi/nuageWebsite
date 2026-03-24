@@ -1,3 +1,4 @@
+
 /* CSS styling for cards on the home page */
 .page-home .card {
   border: 1px solid hsl(0, 0%, 80%);
@@ -94,34 +95,115 @@
 
 .popup {
   background: white;
-  padding: 20px;
-  border-radius: 12px;
-  min-width: 600px;
-  max-width: 600px;
-  min-height: 600px;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
-  text-align: left;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
   position: relative;
-  margin: 60px;
-  position: relative;
+  max-width: 860px;
+  width: 90vw;
+  overflow: hidden;
+}
+
+/* Side-by-side layout for games popup */
+.page-games .popup-inner {
+  display: flex;
+  align-items: stretch;
+}
+
+.page-games .popup-image {
+  width: 260px;
+  min-width: 260px;
+  max-height: 480px;
+  object-fit: contain;
+  background: white;
+  display: block;
+  align-self: stretch;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.popup-content {
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.popup-title {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  padding-right: 32px;
+}
+
+.popup-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.popup-tag-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.popup-tag-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #aaa;
+  font-family: Arial, sans-serif;
+  margin-right: 2px;
+}
+
+.popup-tag {
   display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1.5px solid #e0e0e0;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: #555;
+}
+
+.popup-tag--complexity {
+  background: #f0f0f0;
+  border-color: #ccc;
+  font-weight: 600;
+}
+
+.popup-location {
+  font-size: 12px;
+  color: #999;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.popup-description {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #444;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* About page popup stays as stacked layout */
+.page-about .popup-inner {
+  padding: 28px;
 }
 
 .page-about .popup img {
   display: block;
-  padding-right: 100px;
-  max-width: 600px;
-  max-height: 600px;
-}
-
-.page-games .popup img {
-  display: block;
-  text-align: center;
-  max-width: 500px;
-  min-width: 500px;
+  max-width: 100%;
   max-height: 500px;
-  min-height: 500px;
-  
+  margin-bottom: 16px;
+  border-radius: 8px;
 }
 
 .popup-overlay {
@@ -160,18 +242,25 @@
 }
 
 .top-right-button {
-  /* Positioning */
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  
-  /* Appearance */
-  border: 2px solid cyan;
-  font-weight: bold;
-  font-size: large;
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
+  top: 12px;
+  right: 12px;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: hsl(0, 0%, 93%);
+  color: hsl(0, 0%, 30%);
+  font-size: 16px;
+  line-height: 1;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
 
-
+.top-right-button:hover {
+  background: hsl(0, 0%, 83%);
 }
