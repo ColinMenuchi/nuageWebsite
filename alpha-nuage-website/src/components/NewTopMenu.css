@@ -2,9 +2,7 @@
   position: fixed;
   top: 16px;
   right: 16px;
-  width: 42%;
-  max-width: 580px;
-  min-width: 260px;
+  width: fit-content;
   background: white;
   border-radius: 14px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
@@ -38,13 +36,15 @@
   color: hsl(0, 0%, 20%);
   text-decoration: none;
   border-radius: 8px;
-  transition: background 0.15s ease;
+  transition: background 0.15s ease, transform 0.15s ease;
   white-space: nowrap;
+  display: inline-block;
 }
 
 .ntm-links li button:hover,
 .ntm-links li a:hover {
   background: cyan;
+  transform: scale(1.12);
 }
 
 /* Divider before social links */
