@@ -43,7 +43,7 @@
 
 .ntm-links li button:hover,
 .ntm-links li a:hover {
-  background: cyan;
+  background: var(--hover-color, cyan);
   transform: scale(1.12);
 }
 
