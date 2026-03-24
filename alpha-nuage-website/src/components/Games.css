@@ -36,6 +36,7 @@
   font-family: Arial, sans-serif;
   cursor: pointer;
   transition: border-color 0.15s, box-shadow 0.15s;
+  margin-bottom: 10px;
 }
 
 .filter-btn:hover {
