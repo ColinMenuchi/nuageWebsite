@@ -97,13 +97,12 @@ function Games() {
         </h1>
 
         {/* Search Bar */}
-        <input 
-            type="text" 
-            placeholder="Search games..." 
+        <input
+            className="games-search"
+            type="text"
+            placeholder="Search games..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            style={{ marginLeft: "50px", marginBottom: "20px", padding: "5px" }}
-        
         />
 
         {/* Filter Selection Menu */}

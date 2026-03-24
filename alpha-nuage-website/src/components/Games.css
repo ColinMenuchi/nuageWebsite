@@ -1,3 +1,28 @@
+/* Search bar */
+.games-search {
+  display: block;
+  margin-left: 50px;
+  margin-bottom: 14px;
+  padding: 10px 18px;
+  width: 280px;
+  border: 1.5px solid #ddd;
+  border-radius: 999px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.games-search::placeholder {
+  color: #bbb;
+}
+
+.games-search:focus {
+  border-color: #aaa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
 /* Filter toggle button */
 .filter-btn {
   display: inline-flex;
