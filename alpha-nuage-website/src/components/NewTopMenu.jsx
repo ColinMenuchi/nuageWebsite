@@ -12,7 +12,7 @@ const NAV_PAGES = [
 
 const SOCIAL_LINKS = [
   { label: "Instagram", href: "https://www.instagram.com/gamingnu?igsh=ZWh0anczc2cyZmQy", color: "deeppink", icon: instagramLogo, iconZoom: 1.5 },
-  { label: "Discord",   href: "https://discord.gg/hrgVQjEx7d", color: "darkorchid", icon: discordLogo },
+  { label: "Discord",   href: "https://discord.gg/hrgVQjEx7d", color: "mediumpurple", icon: discordLogo },
 ];
 
 function NewTopMenu({ onNavigate, currentPage }) {
