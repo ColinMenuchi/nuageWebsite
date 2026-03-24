@@ -68,7 +68,7 @@
   color: hsl(0, 0%, 20%);
 }
 
-/* ── Mobile ── */
+/* Mobile Phone Display */
 @media (max-width: 600px) {
   .ntm-nav {
     width: auto;
