@@ -11,7 +11,7 @@ function App() {
   console.log("App is running")
   return (
     <div className={`page-${page}`}>
-      <NewTopMenu onNavigate={setPage} />
+      <NewTopMenu onNavigate={setPage} currentPage={page} />
 
       {page === "home" && <Home></Home>}
       {page === "about" && <About></About>}
