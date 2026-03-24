@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 import games_database from "../GamesDB.jsx"
 import AboutPopUp from "./AboutPopUp.jsx";
@@ -49,6 +49,17 @@ function Games() {
 
     // State to open/close dropdown
     const [filtersOpen, setFiltersOpen] = useState(false);
+    const filterRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (e) => {
+            if (filterRef.current && !filterRef.current.contains(e.target)) {
+                setFiltersOpen(false);
+            }
+        };
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, []);
 
     // Track Number of Filters Used
     const activeFilterCount =
@@ -96,7 +107,7 @@ function Games() {
         />
 
         {/* Filter Selection Menu */}
-        <div style={{ marginLeft: "50px", position: "relative" }}>
+        <div style={{ marginLeft: "50px", position: "relative" }} ref={filterRef}>
             <button
                 className={`filter-btn${activeFilterCount > 0 ? " filter-btn--active" : ""}`}
                 onClick={() => setFiltersOpen(!filtersOpen)}
