@@ -234,6 +234,7 @@ function Games() {
                 title={game.title}
                 cardText={game.storageLocation}
                 popUpText={game.description}
+                tags={game.tags}
             />
         ))}
         </div>
