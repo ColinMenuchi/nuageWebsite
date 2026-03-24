@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import games_database from "../GamesDB.jsx"
 import AboutPopUp from "./AboutPopUp.jsx";
+import "./Games.css";
 
 function Games() {
 
@@ -97,110 +98,118 @@ function Games() {
         {/* Filter Selection Menu */}
         <div style={{ marginLeft: "50px", position: "relative" }}>
             <button
+                className={`filter-btn${activeFilterCount > 0 ? " filter-btn--active" : ""}`}
                 onClick={() => setFiltersOpen(!filtersOpen)}
-                style={{ padding: "6px 10px", cursor: "pointer" }}
             >
-                Filters {activeFilterCount > 0 && `(${activeFilterCount})`} ▾
+                Filters {activeFilterCount > 0 && <span className="filter-badge">{activeFilterCount}</span>}
+                <span>{filtersOpen ? "▴" : "▾"}</span>
             </button>
 
             {filtersOpen && (
-                <div
-                    style={{
-                        position: "absolute",
-                        top: "40px",
-                        left: 0,
-                        background: "white",
-                        border: "1px solid #ccc",
-                        padding: "10px",
-                        zIndex: 10,
-                        minWidth: "200px"
-                    }}
-                >
-                    <strong>Complexity</strong>
-                    {["Low", "Modest", "High"].map(level => (
-                        <label key={level} style={{ display: "block" }}>
-                            <input
-                                type="checkbox"
-                                checked={filters.complexity.includes(level)}
-                                onChange={() =>
-                                    setFilters({
-                                        ...filters,
-                                        complexity: filters.complexity.includes(level)
-                                            ? filters.complexity.filter(c => c !== level)
-                                            : [...filters.complexity, level]
-                                    })
-                                }
-                            />
-                            &nbsp;{level}
-                        </label>
-                    ))}
+                <div className="filter-panel">
+                    <div className="filter-section">
+                        <p className="filter-section-title">Complexity</p>
+                        <div className="filter-chips">
+                            {["Low", "Modest", "High"].map(level => (
+                                <span className="filter-chip" key={level}>
+                                    <input
+                                        type="checkbox"
+                                        id={`complexity-${level}`}
+                                        checked={filters.complexity.includes(level)}
+                                        onChange={() =>
+                                            setFilters({
+                                                ...filters,
+                                                complexity: filters.complexity.includes(level)
+                                                    ? filters.complexity.filter(c => c !== level)
+                                                    : [...filters.complexity, level]
+                                            })
+                                        }
+                                    />
+                                    <label htmlFor={`complexity-${level}`}>{level}</label>
+                                </span>
+                            ))}
+                        </div>
+                    </div>
 
-                    <hr/>
+                    <div className="filter-section">
+                        <p className="filter-section-title">Players</p>
+                        <div className="filter-chips">
+                            {["Single-player", "Two-player", "Many Players"].map(num => (
+                                <span className="filter-chip" key={num}>
+                                    <input
+                                        type="checkbox"
+                                        id={`players-${num}`}
+                                        checked={filters.players.includes(num)}
+                                        onChange={() =>
+                                            setFilters({
+                                                ...filters,
+                                                players: filters.players.includes(num)
+                                                    ? filters.players.filter(p => p !== num)
+                                                    : [...filters.players, num]
+                                            })
+                                        }
+                                    />
+                                    <label htmlFor={`players-${num}`}>{num}</label>
+                                </span>
+                            ))}
+                        </div>
+                    </div>
 
-                    <strong>Players</strong>
-                    {["Single-player", "Two-player", "Many Players"].map(num => (
-                        <label key={num} style={{ display: "block" }}>
-                            <input
-                                type="checkbox"
-                                checked={filters.players.includes(num)}
-                                onChange={() =>
-                                    setFilters({
-                                        ...filters,
-                                        players: filters.players.includes(num)
-                                            ? filters.players.filter(p => p !== num)
-                                            : [...filters.players, num]
-                                    })
-                                }
-                            />
-                            &nbsp;{num}
-                        </label>
-                    ))}
+                    <div className="filter-section">
+                        <p className="filter-section-title">Genre</p>
+                        <div className="filter-chips">
+                            {game_genres.map(genre => (
+                                <span className="filter-chip" key={genre}>
+                                    <input
+                                        type="checkbox"
+                                        id={`genre-${genre}`}
+                                        checked={filters.genres.includes(genre)}
+                                        onChange={() =>
+                                            setFilters({
+                                                ...filters,
+                                                genres: filters.genres.includes(genre)
+                                                    ? filters.genres.filter(g => g !== genre)
+                                                    : [...filters.genres, genre]
+                                            })
+                                        }
+                                    />
+                                    <label htmlFor={`genre-${genre}`}>{genre}</label>
+                                </span>
+                            ))}
+                        </div>
+                    </div>
 
-                    <hr/>
+                    <div className="filter-section">
+                        <p className="filter-section-title">Storage Location</p>
+                        <div className="filter-chips">
+                            {["Locker E", "Locker G-Left", "Locker G-Right",
+                                "Locker C", "Locker B", "Locker B Drawers", "Locker F"].map(locker => (
+                                <span className="filter-chip" key={locker}>
+                                    <input
+                                        type="checkbox"
+                                        id={`locker-${locker}`}
+                                        checked={filters.storageLocker.includes(locker)}
+                                        onChange={() =>
+                                            setFilters({
+                                                ...filters,
+                                                storageLocker: filters.storageLocker.includes(locker)
+                                                    ? filters.storageLocker.filter(l => l !== locker)
+                                                    : [...filters.storageLocker, locker]
+                                            })
+                                        }
+                                    />
+                                    <label htmlFor={`locker-${locker}`}>{locker}</label>
+                                </span>
+                            ))}
+                        </div>
+                    </div>
 
-                    <strong>Genre</strong>
-                    {game_genres.map(num => (
-                        <label key={num} style={{ display: "block" }}>
-                            <input
-                                type="checkbox"
-                                checked={filters.genres.includes(num)}
-                                onChange={() =>
-                                    setFilters({
-                                        ...filters,
-                                        genres: filters.genres.includes(num)
-                                        ? filters.genres.filter(g => g != num)
-                                        : [...filters.genres, num]
-                                    })
-                                }
-                            />
-                            &nbsp;{num}
-                        </label>
-                    ))}
-
-                    <hr/>
-
-                    <strong>Storage Location</strong>
-                    {["Locker E", "Locker G-Left", "Locker G-Right",
-                        "Locker C", "Locker B", "Locker B Drawers", "Locker F"].map(locker => (
-                        <label key={locker} style={{ display: "block" }}>
-                            <input
-                                type="checkbox"
-                                checked={filters.storageLocker.includes(locker)}
-                                onChange={() =>
-                                    setFilters({
-                                        ...filters,
-                                        storageLocker: filters.storageLocker.includes(locker)
-                                            ? filters.storageLocker.filter(l => l !== locker)
-                                            : [...filters.storageLocker, locker]
-                                    })
-                                }
-                            />
-                            &nbsp;{locker}
-                        </label>
-                    ))}
-
-                    <button onClick={() => setFilters({ complexity: [], players: [], genres: [], storageLocker: [], })} 
-                        style={{ marginTop: "10px" }}>Clear Filters</button>    
+                    <button
+                        className="filter-clear-btn"
+                        onClick={() => setFilters({ complexity: [], players: [], genres: [], storageLocker: [] })}
+                    >
+                        Clear all filters
+                    </button>
                 </div>
             )}
         </div>
