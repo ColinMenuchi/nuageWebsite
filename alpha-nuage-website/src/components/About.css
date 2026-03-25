@@ -1,0 +1,65 @@
+.about-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 48px;
+}
+
+/* Section headings */
+.about-heading {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 32px 0;
+}
+
+.about-heading--centered {
+  text-align: center;
+}
+
+/* Our Story section */
+.about-story {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 24px;
+}
+
+.about-story-text {
+  flex: 1;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.about-story-image {
+  width: 380px;
+  min-width: 380px;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.about-story-tagline {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 48px;
+}
+
+/* Divider */
+.about-divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 48px 0;
+}
+
+/* eBoard grid */
+.about-eboard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
