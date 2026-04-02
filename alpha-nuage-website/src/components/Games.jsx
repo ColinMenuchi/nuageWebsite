@@ -33,6 +33,14 @@ function Games() {
         "Word Game",
     ]
 
+    const max_players = [
+        "2", 
+        "3",
+        "4", 
+        "5", 
+        "6", 
+        "7+",]
+
     // Array of Games
     const games_list = games_database
 
@@ -76,7 +84,7 @@ function Games() {
             (game.tags != null && filters.complexity.includes(game.tags.complexity));
 
         const matchesPlayers = filters.players.length === 0 ||
-            (game.tags != null && filters.players.every(p => game.tags.players.includes(p)));
+            (game.tags != null && filters.players.includes(game.tags.players));
 
         const matchesGenres = filters.genres.length === 0 ||
             (game.tags != null && filters.genres.every(g => game.tags.genres.includes(g)));
@@ -142,9 +150,9 @@ function Games() {
                     </div>
 
                     <div className="filter-section">
-                        <p className="filter-section-title">Players</p>
+                        <p className="filter-section-title">Max Players</p>
                         <div className="filter-chips">
-                            {["Single-player", "Two-player", "Many Players"].map(num => (
+                            {max_players.map(num => (
                                 <span className="filter-chip" key={num}>
                                     <input
                                         type="checkbox"

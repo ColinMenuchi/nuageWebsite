@@ -30,6 +30,15 @@ const game_genres = {
     word_game: "Word Game",
 }
 
+const max_players = {
+    two: "2",
+    three: "3",
+    four: "4",
+    five: "5",
+    six: "6",
+    seven_plus: "7+",
+}
+
 const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/5minuteDungeon.jpeg",
@@ -38,7 +47,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
                complexity: "Low",
-               players: ["Many Players"],
+               players: max_players.five,
                genres: [game_genres.card_game, game_genres.fantasy]
             }
     },
@@ -49,7 +58,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.seven_plus,
             genres: [game_genres.card_game, game_genres.historical, game_genres.strategy]
         }
     },
@@ -60,7 +69,7 @@ const games_database = [
         storageLocation: "Bottom Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
             complexity: "Low",
-            players: ["Two-player"],
+            players: max_players.two,
             genres: [game_genres.card_game, game_genres.historical, game_genres.strategy]
         }
     },
@@ -71,7 +80,7 @@ const games_database = [
         storageLocation: "Bottom Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
             complexity: "Low",
-            players: ["Two-player"],
+            players: max_players.two,
             genres: [game_genres.card_game, game_genres.historical, game_genres.expansion,
                 game_genres.strategy]
         }
@@ -83,7 +92,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Modest",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.fantasy, game_genres.strategy]
         }
     },
@@ -94,7 +103,7 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.six,
             genres: [game_genres.card_game, game_genres.party_game, game_genres.social_deduction]
         }
     },
@@ -105,7 +114,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Modest",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.five,
             genres: [game_genres.animals, game_genres.strategy]
         }
     },
@@ -116,7 +125,7 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
             complexity: "Low",
-            players: ["Two-player"],
+            players: max_players.two,
             genres: [game_genres.animals, game_genres.card_game, game_genres.strategy]
         }
     },
@@ -127,7 +136,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.six,
             genres: [game_genres.historical, game_genres.strategy]
         }
     },
@@ -138,7 +147,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.dice, game_genres.strategy]
         }
     },
@@ -149,7 +158,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker C",
         tags: {storageLocker: "Locker C",
             complexity: "Modest",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.historical, game_genres.strategy]
         }
     },
@@ -160,7 +169,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.card_game, game_genres.strategy]
         }
     },
@@ -171,7 +180,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Modest",
-            players: ["Many Players"],
+            players: max_players.five,
             genres: [game_genres.historical, game_genres.strategy]
         }
     },
@@ -182,7 +191,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker C",
         tags: {storageLocker: "Locker C",
             complexity: "High",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.strategy]
         }
     },
@@ -193,7 +202,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Many Players"],
+            players: max_players.seven_plus,
             genres: [game_genres.card_game, game_genres.party_game, game_genres.word_game]
         }
     },
@@ -204,7 +213,7 @@ const games_database = [
         storageLocation: "2nd Drawer Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.card_game]
         }
     },
@@ -215,7 +224,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.five,
             genres: [game_genres.historical, game_genres.strategy]
         }
     },
@@ -226,7 +235,7 @@ const games_database = [
         storageLocation: "2nd Shelf Locker C",
         tags: {storageLocker: "Locker C",
             complexity: "Modest",
-            players: ["Two-player", "Many Players"],
+            players: max_players.five,
             genres: [game_genres.strategy]
         }
     },
@@ -237,7 +246,7 @@ const games_database = [
         storageLocation: "2nd Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Heavy",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.seven_plus,
             genres: [game_genres.adventure, game_genres.horror]
         }
     },
@@ -248,7 +257,7 @@ const games_database = [
         storageLocation: "2nd Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Modest",
-            players: ["Single-player", "Two-player"],
+            players: max_players.two,
             genres: [game_genres.adventure, game_genres.expansion, game_genres.horror]
         }
     },
@@ -259,7 +268,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker C",
         tags: {storageLocker: "Locker C",
             complexity: "Heavy",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.five,
             genres: [game_genres.animals, game_genres.card_game, game_genres.strategy]
         }
     },
@@ -270,7 +279,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker C",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Heavy",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.animals, game_genres.card_game, game_genres.expansion, game_genres.strategy]
         }
     },
@@ -281,7 +290,7 @@ const games_database = [
         storageLocation: "3rd Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.five,
             genres: [game_genres.sports, game_genres.strategy]
         }
     },
@@ -292,7 +301,7 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B",
             complexity: "Low",
-            players: ["Two-player"],
+            players: max_players.two,
             genres: [game_genres.card_game]
         }
     },
@@ -303,7 +312,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.historical, game_genres.strategy]
         }
     },
@@ -314,7 +323,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.historical, game_genres.strategy]
         }
     },
@@ -325,7 +334,7 @@ const games_database = [
         storageLocation: "Top Drawer Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
             complexity: "Low",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.seven_plus,
             genres: [game_genres.word_game]
         }
     },
@@ -336,7 +345,7 @@ const games_database = [
         storageLocation: "Bottom Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
             complexity: "Low",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.card_game, game_genres.sports, game_genres.strategy]
         }
     },
@@ -347,7 +356,7 @@ const games_database = [
         storageLocation: "3rd Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Modest",
-            players: ["Many Players"],
+            players: max_players.six,
             genres: [game_genres.bluffing, game_genres.political, game_genres.social_deduction]
         }
     },
@@ -358,7 +367,7 @@ const games_database = [
         storageLocation: "2nd Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Many Players"],
+            players: max_players.six,
             genres: [game_genres.adventure, game_genres.horror]
         }
     },
@@ -369,7 +378,7 @@ const games_database = [
         storageLocation: "3rd Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.seven_plus,
             genres: [game_genres.historical]
         }
     },
@@ -380,7 +389,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.seven_plus,
             genres: [game_genres.historical]
         }
     },
@@ -391,7 +400,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Many Players"],
+            players: max_players.five,
             genres: [game_genres.based_on_a_video_game, game_genres.card_game, game_genres.horror]
         }
     },
@@ -402,7 +411,7 @@ const games_database = [
         storageLocation: "Below Drawers Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
             complexity: "Modest",
-            players: ["Many Players"],
+            players: max_players.seven_plus,
             genres: [game_genres.bluffing, game_genres.party_game, game_genres.social_deduction, game_genres.strategy]
         }
     },
@@ -413,7 +422,7 @@ const games_database = [
         storageLocation: "3rd Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Modest",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.strategy]
         }
     },
@@ -424,7 +433,7 @@ const games_database = [
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.card_game]
         }
     },
@@ -435,7 +444,7 @@ const games_database = [
         storageLocation: "Bottom Drawer Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
             complexity: "low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.seven_plus,
             genres: [game_genres.card_game]
         }
     },
@@ -446,7 +455,7 @@ const games_database = [
         storageLocation: "Bottom Shelf Locker C",
         tags: {storageLocker: "Locker C",
             complexity: "Heavy",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.historical, game_genres.strategy]
         }
     },
@@ -457,18 +466,18 @@ const games_database = [
         storageLocation: "Bottom Shelf Locker C",
         tags: {storageLocker: "Locker C",
             complexity: "Heavy",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.historical, game_genres.strategy]
         }
     },
     {
         imagePath: "./src/assets/gamePhotos/bulletStar.jpeg",
-        title: "Bullet Star",
+        title: "Bullet ★",
         description: descriptions.bulletStar,
         storageLocation: "4th Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.puzzle_game]
         }
     },
@@ -479,7 +488,7 @@ const games_database = [
         storageLocation: "4th Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.animals, game_genres.strategy]
         }
     },
@@ -490,7 +499,7 @@ const games_database = [
         storageLocation: "4th Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Modest",
-            players: ["Two-player", "Many Players"],
+            players: max_players.five,
             genres: [game_genres.animals, game_genres.expansion, game_genres.strategy]
         }
     },
@@ -501,7 +510,7 @@ const games_database = [
         storageLocation: "Bottom Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
             complexity: "Low",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.cooperative, game_genres.puzzle_game]
         }
     },
@@ -512,7 +521,7 @@ const games_database = [
         storageLocation: "2nd Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.four,
             genres: [game_genres.animals, game_genres.puzzle_game]
         }
     },
@@ -523,7 +532,7 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
             complexity: "Low",
-            players: ["Single-player", "Two-player", "Many Players"],
+            players: max_players.five,
             genres: [game_genres.card_game, game_genres.puzzle_game]
         }
     },
@@ -534,7 +543,7 @@ const games_database = [
         storageLocation: "4th Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.seven_plus,
             genres: [game_genres.party_game, game_genres.social_deduction]
         }
         
@@ -546,7 +555,7 @@ const games_database = [
         storageLocation: "2nd Shelf Locker E",
         tags: {storageLocker: "Locker E",
             complexity: "Low",
-            players: ["Two-player", "Many Players"],
+            players: max_players.five,
             genres: [game_genres.historical]
         }
     },

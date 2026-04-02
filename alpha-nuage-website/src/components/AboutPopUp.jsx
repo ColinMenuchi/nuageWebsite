@@ -35,12 +35,10 @@ function AboutPopUp(props) {
                                                 <span className="popup-tag popup-tag--complexity">{props.tags.complexity}</span>
                                             </div>
                                         )}
-                                        {props.tags.players && props.tags.players.length > 0 && (
+                                        {props.tags.players && (
                                             <div className="popup-tag-group">
-                                                <span className="popup-tag-label">Players</span>
-                                                {props.tags.players.map(p => (
-                                                    <span key={p} className="popup-tag">{p}</span>
-                                                ))}
+                                                <span className="popup-tag-label">Max Players</span>
+                                                <span className="popup-tag">{props.tags.players}</span>
                                             </div>
                                         )}
                                         {props.tags.genres && props.tags.genres.length > 0 && (
