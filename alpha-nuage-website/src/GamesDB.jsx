@@ -562,44 +562,79 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/cascadia.jpeg",
         title: "Cascadia",
-        description: "TBA",
+        description: descriptions.cascadia,
         storageLocation: "2nd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: max_players.four,
+            genres: [game_genres.animals, game_genres.family_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/castlesOfMadKingLudwig.jpeg",
         title: "Castles of Mad King Ludwig",
-        description: "TBA",
+        description: descriptions.castlesOfMadKingLudwig,
         storageLocation: "4th Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/catan.webp",
         title: "Catan",
-        description: "TBA",
+        description: descriptions.catan,
         storageLocation: "2nd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Low",
+            players: max_players.four,
+            genres: [game_genres.family_game, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/catanStarfarers.png",
         title: "Catan Starfarers",
-        description: "TBA",
+        description: descriptions.catanStarfarers,
         storageLocation: "Bottom Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.family_game, game_genres.political]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/catInTheBox.webp",
         title: "Cat In The Box",
-        description: "TBA",
+        description: descriptions.catInTheBox,
         storageLocation: "2nd Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Low",
+            players: max_players.five,
+            genres: [game_genres.animals, game_genres.card_game, game_genres.family_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/championsOfMidgard.webp",
         title: "Champions of Midgard",
-        description: "TBA",
+        description: descriptions.championsOfMidgard,
         storageLocation: "4th Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.adventure, game_genres.dice, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/chess.jpeg",
         title: "Chess",
-        description: "TBA",
+        description: descriptions.chess,
         storageLocation: "4th Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.two,
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/citiesOfSplendor.jpeg",
