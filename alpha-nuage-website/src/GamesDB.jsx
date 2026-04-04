@@ -661,8 +661,13 @@ const games_database = [
     { 
         imagePath: "./src/assets/gamePhotos/cityOfIron.jpeg", 
         title: "City of Iron", 
-        description: "TBA",
+        description: descriptions.cityOfIron,
         storageLocation: "Bottom Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.fantasy, game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/clank.jpeg", 
