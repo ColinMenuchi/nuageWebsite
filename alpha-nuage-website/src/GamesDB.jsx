@@ -639,8 +639,13 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/citiesOfSplendor.jpeg",
         title: "Cities of Splendor",
-        description: "TBA",
+        description: descriptions.citiesOfSplendor,
         storageLocation: "Top Drawer Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Low",
+            players: max_players.four,
+            genres: [game_genres.card_game, , game_genres.expansion, game_genres.family_game]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/cityOfGears.jpeg", 
