@@ -649,9 +649,14 @@ const games_database = [
     },
     { 
         imagePath: "./src/assets/gamePhotos/cityOfGears.jpeg", 
-        title: "City of gears", 
-        description: "TBA",
+        title: "City of Gears", 
+        description: descriptions.cityOfGears,
         storageLocation: "Bottom Shelf Locker G-Left",
+        tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.dice, , game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/cityOfIron.jpeg", 
