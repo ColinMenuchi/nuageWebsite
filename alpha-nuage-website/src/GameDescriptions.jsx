@@ -57,6 +57,7 @@ const descriptions = {
     citiesOfSplendor: "Cities of Splendor is a quartet of expansions for use with the Splendor base game. Each expansion is added to the basic game and they should be played separately.",
     cityOfGears: "City of Gears is a unique steampunk game of exploration, area control, worker placement, and engine building. From your incredible Factory, you must race to claim ownership over the magnificent ruins of an abandoned clockwork metropolis. Each game plays in under an hour, and because only nine of the city tiles (from dozens available) are randomly chosen and placed each game, no two games ever play the same.",
     cityOfIron: "In City of Iron, 2-4 players compete to build up a small nation in a world of machines, magic, and money. Become the leader of one of four rival nations: the industrious humans, the toad engineers, the scholarly Cresarians, or the clever hogmen. Produce goods like machine parts and bottled demons to gain wealth, or research steam-age technology and recruit mercenaries to control the continent.",
+    clank: "Burgle your way to adventure in the deck-building board game Clank! Sneak into an angry dragon's mountain lair to steal precious artifacts. Delve deeper to find more valuable loot. Acquire cards for your deck and watch your thievish abilities grow. Be quick and be quiet. One false step and CLANK! Each careless sound draws the attention of the dragon, and each artifact stolen increases its rage. You can enjoy your plunder only if you make it out of the depths alive!",
     
 
 }

@@ -672,8 +672,13 @@ const games_database = [
     { 
         imagePath: "./src/assets/gamePhotos/clank.jpeg", 
         title: "Clank!", 
-        description: "TBA",
+        description: descriptions.clank,
         storageLocation: "Bottom Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Low",
+            players: max_players.four,
+            genres: [game_genres.adventure, game_genres.card_game, game_genres.family_game, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/clue.jpeg",
