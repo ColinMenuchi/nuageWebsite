@@ -46,7 +46,7 @@ const games_database = [
         description: descriptions.fiveMinuteDungeon,
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
-               complexity: "Low",
+               complexity: "Light",
                players: max_players.five,
                genres: [game_genres.card_game, game_genres.fantasy]
             }
@@ -57,7 +57,7 @@ const games_database = [
         description: descriptions.sevenWonders,
         storageLocation: "Top Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.seven_plus,
             genres: [game_genres.card_game, game_genres.historical, game_genres.strategy]
         }
@@ -68,7 +68,7 @@ const games_database = [
         description: descriptions.sevenWondersDuel,
         storageLocation: "Bottom Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.two,
             genres: [game_genres.card_game, game_genres.historical, game_genres.strategy]
         }
@@ -79,7 +79,7 @@ const games_database = [
         description: descriptions.sevenWondersDuelPantheon,
         storageLocation: "Bottom Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.two,
             genres: [game_genres.card_game, game_genres.historical, game_genres.expansion,
                 game_genres.strategy]
@@ -102,7 +102,7 @@ const games_database = [
         description: descriptions.agathaChristieDeathOnTheCards,
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.six,
             genres: [game_genres.card_game, game_genres.party_game, game_genres.social_deduction]
         }
@@ -124,7 +124,7 @@ const games_database = [
         description: descriptions.airLandAndSea,
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.two,
             genres: [game_genres.animals, game_genres.card_game, game_genres.strategy]
         }
@@ -135,7 +135,7 @@ const games_database = [
         description: descriptions.alhambra,
         storageLocation: "Top Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.six,
             genres: [game_genres.historical, game_genres.strategy]
         }
@@ -146,7 +146,7 @@ const games_database = [
         description: descriptions.alienFrontiers,
         storageLocation: "Top Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.dice, game_genres.strategy]
         }
@@ -168,7 +168,7 @@ const games_database = [
         description: descriptions.amongTheStars,
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.card_game, game_genres.strategy]
         }
@@ -190,7 +190,7 @@ const games_database = [
         description: descriptions.anachrony,
         storageLocation: "Top Shelf Locker C",
         tags: {storageLocker: "Locker C",
-            complexity: "High",
+            complexity: "Heavy",
             players: max_players.four,
             genres: [game_genres.strategy]
         }
@@ -201,7 +201,7 @@ const games_database = [
         description: descriptions.applesToApples,
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.seven_plus,
             genres: [game_genres.card_game, game_genres.party_game, game_genres.word_game]
         }
@@ -212,7 +212,7 @@ const games_database = [
         description: descriptions.arboretum,
         storageLocation: "2nd Drawer Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.card_game]
         }
@@ -223,7 +223,7 @@ const games_database = [
         description: descriptions.architectsOfTheWestKingdom,
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.five,
             genres: [game_genres.historical, game_genres.strategy]
         }
@@ -289,7 +289,7 @@ const games_database = [
         description: descriptions.automobiles,
         storageLocation: "3rd Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.five,
             genres: [game_genres.sports, game_genres.strategy]
         }
@@ -300,7 +300,7 @@ const games_database = [
         description: descriptions.avalon,
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.two,
             genres: [game_genres.card_game]
         }
@@ -311,7 +311,7 @@ const games_database = [
         description: descriptions.azul,
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.historical, game_genres.strategy]
         }
@@ -322,7 +322,7 @@ const games_database = [
         description: descriptions.azulSummerPavillion,
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.historical, game_genres.strategy]
         }
@@ -333,7 +333,7 @@ const games_database = [
         description: descriptions.bananagrams,
         storageLocation: "Top Drawer Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.seven_plus,
             genres: [game_genres.word_game]
         }
@@ -344,7 +344,7 @@ const games_database = [
         description: descriptions.baseballHighlights2045,
         storageLocation: "Bottom Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.card_game, game_genres.sports, game_genres.strategy]
         }
@@ -366,7 +366,7 @@ const games_database = [
         description: descriptions.betrayalAtHouseOnTheHill,
         storageLocation: "2nd Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.six,
             genres: [game_genres.adventure, game_genres.horror]
         }
@@ -377,7 +377,7 @@ const games_database = [
         description: descriptions.betweenTwoCastlesOfMadKingLudwig,
         storageLocation: "3rd Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.seven_plus,
             genres: [game_genres.historical]
         }
@@ -388,7 +388,7 @@ const games_database = [
         description: descriptions.betweenTwoCities,
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.seven_plus,
             genres: [game_genres.historical]
         }
@@ -399,7 +399,7 @@ const games_database = [
         description: descriptions.bloodborneTheCardGame,
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.five,
             genres: [game_genres.based_on_a_video_game, game_genres.card_game, game_genres.horror]
         }
@@ -408,7 +408,7 @@ const games_database = [
         imagePath: "./src/assets/gamePhotos/bloodOnTheClocktower.jpeg",
         title: "Blood on the Clocktower",
         description: descriptions.bloodOnTheClocktower,
-        storageLocation: "Below Drawers Locker G-Right",
+        storageLocation: "BeLight Drawers Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
             complexity: "Modest",
             players: max_players.seven_plus,
@@ -432,7 +432,7 @@ const games_database = [
         description: descriptions.bobRossArtOfChillGame,
         storageLocation: "Top Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.card_game]
         }
@@ -443,7 +443,7 @@ const games_database = [
         description: descriptions.bohnanza,
         storageLocation: "Bottom Drawer Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
-            complexity: "low",
+            complexity: "Light",
             players: max_players.seven_plus,
             genres: [game_genres.card_game]
         }
@@ -476,7 +476,7 @@ const games_database = [
         description: descriptions.bulletStar,
         storageLocation: "4th Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.puzzle_game]
         }
@@ -487,7 +487,7 @@ const games_database = [
         description: descriptions.bunnyKingdom,
         storageLocation: "4th Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.animals, game_genres.strategy]
         }
@@ -509,7 +509,7 @@ const games_database = [
         description: descriptions.burgleBros,
         storageLocation: "Bottom Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.cooperative, game_genres.puzzle_game]
         }
@@ -520,7 +520,7 @@ const games_database = [
         description: descriptions.calico,
         storageLocation: "2nd Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.animals, game_genres.puzzle_game]
         }
@@ -531,7 +531,7 @@ const games_database = [
         description: descriptions.canvas,
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B Drawers",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.five,
             genres: [game_genres.card_game, game_genres.puzzle_game]
         }
@@ -542,7 +542,7 @@ const games_database = [
         description: descriptions.captainSonar,
         storageLocation: "4th Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.seven_plus,
             genres: [game_genres.party_game, game_genres.social_deduction]
         }
@@ -554,7 +554,7 @@ const games_database = [
         description: descriptions.carcassonne,
         storageLocation: "2nd Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.five,
             genres: [game_genres.historical]
         }
@@ -565,7 +565,7 @@ const games_database = [
         description: descriptions.cascadia,
         storageLocation: "2nd Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.animals, game_genres.family_game]
         }
@@ -587,7 +587,7 @@ const games_database = [
         description: descriptions.catan,
         storageLocation: "2nd Shelf Locker E",
         tags: {storageLocker: "Locker E",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.family_game, game_genres.political, game_genres.strategy]
         }
@@ -609,7 +609,7 @@ const games_database = [
         description: descriptions.catInTheBox,
         storageLocation: "2nd Drawer Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.five,
             genres: [game_genres.animals, game_genres.card_game, game_genres.family_game]
         }
@@ -642,7 +642,7 @@ const games_database = [
         description: descriptions.citiesOfSplendor,
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.card_game, , game_genres.expansion, game_genres.family_game]
         }
@@ -675,7 +675,7 @@ const games_database = [
         description: descriptions.clank,
         storageLocation: "Bottom Shelf Locker G-Left",
         tags: {storageLocker: "Locker G-Left",
-            complexity: "Low",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.adventure, game_genres.card_game, game_genres.family_game, game_genres.fantasy, game_genres.strategy]
         }
@@ -683,68 +683,123 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/clue.jpeg",
         title: "Clue",
-        description: "TBA",
+        description: descriptions.clue,
         storageLocation: "2nd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.bluffing, game_genres.dice, game_genres.family_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/cockroachPoker.jpeg",
         title: "Cockroach Poker",
-        description: "TBA",
+        description: descriptions.cockroachPoker,
         storageLocation: "2nd Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.bluffing, game_genres.card_game, game_genres.party_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/Codenames.webp",
         title: "Codenames",
-        description: "TBA",
+        description: descriptions.codenames,
         storageLocation: "Bottom Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.party_game, game_genres.social_deduction, game_genres.word_game]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/concept.jpeg", 
         title: "Concept", 
-        description: "TBA",
+        description: descriptions.concept,
         storageLocation: "Bottom Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.party_game, game_genres.social_deduction, game_genres.word_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/concordia.jpeg",
         title: "Concordia",
-        description: "TBA",
+        description: descriptions.concordia,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/cosmicEncounter.jpeg", 
         title: "Cosmic Encounter", 
-        description: "TBA",
+        description: descriptions.cosmicEncounter,
         storageLocation: "Bottom Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.bluffing, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/coup.jpeg",
         title: "Coup",
-        description: "TBA",
+        description: descriptions.coup,
         storageLocation: "2nd Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.bluffing, game_genres.card_game, game_genres.party_game, game_genres.political, game_genres.social_deduction]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/cryptid.jpeg",
         title: "Cryptid",
-        description: "TBA",
+        description: descriptions.cryptid,
         storageLocation: "2nd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.family_game, game_genres.social_deduction, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/cthulhuWars.jpeg",
         title: "Cthulhu Wars",
-        description: "TBA",
+        description: descriptions.cthulhuWars,
         storageLocation: "Bottom Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.fantasy, game_genres.horror, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/cthulhuWarsTchoTcho.webp",
         title: "Cthulhu Wars: Tcho Tcho",
-        description: "TBA",
+        description: descriptions.cthulhuWarsTchoTcho,
         storageLocation: "Bottom Shelf Locker C",
+        tags: {storageLocker: "Locker c",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.expansion, game_genres.fantasy, game_genres.horror, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/cyclades.jpeg",
         title: "Cyclades",
-        description: "TBA",
+        description: descriptions.cyclades,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/darkestNight.webp",
