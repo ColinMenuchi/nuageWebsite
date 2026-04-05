@@ -128,7 +128,7 @@ function Games() {
                     <div className="filter-section">
                         <p className="filter-section-title">Complexity</p>
                         <div className="filter-chips">
-                            {["Low", "Modest", "High"].map(level => (
+                            {["Light", "Modest", "Heavy"].map(level => (
                                 <span className="filter-chip" key={level}>
                                     <input
                                         type="checkbox"
