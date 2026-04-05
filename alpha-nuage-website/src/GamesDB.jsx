@@ -804,110 +804,200 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/darkestNight.webp",
         title: "Darkest Night",
-        description: "TBA",
+        description: descriptions.darkestNight,
         storageLocation: "2nd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.dice, game_genres.fantasy, game_genres.horror]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/daybreak.jpeg", 
         title: "Daybreak", 
-        description: "TBA",
+        description: descriptions.daybreak,
         storageLocation: "3rd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.cooperative, game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/deadOfWinter.webp", 
         title: "Dead of Winter", 
-        description: "TBA",
+        description: descriptions.deadOfWinter,
         storageLocation: "Bottom Shelf Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.bluffing, game_genres.horror, game_genres.social_deduction]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/deckOfCards.jpeg",
         title: "Decks of Cards",
-        description: "TBA",
+        description: descriptions.decksOfCards,
         storageLocation: "2nd Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/decorum.jpeg", 
         title: "Décorum", 
-        description: "TBA",
+        description: descriptions.decorum,
         storageLocation: "Bottom Shelf Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.cooperative, game_genres.family_game, game_genres.puzzle_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/diceCity.jpeg",
         title: "Dice City",
-        description: "TBA",
+        description: descriptions.diceCity,
         storageLocation: "Bottom Drawer Locker B",
+        tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.dice, game_genres.family_game, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/diceForge.jpeg",
         title: "Dice Forge",
-        description: "TBA",
+        description: descriptions.diceForge,
         storageLocation: "4th Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.dice, game_genres.fantasy, game_genres.family_game]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/dinosaurIsland.jpeg", 
         title: "Dinosaur Island", 
-        description: "TBA",
+        description: descriptions.dinosaurIsland,
         storageLocation: "Bottom Shelf Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.animals, game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/dixitOdyssey.png", 
         title: "Dixit: Odyssey", 
-        description: "TBA",
+        description: descriptions.dixitOdyssey,
         storageLocation: "2nd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.humor, game_genres.party_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/dominion.webp",
         title: "Dominion",
-        description: "TBA",
-        storageLocation: "Bottom Shelf Locker F"
+        description: descriptions.dominion,
+        storageLocation: "Bottom Shelf Locker F",
+        tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/dominionAllies.jpeg",
         title: "Dominion: Allies",
-        description: "TBA",
-        storageLocation: "Bottom Shelf Locker F"
+        description: descriptions.dominionAllies,
+        storageLocation: "Bottom Shelf Locker F",
+        tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/dominionDarkAges.jpeg",
         title: "Dominion: Dark Ages",
-        description: "TBA",
-        storageLocation: "Bottom Shelf Locker F"
+        description: descriptions.dominionDarkAges,
+        storageLocation: "Bottom Shelf Locker F",
+        tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/dominionSeaside.webp",
         title: "Dominion: Seaside",
-        description: "TBA",
-        storageLocation: "Bottom Shelf Locker F"
+        description: descriptions.dominionSeaside,
+        storageLocation: "Bottom Shelf Locker F",
+        tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/dontBreakTheIce.avif",
         title: "Don't Break the Ice",
-        description: "TBA",
+        description: descriptions.dontBreakTheIce,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.family_game]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/dune.webp", 
         title: "Dune", 
-        description: "TBA",
+        description: descriptions.dune,
         storageLocation: "Bottom Shelf Locker G-Right",
+        tags: {storageLocker: "Licker G-Right",
+            complexity: "Heavy",
+            players: max_players.six,
+            genres: [game_genres.based_on_a_book, game_genres.bluffing, game_genres.political, game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/duneImperium.jpeg", 
         title: "Dune: Imperium", 
-        description: "TBA",
+        description: descriptions.duneImperium,
         storageLocation: "Bottom Shelf Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.based_on_a_book, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/eclipse.jpeg",
         title: "Eclipse",
-        description: "TBA",
+        description: descriptions.eclipse,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.six,
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/eldritchHorror.jpeg",
         title: "Eldritch Horror",
-        description: "TBA",
-        storageLocation: "2nd Shelf Locker G-Left"
+        description: descriptions.eldritchHorror,
+        storageLocation: "2nd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Heavy",
+            players: max_players.seven_plus,
+            genres: [game_genres.adventure, game_genres.based_on_a_book, game_genres.cooperative, game_genres.horror]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/eldritchHorrorMountainsOfMadness.png",
