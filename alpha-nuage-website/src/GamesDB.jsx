@@ -1002,38 +1002,68 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/eldritchHorrorMountainsOfMadness.png",
         title: "Eldritch Horror: Mountains of Madness",
-        description: "TBA",
-        storageLocation: "2nd Shelf Locker G-Left"
+        description: descriptions.eldritchHorrorMountainsOfMadness,
+        storageLocation: "2nd Shelf Locker G-Left",
+        tags: {storageLocker: "Locker G-Left",
+            complexity: "Heavy",
+            players: max_players.seven_plus,
+            genres: [game_genres.adventure, game_genres.based_on_a_book, game_genres.cooperative, game_genres.expansion, game_genres.horror]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/everdell.jpeg", 
         title: "Everdell", 
-        description: "TBA",
+        description: descriptions.everdell,
         storageLocation: "Below Drawers Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.animals, game_genres.card_game, game_genres.fantasy, game_genres.family_game, game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/everdellBellfaire.jpeg", 
         title: "Everdell: Bellfaire", 
-        description: "TBA",
+        description: descriptions.everdellBellfaire,
         storageLocation: "Below Drawers Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.animals, game_genres.card_game, game_genres.expansion, game_genres.fantasy, game_genres.family_game, game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/everdellNewLeaf.jpeg", 
         title: "Everdell: New Leaf", 
-        description: "TBA",
+        description: descriptions.everdellNewLeaf,
         storageLocation: "Below Drawers Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.animals, game_genres.card_game, game_genres.expansion, game_genres.fantasy, game_genres.family_game, game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/evolution.jpeg", 
         title: "Evolution", 
-        description: "TBA",
+        description: descriptions.evolution,
         storageLocation: "Below Drawers Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.adventure, game_genres.animals, game_genres.card_game, game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/explodingKittens.jpeg", 
         title: "Exploding Kittens", 
-        description: "TBA",
+        description: descriptions.explodingKittens,
         storageLocation: "Top Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.animals, game_genres.card_game, game_genres.humor, game_genres.party_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/fitToPrint.jpeg",
