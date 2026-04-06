@@ -1,5 +1,4 @@
 import {useState} from "react";
-import TopMenu from "./components/TopMenu.jsx";
 import NewTopMenu from "./components/NewTopMenu.jsx";
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
@@ -13,7 +12,7 @@ function App() {
     <div className={`page-${page}`}>
       <NewTopMenu onNavigate={setPage} currentPage={page} />
 
-      {page === "home" && <Home></Home>}
+      {page === "home" && <Home onNavigate={setPage}></Home>}
       {page === "about" && <About></About>}
       {page === "games" && <Games></Games>}
     </div>
