@@ -1068,8 +1068,13 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/fitToPrint.jpeg",
         title: "Fit to Print",
-        description: "TBA",
+        description: descriptions.fitToPrint,
         storageLocation: "2nd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.animals, game_genres.family_game, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/fiveTribes.jpeg",
