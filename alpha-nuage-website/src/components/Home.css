@@ -29,7 +29,7 @@
   margin: 0;
 }
 
-/* ── Photo Carousel ─────────────────────────────── */
+/* ── Who Carousel ───────────────────────────────── */
 .carousel {
   flex: 1;
   position: relative;
@@ -46,7 +46,6 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: opacity 0.3s ease;
 }
 
 .carousel-btn {
