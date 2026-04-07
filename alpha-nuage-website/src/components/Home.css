@@ -1,10 +1,112 @@
-/* Stats Bar */
+/* ── Who Are We? ────────────────────────────────── */
+.who-section {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  margin: 48px 40px;
+}
+
+.who-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.who-heading {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.who-body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.75;
+  margin: 0;
+}
+
+/* ── Photo Carousel ─────────────────────────────── */
+.carousel {
+  flex: 1;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  aspect-ratio: 4 / 3;
+  background: #f0f0f0;
+  align-self: flex-start;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+  z-index: 2;
+}
+
+.carousel-btn:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-btn--prev { left: 10px; }
+.carousel-btn--next { right: 10px; }
+
+.carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 2;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.15s;
+}
+
+.carousel-dot--active {
+  background: white;
+}
+
+/* ── Stats Bar ──────────────────────────────────── */
 .stats-bar {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
-  margin: 24px 40px;
+  gap: 10px;
+  margin-top: 8px;
 }
 
 .stat-pill {
@@ -14,17 +116,17 @@
   background: white;
   border: 1.5px solid hsl(0, 0%, 88%);
   border-radius: 999px;
-  padding: 10px 22px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 8px 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   font-family: Arial, sans-serif;
 }
 
 .stat-pill-icon {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .stat-pill-label {
-  font-size: 13px;
+  font-size: 11px;
   color: #888;
   font-weight: 500;
   text-transform: uppercase;
@@ -32,14 +134,90 @@
 }
 
 .stat-pill-value {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   color: #1a1a1a;
 }
 
-/* Featured Game Spotlight */
+/* ── Timeline + Featured row ────────────────────── */
+.timeline-featured-row {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  margin: 0 40px 56px;
+}
+
+/* ── Events Timeline ────────────────────────────── */
+.timeline-section {
+  flex: 1.4;
+  margin: 0;
+}
+
+.timeline-heading {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 32px 0;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 28px;
+  border-left: 2px solid hsl(180, 100%, 38%);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -36px;
+  top: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: hsl(180, 100%, 38%);
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px hsl(180, 100%, 38%);
+}
+
+.timeline-date {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #aaa;
+}
+
+.timeline-label {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.timeline-desc {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── Featured Game Spotlight ────────────────────── */
 .featured-section {
-  margin: 32px 40px 48px;
+  flex: 1;
+  margin: 0;
 }
 
 .featured-heading {
@@ -54,19 +232,17 @@
 
 .featured-card {
   display: flex;
-  gap: 32px;
+  flex-direction: column;
   background: white;
   border: 1.5px solid hsl(0, 0%, 88%);
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  max-width: 780px;
 }
 
 .featured-image {
-  width: 220px;
-  min-width: 220px;
-  max-height: 320px;
+  width: 100%;
+  max-height: 220px;
   object-fit: contain;
   background: #f7f7f7;
   padding: 20px;
@@ -74,11 +250,10 @@
 }
 
 .featured-content {
-  padding: 28px 28px 28px 0;
+  padding: 20px 24px 24px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  justify-content: center;
+  gap: 10px;
 }
 
 .featured-title {
