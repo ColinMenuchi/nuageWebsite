@@ -1,0 +1,38 @@
+import descriptions from "./GameDescriptions";
+
+const TIMELINE_EVENTS = [
+    { date: "Friday, January 9th", label: "Learning Night 1", description: "Kick off the semester with use by coming to NUAGE and learning a new game!" },
+    { date: "Saturday, January 10th", label: "Learning Night 2", description: "Kick off the semester with use by coming to NUAGE and learning a new game!" },
+    { date: "Friday, January 16th", label: "Winter Wonderland", description: "Celebrate winter with us by trying out all our winter/cold themed games!" },
+    { date: "Saturday, January 17th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+    { date: "Friday, January 23rd", label: "Break the Ice Night", description: "New to NUAGE? Tonight is all about fixing that by breaking the ice!" },
+    { date: "Saturday, January 24th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+    { date: "Friday, January 30th", label: "Dungeon Diving Night", description: "Greetings fair adventurers! Have you a moment to partake in my side-quest?" },
+    { date: "Saturday, January 31st", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+    { date: "Friday, February 6th", label: "Pajoker Night", description: "Pajamas and poker without the money. Can't get any more high/low risk than that!" },
+    { date: "Saturday, February 7th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+    { date: "Friday, February 13th", label: "Pride Night", descriptions: "Join us to celebrate Pride! We'll be having a fundraiser where we'll be donating all profits to the Okra Project" },
+    { date: "Saturday, February 14th", label: "Be Our Valentine", description: "This is your official offer to go on a date with NUAGE. What/where are we eating? Pizza in Forsyth 201." },
+    { date: "Friday, February 20th", label: "Friendship is Magic Night", description: "Something, something, ummmm, My Little Pony?!?!?" },
+    { date: "Saturday, February 21st", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+    { date: "Friday February 27th", label: "Deep Cut Night", description: "We're playing games you've probably never heard of, BUT YOU CAN FIX THAT BY CHECKING THE \"GAMES\" PAGE!!!!!" },
+    { date: "Saturday, February 28th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+    { date: "Friday, March 6th", label: "Spring Break Night", description: "Casual Game Night but Spring Break is here, who wants to go to Foxwoods?" },
+    { date: "Saturday, March 7th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+    { date: "Friday, March 13th", label: "Push Your Luck Night", description: "Pajoker Night :) Minus Pajama :(" },
+    { date: "Saturday, March 14th", label: "Video Game Night", description: "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/" },
+    { date: "Friday, March 20th", label: "Presentation Night", description: "Make a board game themed presentation and share it with the club!" },
+    { date: "Saturday, March 21st", label: "Extended Game Day", description: "Club runs from 12pm to 12am. This is your chance to play Twilight Imperium." },
+    { date: "Friday, March 27th", label: "Member Owned Game Night", description: "John Company! Sidereal Confluence! The Gang! Oh, wait, no, we own that one now." },
+    { date: "Saturday, March 28th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+    { date: "Friday, April 3rd", label: "Fine Dining Night", descriptions: "Scrumptious." },
+    { date: "Friday, April 4th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+    { date: "Friday, April 10th", label: "Tournament Night", description: "Skull Emoji" },
+    { date: "Saturday, April 11th", label: "Gnome Bingo", description: "You just got gnomed... BINGO!" },
+    { date: "Friday, April 17th", label: "Election Night", description: "The future is in your hands....." },
+    { date: "Saturday, April 18th", label: "The Game Awards", description: "Yes, it's as it sounds." },
+    { date: "Friday, April 24th", label: "Serious Game Night", descriptions: "Play to win like your life depends on it... It does." },
+    { date: "Saturday, April 25th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
+]
+
+export default TIMELINE_EVENTS

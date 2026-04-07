@@ -8,6 +8,7 @@ import wingspan from '../assets/gamePhotos/wingspan.jpeg'
 import ticketToRide from '../assets/gamePhotos/ticketToRide.jpeg'
 import catan from '../assets/gamePhotos/catan.webp'
 import './Home.css'
+import TIMELINE_EVENTS from '../timelineEvents.jsx'
 
 const WHO_PHOTOS = [
   { src: azul, alt: "Azul" },
@@ -21,15 +22,6 @@ const STATS = [
   { icon: "📅", label: "Game Nights", value: "Fri & Sat at 7PM" },
   { icon: "📍", label: "Location", value: "Forsyth Building, Room 201" },
   { icon: "🎉", label: "Membership", value: "Free to Join" },
-]
-
-const TIMELINE_EVENTS = [
-  { date: "Sep 2024", label: "Fall Kickoff Night", description: "Welcomed new and returning members with open game tables and a raffle." },
-  { date: "Oct 2024", label: "Halloween Game Night", description: "Themed games, costumes encouraged — Betrayal at House on the Hill was the fan favorite." },
-  { date: "Nov 2024", label: "Tournament Weekend", description: "Friendly single-elimination brackets across four different games." },
-  { date: "Jan 2025", label: "Spring Semester Kickoff", description: "Returned from break with new game additions to the collection." },
-  { date: "Feb 2025", label: "Valentine's Day Game Night", description: "Two-player cooperative games and team matchups for the evening." },
-  { date: "Apr 2025", label: "End of Year Celebration", description: "Wrap-up event with a best-of-year tournament and farewell to graduating seniors." },
 ]
 
 function Home({ onNavigate }) {
