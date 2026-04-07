@@ -27,6 +27,7 @@ const game_genres = {
     social_deduction: "Social Deduction",
     sports: "Sports",
     strategy: "Strategy",
+    uncategorized: "Uncategorized",
     word_game: "Word Game",
 }
 
@@ -1079,32 +1080,57 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/fiveTribes.jpeg",
         title: "Five Tribes",
-        description: "TBA",
+        description: descriptions.fiveTribes,
         storageLocation: "Top Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/fogOfLove.jpeg",
         title: "Fog of Love",
-        description: "TBA",
+        description: descriptions.fogOfLove,
         storageLocation: "Bottom Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Modest",
+            players: max_players.two,
+            genres: [game_genres.bluffing, game_genres.card_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/foodChainMagnate.jpeg",
         title: "Food Chain Magnate",
-        description: "TBA",
+        description: descriptions.foodChainMagnate,
         storageLocation: "3rd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Super Heavy",
+            players: max_players.five,
+            genres: [game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/forestShuffle.webp", 
         title: "Forest Shuffle", 
-        description: "TBA",
+        description: descriptions.forestShuffle,
         storageLocation: "Bottom Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.animals, game_genres.card_game, game_genres.family_game, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/formaggio.jpeg",
         title: "Formaggio",
-        description: "TBA",
-        storageLocation: "Top Shelf Locker B"
+        description: descriptions.formaggio,
+        storageLocation: "Top Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.uncategorized]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/fromage.jpeg",
