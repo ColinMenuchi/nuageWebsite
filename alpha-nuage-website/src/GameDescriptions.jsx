@@ -99,6 +99,7 @@ const descriptions = {
     foodChainMagnate: "Food Chain Magnate is a heavy strategy game about building a fast food chain. The focus is on building your company using a card-driven (human) resource management system. Players compete on a variable city map through purchasing, marketing and sales, and on a job market for key staff members. The game can be played by 2-5 serious gamers in 2-4 hours.",
     forestShuffle: "In Forest Shuffle, players compete to gather the most valuable trees, then attract species to these trees, thus creating an ecologically balanced habitat for flora and fauna.",
     formaggio: "Formaggio is a simultaneous worker-placement game where players place Workers to make cheese and gather resources from the quadrant of the board facing them. Once all players have placed their Workers, the board rotates, aging any cheese that was made, and presenting each player with a new quadrant to place Workers into. Score Prestige Points by selling cheese to the four locations, and by efficiently managing and upgrading your creamery.",
+    fromage: "Fromage is a simultaneous worker-placement game where players place Workers to make cheese and gather resources from the quadrant of the board facing them. Once all players have placed their Workers, the board rotates, aging any cheese that was made, and presenting each player with a new quadrant to place Workers into. Score Prestige Points by selling cheese to the four locations, and by efficiently managing and upgrading your creamery.",
     
 
 }

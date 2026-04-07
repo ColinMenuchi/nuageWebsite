@@ -1135,8 +1135,13 @@ const games_database = [
     { 
         imagePath: "./src/assets/gamePhotos/fromage.jpeg",
         title: "Fromage", 
-        description: "TBA",
+        description: descriptions.fromage,
         storageLocation: "Top Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.strategy]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/funemployed.jpeg", 
