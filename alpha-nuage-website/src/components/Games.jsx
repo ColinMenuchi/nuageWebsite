@@ -30,6 +30,7 @@ function Games() {
         "Social Deduction",
         "Sports",
         "Strategy",
+        "Uncategorized",
         "Word Game",
     ]
 
@@ -128,7 +129,7 @@ function Games() {
                     <div className="filter-section">
                         <p className="filter-section-title">Complexity</p>
                         <div className="filter-chips">
-                            {["Light", "Modest", "Heavy"].map(level => (
+                            {["Light", "Modest", "Heavy", "Super Heavy"].map(level => (
                                 <span className="filter-chip" key={level}>
                                     <input
                                         type="checkbox"
