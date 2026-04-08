@@ -31,7 +31,7 @@ const TIMELINE_EVENTS = [
     { date: "Saturday, April 11th", label: "Gnome Bingo", description: "You just got gnomed... BINGO!" },
     { date: "Friday, April 17th", label: "Election Night", description: "The future is in your hands....." },
     { date: "Saturday, April 18th", label: "The Game Awards", description: "Yes, it's as it sounds." },
-    { date: "Friday, April 24th", label: "Serious Game Night", descriptions: "Play to win like your life depends on it... It does." },
+    { date: "Friday, April 24th", label: "Serious Game Night", description: "Play to win like your life depends on it... It does." },
     { date: "Saturday, April 25th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
 ]
 
