@@ -25,7 +25,7 @@ const TIMELINE_EVENTS = [
     { date: "Saturday, March 21st", label: "Extended Game Day", description: "Club runs from 12pm to 12am. This is your chance to play Twilight Imperium." },
     { date: "Friday, March 27th", label: "Member Owned Game Night", description: "John Company! Sidereal Confluence! The Gang! Oh, wait, no, we own that one now." },
     { date: "Saturday, March 28th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
-    { date: "Friday, April 3rd", label: "Fine Dining Night", descriptions: "Scrumptious." },
+    { date: "Friday, April 3rd", label: "Fine Dining Night", description: "Scrumptious." },
     { date: "Friday, April 4th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
     { date: "Friday, April 10th", label: "Tournament Night", description: "Skull Emoji" },
     { date: "Saturday, April 11th", label: "Gnome Bingo", description: "You just got gnomed... BINGO!" },
