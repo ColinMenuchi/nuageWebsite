@@ -22,6 +22,8 @@ const STATS = [
   { icon: "📅", label: "Game Nights", value: "Fri & Sat at 7PM" },
   { icon: "📍", label: "Location", value: "Forsyth Building, Room 201" },
   { icon: "🎉", label: "Membership", value: "Free to Join" },
+  { icon: "📷", label: "Instagram", value: "Over 1,000 Followers" },
+  { icon: "🎮", label: "Discord", value: "Over 1,400 Members"}
 ]
 
 function Home({ onNavigate }) {
@@ -112,7 +114,7 @@ function Home({ onNavigate }) {
 
       {/* Featured Game Spotlight */}
       <div className="featured-section">
-        <p className="featured-heading">Featured Game</p>
+        <p className="featured-heading">You Should Check Out:</p>
         <div className="featured-card">
           <img
             className="featured-image"
