@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 // import Header from './Header.jsx'
 // import Subheader from './Subheader.jsx'
 import games_database from '../GamesDB.jsx'
@@ -78,13 +78,19 @@ const STATS = [
   { icon: "📍", label: "Location", value: "Forsyth Building, Room 201" },
   { icon: "🎉", label: "Membership", value: "Free to Join" },
   { icon: "📷", label: "Instagram", value: "Over 1,000 Followers" },
-  { icon: "🎮", label: "Discord", value: "Over 1,400 Members"}
+  { icon: "🎮", label: "Discord", value: "Over 1,400 Members"},
+  { icon: "📈", label: "(We Don't Own This Game)", value: "John Company"}
 ]
 
 function Home({ onNavigate }) {
   const [carouselIndex, setCarouselIndex] = useState(0);
   const prevPhoto = () => setCarouselIndex(i => (i - 1 + WHO_PHOTOS.length) % WHO_PHOTOS.length);
   const nextPhoto = () => setCarouselIndex(i => (i + 1) % WHO_PHOTOS.length);
+
+  useEffect(() => {
+    const interval = setInterval(nextPhoto, 4000);
+    return () => clearInterval(interval);
+  }, []);
 
   const featuredGame = useMemo(() => {
     const i = Math.floor(Math.random() * games_database.length);
@@ -111,8 +117,9 @@ function Home({ onNavigate }) {
             games almost as much as we love playing them.
           </p>
           <p className="who-body">
-            Our mission is to build a diverse community of students who enjoy puzzle and
-            logic-based games. No experience required. Just show up and have fun.
+            Our mission is to build a diverse community of students who enjoy all sorts of games!
+            Whether you prefer playing abstract strategy games, hilarious party games, or John Company,
+            NUAGE welcomes you. No experience required. Just show up and have fun!
           </p>
 
           {/* Stats embedded in the who section */}
