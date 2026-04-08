@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./NewTopMenu.css";
 import instagramLogo from "../assets/instagramLogo.png";
 import discordLogo from "../assets/discordLogo.png";
+import nuageLogo from "../assets/nuageLogo.png";
 
 const NAV_PAGES = [
   { label: "Home",     page: "home", color: "cyan" },
@@ -11,6 +12,7 @@ const NAV_PAGES = [
 ];
 
 const SOCIAL_LINKS = [
+  { label: "Submit Feedback", href: "https://www.minecraft.net/en-us", color: "cyan", icon: nuageLogo },
   { label: "Instagram", href: "https://www.instagram.com/gamingnu?igsh=ZWh0anczc2cyZmQy", color: "deeppink", icon: instagramLogo, iconZoom: 1.5 },
   { label: "Discord",   href: "https://discord.gg/hrgVQjEx7d", color: "mediumpurple", icon: discordLogo },
 ];
