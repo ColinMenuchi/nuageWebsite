@@ -101,7 +101,12 @@ const descriptions = {
     formaggio: "Formaggio is a simultaneous worker-placement game where players place Workers to make cheese and gather resources from the quadrant of the board facing them. Once all players have placed their Workers, the board rotates, aging any cheese that was made, and presenting each player with a new quadrant to place Workers into. Score Prestige Points by selling cheese to the four locations, and by efficiently managing and upgrading your creamery.",
     fromage: "Fromage is a simultaneous worker-placement game where players place Workers to make cheese and gather resources from the quadrant of the board facing them. Once all players have placed their Workers, the board rotates, aging any cheese that was made, and presenting each player with a new quadrant to place Workers into. Score Prestige Points by selling cheese to the four locations, and by efficiently managing and upgrading your creamery.",
     
+    harmonies: "In Harmonies, build landscapes by placing colored tokens and create habitats for your animals. To earn the most points and win the game, incorporate the habitats in your landscapes wisely and have as many animals as you can settle there.",
 
+    spiritIsland: "Spirit Island is a complex and thematic co-operative game about defending your island home from colonizing Invaders. Players are different spirits of the land, each with its own unique elemental powers. Every turn, players simultaneously choose which of their power cards to play, paying energy to do so. Using combinations of power cards that match a spirit's elemental affinities can grant free bonus effects. Faster powers take effect immediately, before the Invaders spread and ravage, but other magics are slower, requiring forethought and planning to use effectively. In the Spirit phase, spirits gain energy, and choose how / whether to Grow: to reclaim used power cards, to seek new power, or to spread their presence into new areas of the island.",
+
+    slayTheSpire: "Slay the Spire: The Board Game is a co-operative deck-building, dungeon-crawling adventure. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and finally become strong enough to slay the Spire!",
+    
 }
 
 export default descriptions;

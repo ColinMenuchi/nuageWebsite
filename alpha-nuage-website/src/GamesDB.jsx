@@ -1200,8 +1200,13 @@ const games_database = [
     {
         imagePath: "./src/assets/gamePhotos/harmonies.jpeg",
         title: "Harmonies",
-        description: "TBA",
+        description: descriptions.harmonies,
         storageLocation: "4th Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.animals, game_genres.family_game, game_genres.puzzle_game]
+        }
     },
     { 
         imagePath: "./src/assets/gamePhotos/heat.jpeg", 
@@ -1668,8 +1673,13 @@ const games_database = [
     { 
         imagePath: "./src/assets/gamePhotos/slayTheSpire.jpeg", 
         title: "Slay the Spire", 
-        description: "TBA",
+        description: descriptions.slayTheSpire,
         storageLocation: "Bottom Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.card_game, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/smallworld.jpeg",
@@ -1704,8 +1714,13 @@ const games_database = [
     { 
         imagePath: "./src/assets/gamePhotos/spiritIsland.webp",
         title: "Spirit Island", 
-        description: "TBA",
+        description: descriptions.spiritIsland,
         storageLocation: "Bottom Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Super Heavy",
+            players: max_players.four,
+            genres: [game_genres.cooperative, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: "./src/assets/gamePhotos/spiritIslandFeatherAndFlame.webp",
