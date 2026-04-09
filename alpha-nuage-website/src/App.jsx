@@ -15,6 +15,7 @@ function App() {
       {page === "home" && <Home onNavigate={setPage}></Home>}
       {page === "about" && <About></About>}
       {page === "games" && <Games></Games>}
+      {page === "donate" && <h1>But no one came.</h1>}
     </div>
   )
 }
