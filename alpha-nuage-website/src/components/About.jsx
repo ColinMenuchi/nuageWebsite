@@ -8,7 +8,21 @@ function About() {
 
     const taiText = "Kimberly is a 3rd year at Northeastern studying Data Science & Business Administration! " +
                     "A fun fact about her is that she knows way too much about our club's locker system. " +
-                    "Her keys are ordered \"alphabetically\" and to her it makes perfect sense."
+                    "Her keys are ordered \"alphabetically\" and to her it makes perfect sense.";
+    const adlerText = "Oscar is a 3rd year at Northeastern majoring in Chemical Engineering! " + 
+                    "A fun fact about him is he has a gold framed trichromatic portrait of a tiger that he made. " +
+                    "His name is Roscoe.";
+    const davisText = "Matt is a 2nd year at Northeastern studying Electrical & Computer Engineering! " +
+                    "A fun fact he likes is that \"Northeastern University is primarily remwoend for its " +
+                    "top-ranked experiential learning model, featuring a robust cooperative educa-...\"";
+    const troanText = "Colin is a 2nd year at Northeastern studying Math & Economics! A fun fact about " +
+                    "him is that he used to be an acrobat.";
+    const hendersonText = "Ellie is a 2nd year at Northeastern studying Behavioral Neuroscience and Design! " +
+                    "A fun fact she likes is that leaf cutter ants don't actually eat leaves!";
+    const menuchiText = "Colin is a 3rd year at Northeastern studying Computer Science! A fun fact he likes " +
+                    "is that he built and now controls this website. Therefore, he can say whatever he wants here. " +
+                    "Guys I’m gonna do it, I’m gonna say a cuss word. Here goes noth- oh hi Kimberly! What’s that? " +
+                    "Uh huh, uh huh. Oh, um, ok. Sorry guys, never mind. 😔"
 
     return(
     <div className="about-page">
@@ -42,11 +56,11 @@ function About() {
         <h1 className="about-heading">Meet Our eBoard</h1>
         <div className="about-eboard-grid">
             <EBoardPopUp imagePath="./src/assets/eBoardPhotos/kimberlyTai.jpeg" title="Kimberly Tai" cardText="Club President and Forest Shuffle Enthusiast" popUpText={taiText} favoriteGame={findGame("Forest Shuffle")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/oscarAdler.jpeg" title="Oscar Adler" cardText="Club Vice President and Ark Nova Enjoyer" popUpText="Idk man..... :/" favoriteGame={findGame("Ark Nova")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinTroan.jpeg" title="Colin Troan" cardText="Club Treasurer and Slay the Spire Fanatic" popUpText="Idk man..... :/" favoriteGame={findGame("Slay the Spire")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/mattDavis.jpeg" title="Matt Davis" cardText="Club Secretary and Spirit Island Addict" popUpText="Idk man..... :/" favoriteGame={findGame("Spirit Island")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/ellieHenderson.jpeg" title="Ellie Henderson" cardText="Club Game Master and Harmonies Connoissuer" popUpText="Idk man..... :/" favoriteGame={findGame("Harmonies")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinMenuchi.jpeg" title="Colin Menuchi" cardText="Club PR Director and Chess Grandmaster" popUpText="Idk man..... :/" favoriteGame={findGame("Chess")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/oscarAdler.jpeg" title="Oscar Adler" cardText="Club Vice President and Ark Nova Enjoyer" popUpText={adlerText} favoriteGame={findGame("Ark Nova")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinTroan.jpeg" title="Colin Troan" cardText="Club Treasurer and Slay the Spire Fanatic" popUpText={troanText} favoriteGame={findGame("Slay the Spire")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/mattDavis.jpeg" title="Matt Davis" cardText="Club Secretary and Spirit Island Addict" popUpText={davisText} favoriteGame={findGame("Spirit Island")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/ellieHenderson.jpeg" title="Ellie Henderson" cardText="Club Game Master and Harmonies Connoissuer" popUpText={hendersonText} favoriteGame={findGame("Harmonies")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinMenuchi.jpeg" title="Colin Menuchi" cardText="Club PR Director and Chess Grandmaster" popUpText={menuchiText} favoriteGame={findGame("Chess")} />
         </div>
     </div>
     );
