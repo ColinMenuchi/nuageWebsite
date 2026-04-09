@@ -104,6 +104,8 @@ function Games() {
         >
             Browse Our Game Collection:
         </h1>
+        <p style={{ marginLeft: "50px"}}
+        >Only about 1/3 of our games have a completed entry and can show up when applying filters. Click on a game to view its entry.</p>
 
         {/* Search Bar */}
         <input
@@ -128,6 +130,7 @@ function Games() {
                 <div className="filter-panel">
                     <div className="filter-section">
                         <p className="filter-section-title">Complexity</p>
+                        <p className="filter-section-subtitle">Only displays games that fit at least one selected complexity.</p>
                         <div className="filter-chips">
                             {["Light", "Modest", "Heavy", "Super Heavy"].map(level => (
                                 <span className="filter-chip" key={level}>
@@ -152,6 +155,7 @@ function Games() {
 
                     <div className="filter-section">
                         <p className="filter-section-title">Max Players</p>
+                        <p className="filter-section-subtitle">Only displays games that fit at least one selected max player count.</p>
                         <div className="filter-chips">
                             {max_players.map(num => (
                                 <span className="filter-chip" key={num}>
@@ -176,6 +180,7 @@ function Games() {
 
                     <div className="filter-section">
                         <p className="filter-section-title">Genre</p>
+                        <p className="filter-section-subtitle">Only displays games that fit every selected genre.</p>
                         <div className="filter-chips">
                             {game_genres.map(genre => (
                                 <span className="filter-chip" key={genre}>
@@ -200,6 +205,7 @@ function Games() {
 
                     <div className="filter-section">
                         <p className="filter-section-title">Storage Location</p>
+                        <p className="filter-section-subtitle">Only displays games that fit at least one selected storage location.</p>
                         <div className="filter-chips">
                             {["Locker E", "Locker G-Left", "Locker G-Right",
                                 "Locker C", "Locker B", "Locker B Drawers", "Locker F"].map(locker => (
