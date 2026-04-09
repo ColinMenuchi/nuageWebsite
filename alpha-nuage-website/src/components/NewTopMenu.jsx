@@ -12,7 +12,7 @@ const NAV_PAGES = [
 ];
 
 const SOCIAL_LINKS = [
-  { label: "Submit Feedback", href: "https://www.minecraft.net/en-us", color: "cyan", icon: nuageLogo },
+  { label: "Submit Feedback", href: "https://docs.google.com/forms/d/e/1FAIpQLSdTJLbNU3rxE3XP4bc_tzeD-AATxN5yFkR23ejx8rNTh5FuMg/viewform?usp=publish-editor", color: "cyan", icon: nuageLogo },
   { label: "Instagram", href: "https://www.instagram.com/gamingnu?igsh=ZWh0anczc2cyZmQy", color: "deeppink", icon: instagramLogo, iconZoom: 1.5 },
   { label: "Discord",   href: "https://discord.gg/hrgVQjEx7d", color: "mediumpurple", icon: discordLogo },
 ];
