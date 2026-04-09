@@ -93,6 +93,15 @@
   font-family: Arial, sans-serif;
 }
 
+.filter-section-subtitle {
+  font-size: 10px;
+  font-weight: 350;
+  letter-spacing: 0.04cm;
+  color: #aaa;
+  margin: 0 0 10px 0;
+  font-family: Arial, sans-serif;
+}
+
 /* Chips */
 .filter-chips {
   display: flex;
