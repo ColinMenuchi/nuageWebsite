@@ -64,3 +64,135 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+
+/* ── EBoard Popup ───────────────────────────────── */
+.eboard-popup {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  position: relative;
+  max-width: 1000px;
+  width: 90vw;
+  overflow: hidden;
+}
+
+.eboard-popup-inner {
+  display: flex;
+  align-items: stretch;
+}
+
+.eboard-popup-left {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  min-width: 280px;
+  border-right: 1px solid #eee;
+}
+
+.eboard-popup-photo {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.eboard-popup-bio {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.eboard-popup-name {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  padding-right: 24px;
+}
+
+.eboard-popup-text {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #444;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Right: game preview */
+.eboard-popup-game {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 12px;
+  overflow-y: auto;
+  max-height: 520px;
+}
+
+.eboard-popup-game-label {
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #aaa;
+  margin: 0;
+}
+
+.eboard-popup-game-card {
+  display: flex;
+  flex-direction: column;
+  border: 1.5px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  flex: 1;
+}
+
+.eboard-popup-game-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  background: white;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.eboard-popup-game-content {
+  padding: 16px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f7f7f7;
+  flex: 1;
+}
+
+.eboard-popup-game-title {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.eboard-popup-game-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.eboard-popup-game-desc {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  color: #555;
+  line-height: 1.7;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

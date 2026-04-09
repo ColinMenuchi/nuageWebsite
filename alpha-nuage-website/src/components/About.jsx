@@ -1,5 +1,8 @@
-import AboutPopUp from "./AboutPopUp.jsx"
+import EBoardPopUp from "./EBoardPopUp.jsx"
+import games_database from "../GamesDB.jsx"
 import "./About.css"
+
+const findGame = (title) => games_database.find(g => g.title === title)
 
 function About() {
 
@@ -38,12 +41,12 @@ function About() {
 
         <h1 className="about-heading">Meet Our eBoard</h1>
         <div className="about-eboard-grid">
-            <AboutPopUp imagePath="./src/assets/eBoardPhotos/kimberlyTai.jpeg" title="Kimberly Tai" cardText="Club President and Forest Shuffle Enthusiast" popUpText={taiText} />
-            <AboutPopUp imagePath="./src/assets/eBoardPhotos/oscarAdler.jpeg" title="Oscar Adler" cardText="Club Vice President and Ark Nova Enjoyer" popUpText="Idk man..... :/" />
-            <AboutPopUp imagePath="./src/assets/eBoardPhotos/colinTroan.jpeg" title="Colin Troan" cardText="Club Treasurer and Slay the Spire Fanatic" popUpText="Idk man..... :/" />
-            <AboutPopUp imagePath="./src/assets/eBoardPhotos/mattDavis.jpeg" title="Matt Davis" cardText="Club Secretary and Spirit Island Addict" popUpText="Idk man..... :/" />
-            <AboutPopUp imagePath="./src/assets/eBoardPhotos/ellieHenderson.jpeg" title="Ellie Henderson" cardText="Club Game Master and Harmonies Connoissuer" popUpText="Idk man..... :/" />
-            <AboutPopUp imagePath="./src/assets/eBoardPhotos/colinMenuchi.jpeg" title="Colin Menuchi" cardText="Club PR Director and Chess Grandmaster" popUpText="Idk man..... :/" />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/kimberlyTai.jpeg" title="Kimberly Tai" cardText="Club President and Forest Shuffle Enthusiast" popUpText={taiText} favoriteGame={findGame("Forest Shuffle")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/oscarAdler.jpeg" title="Oscar Adler" cardText="Club Vice President and Ark Nova Enjoyer" popUpText="Idk man..... :/" favoriteGame={findGame("Ark Nova")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinTroan.jpeg" title="Colin Troan" cardText="Club Treasurer and Slay the Spire Fanatic" popUpText="Idk man..... :/" favoriteGame={findGame("Slay the Spire")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/mattDavis.jpeg" title="Matt Davis" cardText="Club Secretary and Spirit Island Addict" popUpText="Idk man..... :/" favoriteGame={findGame("Spirit Island")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/ellieHenderson.jpeg" title="Ellie Henderson" cardText="Club Game Master and Harmonies Connoissuer" popUpText="Idk man..... :/" favoriteGame={findGame("Harmonies")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinMenuchi.jpeg" title="Colin Menuchi" cardText="Club PR Director and Chess Grandmaster" popUpText="Idk man..... :/" favoriteGame={findGame("Chess")} />
         </div>
     </div>
     );
