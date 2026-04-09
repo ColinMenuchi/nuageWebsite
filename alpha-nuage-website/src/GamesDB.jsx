@@ -409,7 +409,7 @@ const games_database = [
         imagePath: "./src/assets/gamePhotos/bloodOnTheClocktower.jpeg",
         title: "Blood on the Clocktower",
         description: descriptions.bloodOnTheClocktower,
-        storageLocation: "BeLight Drawers Locker G-Right",
+        storageLocation: "Below Drawers Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
             complexity: "Modest",
             players: max_players.seven_plus,
