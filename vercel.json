@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd alpha-nuage-website && npm install && npm run build",
+  "outputDirectory": "alpha-nuage-website/dist"
+}
