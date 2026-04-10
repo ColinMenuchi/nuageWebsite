@@ -11,7 +11,7 @@ const TIMELINE_EVENTS = [
     { date: "Saturday, January 31st", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
     { date: "Friday, February 6th", label: "Pajoker Night", description: "Pajamas and poker without the money. Can't get any more high/low risk than that!" },
     { date: "Saturday, February 7th", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
-    { date: "Friday, February 13th", label: "Pride Night", descriptions: "Join us to celebrate Pride! We'll be having a fundraiser where we'll be donating all profits to the Okra Project" },
+    { date: "Friday, February 13th", label: "Pride Night", description: "Join us to celebrate Pride! We'll be having a fundraiser where we'll be donating all profits to the Okra Project" },
     { date: "Saturday, February 14th", label: "Be Our Valentine", description: "This is your official offer to go on a date with NUAGE. What/where are we eating? Pizza in Forsyth 201." },
     { date: "Friday, February 20th", label: "Friendship is Magic Night", description: "Something, something, ummmm, My Little Pony?!?!?" },
     { date: "Saturday, February 21st", label: "Casual Game Night", description: "Join us purely for the sake of having fun! Tonight is all about playing the games you want to play!" },
