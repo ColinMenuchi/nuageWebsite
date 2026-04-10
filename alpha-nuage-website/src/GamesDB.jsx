@@ -3,6 +3,271 @@
 {/* Figure out what "Castles of Burgundy" is in Locker E 2nd Shelf */}
 
 import descriptions from "./GameDescriptions.jsx";
+import img5minuteDungeon from "./assets/gamePhotos/5minuteDungeon.jpeg";
+import img7wonders from "./assets/gamePhotos/7wonders.webp";
+import img7wondersDuel from "./assets/gamePhotos/7wondersDuel.jpeg";
+import img7wondersDuelPantheon from "./assets/gamePhotos/7wondersDuelPantheon.avif";
+import aboveAndBelow from "./assets/gamePhotos/aboveAndBelow.jpeg";
+import agathaChristiesDeathOnTheCards from "./assets/gamePhotos/agathaChristiesDeathOnTheCards.jpeg";
+import agricola from "./assets/gamePhotos/agricola.jpeg";
+import airLandAndSeaCrittersAtWar from "./assets/gamePhotos/airLandAndSeaCrittersAtWar.jpeg";
+import alhambra from "./assets/gamePhotos/alhambra.jpeg";
+import alienFrontiers from "./assets/gamePhotos/alienFrontiers.webp";
+import amerigo from "./assets/gamePhotos/amerigo.jpeg";
+import amongTheStars from "./assets/gamePhotos/amongTheStars.png";
+import amunRe from "./assets/gamePhotos/amunRe.webp";
+import anachrony from "./assets/gamePhotos/anachrony.jpeg";
+import applesToApples from "./assets/gamePhotos/applesToApples.jpeg";
+import arboretum from "./assets/gamePhotos/arboretum.jpeg";
+import architectsOfTheWestKingdom from "./assets/gamePhotos/architectsOfTheWestKingdom.jpeg";
+import arcs from "./assets/gamePhotos/arcs.webp";
+import arkNova from "./assets/gamePhotos/arkNova.jpeg";
+import arkNovaMarineWorlds from "./assets/gamePhotos/arkNovaMarineWorlds.jpeg";
+import arkhamHorror from "./assets/gamePhotos/arkhamHorror.webp";
+import arkhamHorrorDunwich from "./assets/gamePhotos/arkhamHorrorDunwich.jpeg";
+import automobiles from "./assets/gamePhotos/automobiles.png";
+import avalon from "./assets/gamePhotos/avalon.jpeg";
+import azul from "./assets/gamePhotos/azul.jpeg";
+import azulSummerPavillion from "./assets/gamePhotos/azulSummerPavillion.webp";
+import bananagrams from "./assets/gamePhotos/bananagrams.png";
+import baseballHighlights2045 from "./assets/gamePhotos/baseballHighlights2045.webp";
+import battlestarGalactica from "./assets/gamePhotos/battlestarGalactica.jpeg";
+import betrayalAtHouseOnTheHill from "./assets/gamePhotos/betrayalAtHouseOnTheHill.jpeg";
+import betweenTwoCastlesOfMadKingLudwig from "./assets/gamePhotos/betweenTwoCastlesOfMadKingLudwig.jpeg";
+import betweenTwoCities from "./assets/gamePhotos/betweenTwoCities.png";
+import bloodOnTheClocktower from "./assets/gamePhotos/bloodOnTheClocktower.jpeg";
+import bloodRage from "./assets/gamePhotos/bloodRage.webp";
+import bloodborneTheCardGame from "./assets/gamePhotos/bloodborneTheCardGame.jpeg";
+import bobRossArtOfChillGame from "./assets/gamePhotos/bobRossArtOfChillGame.jpeg";
+import bohnanza from "./assets/gamePhotos/bohnanza.jpeg";
+import brassBirmingham from "./assets/gamePhotos/brassBirmingham.jpeg";
+import brassLancashire from "./assets/gamePhotos/brassLancashire.jpeg";
+import bulletStar from "./assets/gamePhotos/bulletStar.jpeg";
+import bunnyKingdom from "./assets/gamePhotos/bunnyKingdom.jpeg";
+import bunnyKingdomInTheSky from "./assets/gamePhotos/bunnyKingdomInTheSky.webp";
+import burgleBros from "./assets/gamePhotos/burgleBros.jpeg";
+import calico from "./assets/gamePhotos/calico.jpeg";
+import canvas from "./assets/gamePhotos/canvas.jpeg";
+import captainSonar from "./assets/gamePhotos/captainSonar.webp";
+import carcassonne from "./assets/gamePhotos/carcassonne.webp";
+import cascadia from "./assets/gamePhotos/cascadia.jpeg";
+import castlesOfMadKingLudwig from "./assets/gamePhotos/castlesOfMadKingLudwig.jpeg";
+import catInTheBox from "./assets/gamePhotos/catInTheBox.webp";
+import catan from "./assets/gamePhotos/catan.webp";
+import catanStarfarers from "./assets/gamePhotos/catanStarfarers.png";
+import championsOfMidgard from "./assets/gamePhotos/championsOfMidgard.webp";
+import chess from "./assets/gamePhotos/chess.jpeg";
+import citiesOfSplendor from "./assets/gamePhotos/citiesOfSplendor.jpeg";
+import cityOfGears from "./assets/gamePhotos/cityOfGears.jpeg";
+import cityOfIron from "./assets/gamePhotos/cityOfIron.jpeg";
+import clank from "./assets/gamePhotos/clank.jpeg";
+import clue from "./assets/gamePhotos/clue.jpeg";
+import cockroachPoker from "./assets/gamePhotos/cockroachPoker.jpeg";
+import codenames from "./assets/gamePhotos/codenames.webp";
+import concept from "./assets/gamePhotos/concept.jpeg";
+import concordia from "./assets/gamePhotos/concordia.jpeg";
+import cosmicEncounter from "./assets/gamePhotos/cosmicEncounter.jpeg";
+import coup from "./assets/gamePhotos/coup.jpeg";
+import cryptid from "./assets/gamePhotos/cryptid.jpeg";
+import cthulhuWars from "./assets/gamePhotos/cthulhuWars.jpeg";
+import cthulhuWarsTchoTcho from "./assets/gamePhotos/cthulhuWarsTchoTcho.webp";
+import cyclades from "./assets/gamePhotos/cyclades.jpeg";
+import darkestNight from "./assets/gamePhotos/darkestNight.webp";
+import daybreak from "./assets/gamePhotos/daybreak.jpeg";
+import deadOfWinter from "./assets/gamePhotos/deadOfWinter.webp";
+import deckOfCards from "./assets/gamePhotos/deckOfCards.jpeg";
+import decorum from "./assets/gamePhotos/decorum.jpeg";
+import diceCity from "./assets/gamePhotos/diceCity.jpeg";
+import diceForge from "./assets/gamePhotos/diceForge.jpeg";
+import dinosaurIsland from "./assets/gamePhotos/dinosaurIsland.jpeg";
+import dixitOdyssey from "./assets/gamePhotos/dixitOdyssey.png";
+import dominion from "./assets/gamePhotos/dominion.webp";
+import dominionAllies from "./assets/gamePhotos/dominionAllies.jpeg";
+import dominionDarkAges from "./assets/gamePhotos/dominionDarkAges.jpeg";
+import dominionSeaside from "./assets/gamePhotos/dominionSeaside.webp";
+import dontBreakTheIce from "./assets/gamePhotos/dontBreakTheIce.avif";
+import dune from "./assets/gamePhotos/dune.webp";
+import duneImperium from "./assets/gamePhotos/duneImperium.jpeg";
+import eclipse from "./assets/gamePhotos/eclipse.jpeg";
+import eldritchHorror from "./assets/gamePhotos/eldritchHorror.jpeg";
+import eldritchHorrorMountainsOfMadness from "./assets/gamePhotos/eldritchHorrorMountainsOfMadness.png";
+import everdell from "./assets/gamePhotos/everdell.jpeg";
+import everdellBellfaire from "./assets/gamePhotos/everdellBellfaire.jpeg";
+import everdellNewLeaf from "./assets/gamePhotos/everdellNewLeaf.jpeg";
+import evolution from "./assets/gamePhotos/evolution.jpeg";
+import explodingKittens from "./assets/gamePhotos/explodingKittens.jpeg";
+import fitToPrint from "./assets/gamePhotos/fitToPrint.jpeg";
+import fiveTribes from "./assets/gamePhotos/fiveTribes.jpeg";
+import fogOfLove from "./assets/gamePhotos/fogOfLove.jpeg";
+import foodChainMagnate from "./assets/gamePhotos/foodChainMagnate.jpeg";
+import forestShuffle from "./assets/gamePhotos/forestShuffle.webp";
+import formaggio from "./assets/gamePhotos/formaggio.jpeg";
+import fromage from "./assets/gamePhotos/fromage.jpeg";
+import funemployed from "./assets/gamePhotos/funemployed.jpeg";
+import furyOfDracula from "./assets/gamePhotos/furyOfDracula.webp";
+import fuse from "./assets/gamePhotos/fuse.jpeg";
+import gameOfThrones from "./assets/gamePhotos/gameOfThrones.webp";
+import go from "./assets/gamePhotos/go.jpeg";
+import gonutsForDonuts from "./assets/gamePhotos/gonutsForDonuts.jpeg";
+import grandAustriaHotel from "./assets/gamePhotos/grandAustriaHotel.webp";
+import gravwell from "./assets/gamePhotos/gravwell.jpeg";
+import hanabi from "./assets/gamePhotos/hanabi.jpeg";
+import harmonies from "./assets/gamePhotos/harmonies.jpeg";
+import heat from "./assets/gamePhotos/heat.jpeg";
+import horizonsOfSpiritIsland from "./assets/gamePhotos/horizonsOfSpiritIsland.jpeg";
+import horselessCarriage from "./assets/gamePhotos/horselessCarriage.webp";
+import hyperborea from "./assets/gamePhotos/hyperborea.jpeg";
+import iceCool from "./assets/gamePhotos/iceCool.jpeg";
+import iceCool2 from "./assets/gamePhotos/iceCool2.jpeg";
+import incanGold from "./assets/gamePhotos/incanGold.png";
+import irishGauge from "./assets/gamePhotos/irishGauge.jpeg";
+import jenga from "./assets/gamePhotos/jenga.jpeg";
+import jungleSpeed from "./assets/gamePhotos/jungleSpeed.jpeg";
+import justOne from "./assets/gamePhotos/justOne.jpeg";
+import keyflower from "./assets/gamePhotos/keyflower.png";
+import keyflowerTheMerchants from "./assets/gamePhotos/keyflowerTheMerchants.jpeg";
+import kingdomino from "./assets/gamePhotos/kingdomino.jpeg";
+import kyotoMoneyMakesTheWorldGoDown from "./assets/gamePhotos/kyotoMoneyMakesTheWorldGoDown.jpeg";
+import lanternsTheHarvestFestival from "./assets/gamePhotos/lanternsTheHarvestFestival.jpeg";
+import leHavre from "./assets/gamePhotos/leHavre.webp";
+import lemonadeStand from "./assets/gamePhotos/lemonadeStand.jpeg";
+import letterJam from "./assets/gamePhotos/letterJam.jpeg";
+import lettersFromWhitechapel from "./assets/gamePhotos/lettersFromWhitechapel.png";
+import liarsDice from "./assets/gamePhotos/liarsDice.jpeg";
+import libertalia from "./assets/gamePhotos/libertalia.webp";
+import lostCities from "./assets/gamePhotos/lostCities.jpeg";
+import lostRuinsOfArnak from "./assets/gamePhotos/lostRuinsOfArnak.jpeg";
+import loveLetterPrincessPrincessEverAfter from "./assets/gamePhotos/loveLetterPrincessPrincessEverAfter.jpeg";
+import machiKoro from "./assets/gamePhotos/machiKoro.jpeg";
+import mageKnight from "./assets/gamePhotos/mageKnight.webp";
+import mansionsOfMadness from "./assets/gamePhotos/mansionsOfMadness.jpeg";
+import medici from "./assets/gamePhotos/medici.jpeg";
+import memoir44 from "./assets/gamePhotos/memoir44.webp";
+import mentalBlocks from "./assets/gamePhotos/mentalBlocks.jpeg";
+import miceAndMystics from "./assets/gamePhotos/miceAndMystics.webp";
+import modernArt from "./assets/gamePhotos/modernArt.jpeg";
+import monopolyCheatersEdition from "./assets/gamePhotos/monopolyCheatersEdition.jpeg";
+import monopolyScoobyDooEdition from "./assets/gamePhotos/monopolyScoobyDooEdition.jpeg";
+import myFathersWork from "./assets/gamePhotos/myFathersWork.jpeg";
+import mysterium from "./assets/gamePhotos/mysterium.jpeg";
+import mysticPaths from "./assets/gamePhotos/mysticPaths.jpeg";
+import nertz from "./assets/gamePhotos/nertz.jpeg";
+import noThanks from "./assets/gamePhotos/noThanks.jpeg";
+import oceans from "./assets/gamePhotos/oceans.jpeg";
+import oneNightUltimateWerewolf from "./assets/gamePhotos/oneNightUltimateWerewolf.webp";
+import pandemicIberia from "./assets/gamePhotos/pandemicIberia.jpeg";
+import pandemicOnTheBrink from "./assets/gamePhotos/pandemicOnTheBrink.webp";
+import paranormalDetectives from "./assets/gamePhotos/paranormalDetectives.jpeg";
+import parks from "./assets/gamePhotos/parks.webp";
+import patchwork from "./assets/gamePhotos/patchwork.jpeg";
+import pennyPress from "./assets/gamePhotos/pennyPress.avif";
+import planes from "./assets/gamePhotos/planes.jpeg";
+import planet from "./assets/gamePhotos/planet.jpeg";
+import potionExplosion from "./assets/gamePhotos/potionExplosion.png";
+import powerGrid from "./assets/gamePhotos/powerGrid.jpeg";
+import puertoRico from "./assets/gamePhotos/puertoRico.jpeg";
+import quoridor from "./assets/gamePhotos/quoridor.jpeg";
+import raidersOfTheNorthSea from "./assets/gamePhotos/raidersOfTheNorthSea.jpeg";
+import railroadInkChallenge from "./assets/gamePhotos/railroadInkChallenge.png";
+import railwaysOfTheWorld from "./assets/gamePhotos/railwaysOfTheWorld.jpeg";
+import raiseYourGoblets from "./assets/gamePhotos/raiseYourGoblets.jpeg";
+import redRising from "./assets/gamePhotos/redRising.jpeg";
+import rollForTheGalaxy from "./assets/gamePhotos/rollForTheGalaxy.png";
+import root from "./assets/gamePhotos/root.webp";
+import rootTheMarauderExpansion from "./assets/gamePhotos/rootTheMarauderExpansion.webp";
+import rootTheRiverfolkExpansion from "./assets/gamePhotos/rootTheRiverfolkExpansion.webp";
+import rootTheUnderworldExpansion from "./assets/gamePhotos/rootTheUnderworldExpansion.webp";
+import saboteur from "./assets/gamePhotos/saboteur.jpeg";
+import sagrada from "./assets/gamePhotos/sagrada.jpeg";
+import santorini from "./assets/gamePhotos/santorini.jpeg";
+import scoobyDooBetrayalAtMysteryMansion from "./assets/gamePhotos/scoobyDooBetrayalAtMysteryMansion.jpeg";
+import scoobyDooHideAndShriekGame from "./assets/gamePhotos/scoobyDooHideAndShriekGame.webp";
+import scoobyDooThrillsAndSpillsGame from "./assets/gamePhotos/scoobyDooThrillsAndSpillsGame.jpeg";
+import scout from "./assets/gamePhotos/scout.jpeg";
+import scoville from "./assets/gamePhotos/scoville.webp";
+import set from "./assets/gamePhotos/set.webp";
+import shadowsOverCamelot from "./assets/gamePhotos/shadowsOverCamelot.webp";
+import sheriffOfNottingham from "./assets/gamePhotos/sheriffOfNottingham.webp";
+import shogi from "./assets/gamePhotos/shogi.jpeg";
+import skull from "./assets/gamePhotos/skull.jpeg";
+import slayTheSpire from "./assets/gamePhotos/slayTheSpire.jpeg";
+import smallworld from "./assets/gamePhotos/smallworld.jpeg";
+import smallworldUnderground from "./assets/gamePhotos/smallworldUnderground.jpeg";
+import snollygoster from "./assets/gamePhotos/snollygoster.jpeg";
+import soClover from "./assets/gamePhotos/soClover.jpeg";
+import specterOps from "./assets/gamePhotos/specterOps.jpeg";
+import spiritIsland from "./assets/gamePhotos/spiritIsland.webp";
+import spiritIslandFeatherAndFlame from "./assets/gamePhotos/spiritIslandFeatherAndFlame.webp";
+import spiritIslandJaggedEarth from "./assets/gamePhotos/spiritIslandJaggedEarth.jpeg";
+import splendor from "./assets/gamePhotos/splendor.jpeg";
+import spyfall from "./assets/gamePhotos/spyfall.webp";
+import starWarsRebellion from "./assets/gamePhotos/starWarsRebellion.jpeg";
+import stardewValley from "./assets/gamePhotos/stardewValley.jpeg";
+import subdivision from "./assets/gamePhotos/subdivision.webp";
+import suburbia from "./assets/gamePhotos/suburbia.jpeg";
+import sushiGo from "./assets/gamePhotos/sushiGo.png";
+import sushiGoParty from "./assets/gamePhotos/sushiGoParty.webp";
+import sythe from "./assets/gamePhotos/sythe.webp";
+import takenoko from "./assets/gamePhotos/takenoko.jpeg";
+import terraMystica from "./assets/gamePhotos/terraMystica.jpeg";
+import terraformingMars from "./assets/gamePhotos/terraformingMars.jpeg";
+import terraformingMarsAresExpedition from "./assets/gamePhotos/terraformingMarsAresExpedition.jpeg";
+import terraformingMarsColonies from "./assets/gamePhotos/terraformingMarsColonies.jpeg";
+import terrorBelow from "./assets/gamePhotos/terrorBelow.jpeg";
+import terrorBelowHiddenCache from "./assets/gamePhotos/terrorBelowHiddenCache.jpeg";
+import terrorInMeepleCity from "./assets/gamePhotos/terrorInMeepleCity.webp";
+import theArrival from "./assets/gamePhotos/theArrival.avif";
+import theCrewMissionDeepSea from "./assets/gamePhotos/theCrewMissionDeepSea.webp";
+import theFoxInTheForest from "./assets/gamePhotos/theFoxInTheForest.webp";
+import theIsleOfCats from "./assets/gamePhotos/theIsleOfCats.jpeg";
+import theQuacksOfQuedlinburg from "./assets/gamePhotos/theQuacksOfQuedlinburg.jpeg";
+import theRepublicOfRome from "./assets/gamePhotos/theRepublicOfRome.jpeg";
+import theResistance from "./assets/gamePhotos/theResistance.jpeg";
+import theSearchForPlanetX from "./assets/gamePhotos/theSearchForPlanetX.jpeg";
+import theTeaDragonSociety from "./assets/gamePhotos/theTeaDragonSociety.jpeg";
+import ticketToRide from "./assets/gamePhotos/ticketToRide.jpeg";
+import ticketToRideUnitedKingdom from "./assets/gamePhotos/ticketToRideUnitedKingdom.webp";
+import tigrisAndEuphrates from "./assets/gamePhotos/tigrisAndEuphrates.jpeg";
+import timeStories from "./assets/gamePhotos/timeStories.jpeg";
+import tomorrow from "./assets/gamePhotos/tomorrow.jpeg";
+import trains from "./assets/gamePhotos/trains.jpeg";
+import trajan from "./assets/gamePhotos/trajan.webp";
+import trickerion from "./assets/gamePhotos/trickerion.jpeg";
+import tsukuyumi from "./assets/gamePhotos/tsukuyumi.jpeg";
+import tuscanyEssentialEdition from "./assets/gamePhotos/tuscanyEssentialEdition.jpeg";
+import twilightImperium from "./assets/gamePhotos/twilightImperium.webp";
+import twilightImperiumRex from "./assets/gamePhotos/twilightImperiumRex.webp";
+import twilightInscription from "./assets/gamePhotos/twilightInscription.jpeg";
+import twoRoomsAndABoom from "./assets/gamePhotos/twoRoomsAndABoom.jpeg";
+import tzokin from "./assets/gamePhotos/tzokin.webp";
+import underwaterCities from "./assets/gamePhotos/underwaterCities.jpeg";
+import underwaterCitiesNewDiscoveries from "./assets/gamePhotos/underwaterCitiesNewDiscoveries.jpeg";
+import unfair from "./assets/gamePhotos/unfair.jpeg";
+import unlock from "./assets/gamePhotos/unlock.jpeg";
+import unlockSecretAdventuresANosideStory from "./assets/gamePhotos/unlockSecretAdventuresANosideStory.jpeg";
+import unlockSecretAdventuresTheAdventuresOfOz from "./assets/gamePhotos/unlockSecretAdventuresTheAdventuresOfOz.webp";
+import uno from "./assets/gamePhotos/uno.jpeg";
+import vastTheCrystalCaverns from "./assets/gamePhotos/vastTheCrystalCaverns.webp";
+import villainous from "./assets/gamePhotos/villainous.jpeg";
+import viticulture from "./assets/gamePhotos/viticulture.webp";
+import wanderingTowers from "./assets/gamePhotos/wanderingTowers.jpeg";
+import warChest from "./assets/gamePhotos/warChest.jpeg";
+import warOfWhispers from "./assets/gamePhotos/warOfWhispers.jpeg";
+import wastelandExpress from "./assets/gamePhotos/wastelandExpress.jpeg";
+import waterfallPark from "./assets/gamePhotos/waterfallPark.jpeg";
+import watergate from "./assets/gamePhotos/watergate.jpeg";
+import wavelength from "./assets/gamePhotos/wavelength.jpeg";
+import weDidntPlaytestThisAtAll from "./assets/gamePhotos/weDidntPlaytestThisAtAll.jpeg";
+import welcomeToYourPerfectHome from "./assets/gamePhotos/welcomeToYourPerfectHome.jpeg";
+import werewords from "./assets/gamePhotos/werewords.webp";
+import wingspan from "./assets/gamePhotos/wingspan.jpeg";
+import wingspanAsia from "./assets/gamePhotos/wingspanAsia.webp";
+import witsAndWagers from "./assets/gamePhotos/witsAndWagers.jpeg";
+import worldsFair1893 from "./assets/gamePhotos/worldsFair1893.jpeg";
+import xiaLegendsOfADriftSystem from "./assets/gamePhotos/xiaLegendsOfADriftSystem.jpeg";
+import yetiInMySpaghetti from "./assets/gamePhotos/yetiInMySpaghetti.avif";
+import zombieDice from "./assets/gamePhotos/zombieDice.jpeg";
+
 
 const game_genres = {
     adventure: "Adventure",
@@ -42,7 +307,7 @@ const max_players = {
 
 const games_database = [
     {
-        imagePath: "./src/assets/gamePhotos/5minuteDungeon.jpeg",
+        imagePath: img5minuteDungeon,
         title: "5-Minute Dungeon",
         description: descriptions.fiveMinuteDungeon,
         storageLocation: "Top Shelf Locker E",
@@ -53,7 +318,7 @@ const games_database = [
             }
     },
     {
-        imagePath: "./src/assets/gamePhotos/7wonders.webp",
+        imagePath: img7wonders,
         title: "7 Wonders",
         description: descriptions.sevenWonders,
         storageLocation: "Top Shelf Locker G-Left",
@@ -64,7 +329,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/7wondersDuel.jpeg",
+        imagePath: img7wondersDuel,
         title: "7 Wonders: Duel",
         description: descriptions.sevenWondersDuel,
         storageLocation: "Bottom Drawer Locker B",
@@ -75,7 +340,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/7wondersDuelPantheon.avif",
+        imagePath: img7wondersDuelPantheon,
         title: "7 Wonders: Duel Pantheon",
         description: descriptions.sevenWondersDuelPantheon,
         storageLocation: "Bottom Drawer Locker B",
@@ -87,7 +352,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/aboveAndBelow.jpeg",
+        imagePath: aboveAndBelow,
         title: "Above and Below",
         description: descriptions.aboveAndBelow,
         storageLocation: "Top Shelf Locker G-Left",
@@ -98,7 +363,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/agathaChristiesDeathOnTheCards.jpeg",
+        imagePath: agathaChristiesDeathOnTheCards,
         title: "Agatha Christie's Death on the Cards",
         description: descriptions.agathaChristieDeathOnTheCards,
         storageLocation: "Top Drawer Locker B",
@@ -109,7 +374,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/agricola.jpeg",
+        imagePath: agricola,
         title: "Agricola",
         description: descriptions.agricola,
         storageLocation: "Top Shelf Locker E",
@@ -120,7 +385,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/airLandAndSeaCrittersAtWar.jpeg",
+        imagePath: airLandAndSeaCrittersAtWar,
         title: "Air, Land, and Sea Critters at War",
         description: descriptions.airLandAndSea,
         storageLocation: "Top Drawer Locker B",
@@ -131,7 +396,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/alhambra.jpeg",
+        imagePath: alhambra,
         title: "Alhambra",
         description: descriptions.alhambra,
         storageLocation: "Top Shelf Locker G-Left",
@@ -142,7 +407,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/alienFrontiers.webp",
+        imagePath: alienFrontiers,
         title: "Alien Frontiers",
         description: descriptions.alienFrontiers,
         storageLocation: "Top Shelf Locker G-Left",
@@ -153,7 +418,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/amerigo.jpeg",
+        imagePath: amerigo,
         title: "Amerigo",
         description: descriptions.amerigo,
         storageLocation: "Top Shelf Locker C",
@@ -164,7 +429,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/amongTheStars.png",
+        imagePath: amongTheStars,
         title: "Among The Stars",
         description: descriptions.amongTheStars,
         storageLocation: "Top Shelf Locker E",
@@ -175,7 +440,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/amunRe.webp",
+        imagePath: amunRe,
         title: "Amun-Re",
         description: descriptions.amunRe,
         storageLocation: "Top Shelf Locker G-Left",
@@ -186,7 +451,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/anachrony.jpeg",
+        imagePath: anachrony,
         title: "Anachrony",
         description: descriptions.anachrony,
         storageLocation: "Top Shelf Locker C",
@@ -197,7 +462,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/applesToApples.jpeg",
+        imagePath: applesToApples,
         title: "Apples to Apples",
         description: descriptions.applesToApples,
         storageLocation: "Top Shelf Locker E",
@@ -208,7 +473,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/arboretum.jpeg",
+        imagePath: arboretum,
         title: "Arboretum",
         description: descriptions.arboretum,
         storageLocation: "2nd Drawer Locker G-Right",
@@ -219,7 +484,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/architectsOfTheWestKingdom.jpeg",
+        imagePath: architectsOfTheWestKingdom,
         title: "Architects of the West Kingdom",
         description: descriptions.architectsOfTheWestKingdom,
         storageLocation: "Top Shelf Locker E",
@@ -230,7 +495,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/arcs.webp",
+        imagePath: arcs,
         title: "Arcs",
         description: descriptions.arcs,
         storageLocation: "2nd Shelf Locker C",
@@ -241,7 +506,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/arkhamHorror.webp",
+        imagePath: arkhamHorror,
         title: "Arkham Horror",
         description: descriptions.arkhamHorror,
         storageLocation: "2nd Shelf Locker G-Left",
@@ -252,7 +517,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/arkhamHorrorDunwich.jpeg",
+        imagePath: arkhamHorrorDunwich,
         title: "Arkham Horror: The Dunwich Legacy",
         description: descriptions.arkhamHorrorDunwichLegacy,
         storageLocation: "2nd Shelf Locker G-Left",
@@ -263,7 +528,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/arkNova.jpeg",
+        imagePath: arkNova,
         title: "Ark Nova",
         description: descriptions.arkNova,
         storageLocation: "Top Shelf Locker C",
@@ -274,7 +539,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/arkNovaMarineWorlds.jpeg",
+        imagePath: arkNovaMarineWorlds,
         title: "Ark Nova: Marine Worlds",
         description: descriptions.arkNovaMarineWorlds,
         storageLocation: "Top Shelf Locker C",
@@ -285,7 +550,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/automobiles.png",
+        imagePath: automobiles,
         title: "Automobiles",
         description: descriptions.automobiles,
         storageLocation: "3rd Shelf Locker G-Left",
@@ -296,7 +561,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/avalon.jpeg",
+        imagePath: avalon,
         title: "Avalon",
         description: descriptions.avalon,
         storageLocation: "Top Drawer Locker B",
@@ -307,7 +572,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/azul.jpeg",
+        imagePath: azul,
         title: "Azul",
         description: descriptions.azul,
         storageLocation: "Top Shelf Locker E",
@@ -318,7 +583,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/azulSummerPavillion.webp",
+        imagePath: azulSummerPavillion,
         title: "Azul: Summer Pavillion",
         description: descriptions.azulSummerPavillion,
         storageLocation: "Top Shelf Locker E",
@@ -329,7 +594,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/bananagrams.png",
+        imagePath: bananagrams,
         title: "Bananagrams",
         description: descriptions.bananagrams,
         storageLocation: "Top Drawer Locker G-Right",
@@ -340,7 +605,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/baseballHighlights2045.webp",
+        imagePath: baseballHighlights2045,
         title: "Baseball Highlights 2045",
         description: descriptions.baseballHighlights2045,
         storageLocation: "Bottom Drawer Locker B",
@@ -351,7 +616,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/battlestarGalactica.jpeg",
+        imagePath: battlestarGalactica,
         title: "Battlestar Galactica",
         description: descriptions.battleStarGalactica,
         storageLocation: "3rd Shelf Locker G-Left",
@@ -362,7 +627,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/betrayalAtHouseOnTheHill.jpeg",
+        imagePath: betrayalAtHouseOnTheHill,
         title: "Betrayal at House on the Hill",
         description: descriptions.betrayalAtHouseOnTheHill,
         storageLocation: "2nd Shelf Locker E",
@@ -373,7 +638,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/betweenTwoCastlesOfMadKingLudwig.jpeg",
+        imagePath: betweenTwoCastlesOfMadKingLudwig,
         title: "Between Two Castles of Mad King Ludwig",
         description: descriptions.betweenTwoCastlesOfMadKingLudwig,
         storageLocation: "3rd Shelf Locker G-Left",
@@ -384,7 +649,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/betweenTwoCities.png",
+        imagePath: betweenTwoCities,
         title: "Between Two Cities",
         description: descriptions.betweenTwoCities,
         storageLocation: "Top Shelf Locker E",
@@ -395,7 +660,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/bloodborneTheCardGame.jpeg",
+        imagePath: bloodborneTheCardGame,
         title: "Bloodborne: The Card Game",
         description: descriptions.bloodborneTheCardGame,
         storageLocation: "Top Shelf Locker E",
@@ -406,7 +671,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/bloodOnTheClocktower.jpeg",
+        imagePath: bloodOnTheClocktower,
         title: "Blood on the Clocktower",
         description: descriptions.bloodOnTheClocktower,
         storageLocation: "Below Drawers Locker G-Right",
@@ -417,7 +682,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/bloodRage.webp",
+        imagePath: bloodRage,
         title: "Blood Rage",
         description: descriptions.bloodRage,
         storageLocation: "3rd Shelf Locker G-Left",
@@ -428,7 +693,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/bobRossArtOfChillGame.jpeg",
+        imagePath: bobRossArtOfChillGame,
         title: "Bob Ross: Art of Chill Game",
         description: descriptions.bobRossArtOfChillGame,
         storageLocation: "Top Shelf Locker E",
@@ -439,7 +704,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/bohnanza.jpeg",
+        imagePath: bohnanza,
         title: "Bohnanza",
         description: descriptions.bohnanza,
         storageLocation: "Bottom Drawer Locker G-Right",
@@ -450,7 +715,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/brassBirmingham.jpeg",
+        imagePath: brassBirmingham,
         title: "Brass: Birmingham",
         description: descriptions.brassBirmingham,
         storageLocation: "Bottom Shelf Locker C",
@@ -461,7 +726,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/brassLancashire.jpeg",
+        imagePath: brassLancashire,
         title: "Brass: Lancashire",
         description: descriptions.brassLancashire,
         storageLocation: "Bottom Shelf Locker C",
@@ -472,7 +737,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/bulletStar.jpeg",
+        imagePath: bulletStar,
         title: "Bullet ★",
         description: descriptions.bulletStar,
         storageLocation: "4th Shelf Locker G-Left",
@@ -483,7 +748,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/bunnyKingdom.jpeg",
+        imagePath: bunnyKingdom,
         title: "Bunny Kingdom",
         description: descriptions.bunnyKingdom,
         storageLocation: "4th Shelf Locker G-Left",
@@ -494,7 +759,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/bunnyKingdomInTheSky.webp",
+        imagePath: bunnyKingdomInTheSky,
         title: "Bunny Kingdom in the Sky",
         description: descriptions.bunnyKingdomInTheSky,
         storageLocation: "4th Shelf Locker G-Left",
@@ -505,7 +770,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/burgleBros.jpeg",
+        imagePath: burgleBros,
         title: "Burgle Bros.",
         description: descriptions.burgleBros,
         storageLocation: "Bottom Drawer Locker B",
@@ -516,7 +781,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/calico.jpeg",
+        imagePath: calico,
         title: "Calico",
         description: descriptions.calico,
         storageLocation: "2nd Shelf Locker E",
@@ -527,7 +792,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/canvas.jpeg",
+        imagePath: canvas,
         title: "Canvas",
         description: descriptions.canvas,
         storageLocation: "Top Drawer Locker B",
@@ -538,7 +803,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/captainSonar.webp",
+        imagePath: captainSonar,
         title: "Captain Sonar",
         description: descriptions.captainSonar,
         storageLocation: "4th Shelf Locker G-Left",
@@ -550,7 +815,7 @@ const games_database = [
         
     },
     {
-        imagePath: "./src/assets/gamePhotos/carcassonne.webp",
+        imagePath: carcassonne,
         title: "Carcassonne",
         description: descriptions.carcassonne,
         storageLocation: "2nd Shelf Locker E",
@@ -561,7 +826,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/cascadia.jpeg",
+        imagePath: cascadia,
         title: "Cascadia",
         description: descriptions.cascadia,
         storageLocation: "2nd Shelf Locker E",
@@ -572,7 +837,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/castlesOfMadKingLudwig.jpeg",
+        imagePath: castlesOfMadKingLudwig,
         title: "Castles of Mad King Ludwig",
         description: descriptions.castlesOfMadKingLudwig,
         storageLocation: "4th Shelf Locker G-Left",
@@ -583,7 +848,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/catan.webp",
+        imagePath: catan,
         title: "Catan",
         description: descriptions.catan,
         storageLocation: "2nd Shelf Locker E",
@@ -594,7 +859,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/catanStarfarers.png",
+        imagePath: catanStarfarers,
         title: "Catan Starfarers",
         description: descriptions.catanStarfarers,
         storageLocation: "Bottom Shelf Locker C",
@@ -605,7 +870,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/catInTheBox.webp",
+        imagePath: catInTheBox,
         title: "Cat In The Box",
         description: descriptions.catInTheBox,
         storageLocation: "2nd Drawer Locker G-Right",
@@ -616,7 +881,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/championsOfMidgard.webp",
+        imagePath: championsOfMidgard,
         title: "Champions of Midgard",
         description: descriptions.championsOfMidgard,
         storageLocation: "4th Shelf Locker G-Left",
@@ -627,7 +892,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/chess.jpeg",
+        imagePath: chess,
         title: "Chess",
         description: descriptions.chess,
         storageLocation: "4th Shelf Locker C",
@@ -638,7 +903,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/citiesOfSplendor.jpeg",
+        imagePath: citiesOfSplendor,
         title: "Cities of Splendor",
         description: descriptions.citiesOfSplendor,
         storageLocation: "Top Drawer Locker B",
@@ -649,7 +914,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/cityOfGears.jpeg", 
+        imagePath: cityOfGears, 
         title: "City of Gears", 
         description: descriptions.cityOfGears,
         storageLocation: "Bottom Shelf Locker G-Left",
@@ -660,7 +925,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/cityOfIron.jpeg", 
+        imagePath: cityOfIron, 
         title: "City of Iron", 
         description: descriptions.cityOfIron,
         storageLocation: "Bottom Shelf Locker G-Left",
@@ -671,7 +936,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/clank.jpeg", 
+        imagePath: clank, 
         title: "Clank!", 
         description: descriptions.clank,
         storageLocation: "Bottom Shelf Locker G-Left",
@@ -682,7 +947,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/clue.jpeg",
+        imagePath: clue,
         title: "Clue",
         description: descriptions.clue,
         storageLocation: "2nd Shelf Locker E",
@@ -693,7 +958,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/cockroachPoker.jpeg",
+        imagePath: cockroachPoker,
         title: "Cockroach Poker",
         description: descriptions.cockroachPoker,
         storageLocation: "2nd Drawer Locker G-Right",
@@ -715,7 +980,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/concept.jpeg", 
+        imagePath: concept, 
         title: "Concept", 
         description: descriptions.concept,
         storageLocation: "Bottom Shelf Locker G-Left",
@@ -726,7 +991,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/concordia.jpeg",
+        imagePath: concordia,
         title: "Concordia",
         description: descriptions.concordia,
         storageLocation: "Top Shelf Locker C",
@@ -737,7 +1002,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/cosmicEncounter.jpeg", 
+        imagePath: cosmicEncounter, 
         title: "Cosmic Encounter", 
         description: descriptions.cosmicEncounter,
         storageLocation: "Bottom Shelf Locker G-Left",
@@ -748,7 +1013,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/coup.jpeg",
+        imagePath: coup,
         title: "Coup",
         description: descriptions.coup,
         storageLocation: "2nd Drawer Locker G-Right",
@@ -759,7 +1024,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/cryptid.jpeg",
+        imagePath: cryptid,
         title: "Cryptid",
         description: descriptions.cryptid,
         storageLocation: "2nd Shelf Locker E",
@@ -770,7 +1035,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/cthulhuWars.jpeg",
+        imagePath: cthulhuWars,
         title: "Cthulhu Wars",
         description: descriptions.cthulhuWars,
         storageLocation: "Bottom Shelf Locker C",
@@ -781,7 +1046,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/cthulhuWarsTchoTcho.webp",
+        imagePath: cthulhuWarsTchoTcho,
         title: "Cthulhu Wars: Tcho Tcho",
         description: descriptions.cthulhuWarsTchoTcho,
         storageLocation: "Bottom Shelf Locker C",
@@ -792,7 +1057,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/cyclades.jpeg",
+        imagePath: cyclades,
         title: "Cyclades",
         description: descriptions.cyclades,
         storageLocation: "Top Shelf Locker C",
@@ -803,7 +1068,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/darkestNight.webp",
+        imagePath: darkestNight,
         title: "Darkest Night",
         description: descriptions.darkestNight,
         storageLocation: "2nd Shelf Locker E",
@@ -814,7 +1079,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/daybreak.jpeg", 
+        imagePath: daybreak, 
         title: "Daybreak", 
         description: descriptions.daybreak,
         storageLocation: "3rd Shelf Locker G-Left",
@@ -825,7 +1090,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/deadOfWinter.webp", 
+        imagePath: deadOfWinter, 
         title: "Dead of Winter", 
         description: descriptions.deadOfWinter,
         storageLocation: "Bottom Shelf Locker G-Right",
@@ -836,7 +1101,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/deckOfCards.jpeg",
+        imagePath: deckOfCards,
         title: "Decks of Cards",
         description: descriptions.decksOfCards,
         storageLocation: "2nd Drawer Locker G-Right",
@@ -847,7 +1112,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/decorum.jpeg", 
+        imagePath: decorum, 
         title: "Décorum", 
         description: descriptions.decorum,
         storageLocation: "Bottom Shelf Locker G-Right",
@@ -858,7 +1123,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/diceCity.jpeg",
+        imagePath: diceCity,
         title: "Dice City",
         description: descriptions.diceCity,
         storageLocation: "Bottom Drawer Locker B",
@@ -869,7 +1134,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/diceForge.jpeg",
+        imagePath: diceForge,
         title: "Dice Forge",
         description: descriptions.diceForge,
         storageLocation: "4th Shelf Locker C",
@@ -880,7 +1145,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/dinosaurIsland.jpeg", 
+        imagePath: dinosaurIsland, 
         title: "Dinosaur Island", 
         description: descriptions.dinosaurIsland,
         storageLocation: "Bottom Shelf Locker G-Right",
@@ -891,7 +1156,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/dixitOdyssey.png", 
+        imagePath: dixitOdyssey, 
         title: "Dixit: Odyssey", 
         description: descriptions.dixitOdyssey,
         storageLocation: "2nd Shelf Locker G-Left",
@@ -902,7 +1167,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/dominion.webp",
+        imagePath: dominion,
         title: "Dominion",
         description: descriptions.dominion,
         storageLocation: "Bottom Shelf Locker F",
@@ -913,7 +1178,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/dominionAllies.jpeg",
+        imagePath: dominionAllies,
         title: "Dominion: Allies",
         description: descriptions.dominionAllies,
         storageLocation: "Bottom Shelf Locker F",
@@ -924,7 +1189,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/dominionDarkAges.jpeg",
+        imagePath: dominionDarkAges,
         title: "Dominion: Dark Ages",
         description: descriptions.dominionDarkAges,
         storageLocation: "Bottom Shelf Locker F",
@@ -935,7 +1200,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/dominionSeaside.webp",
+        imagePath: dominionSeaside,
         title: "Dominion: Seaside",
         description: descriptions.dominionSeaside,
         storageLocation: "Bottom Shelf Locker F",
@@ -946,7 +1211,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/dontBreakTheIce.avif",
+        imagePath: dontBreakTheIce,
         title: "Don't Break the Ice",
         description: descriptions.dontBreakTheIce,
         storageLocation: "Top Shelf Locker C",
@@ -957,7 +1222,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/dune.webp", 
+        imagePath: dune, 
         title: "Dune", 
         description: descriptions.dune,
         storageLocation: "Bottom Shelf Locker G-Right",
@@ -968,7 +1233,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/duneImperium.jpeg", 
+        imagePath: duneImperium, 
         title: "Dune: Imperium", 
         description: descriptions.duneImperium,
         storageLocation: "Bottom Shelf Locker G-Right",
@@ -979,7 +1244,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/eclipse.jpeg",
+        imagePath: eclipse,
         title: "Eclipse",
         description: descriptions.eclipse,
         storageLocation: "Top Shelf Locker C",
@@ -990,7 +1255,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/eldritchHorror.jpeg",
+        imagePath: eldritchHorror,
         title: "Eldritch Horror",
         description: descriptions.eldritchHorror,
         storageLocation: "2nd Shelf Locker G-Left",
@@ -1001,7 +1266,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/eldritchHorrorMountainsOfMadness.png",
+        imagePath: eldritchHorrorMountainsOfMadness,
         title: "Eldritch Horror: Mountains of Madness",
         description: descriptions.eldritchHorrorMountainsOfMadness,
         storageLocation: "2nd Shelf Locker G-Left",
@@ -1012,7 +1277,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/everdell.jpeg", 
+        imagePath: everdell, 
         title: "Everdell", 
         description: descriptions.everdell,
         storageLocation: "Below Drawers Locker G-Right",
@@ -1023,7 +1288,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/everdellBellfaire.jpeg", 
+        imagePath: everdellBellfaire, 
         title: "Everdell: Bellfaire", 
         description: descriptions.everdellBellfaire,
         storageLocation: "Below Drawers Locker G-Right",
@@ -1034,7 +1299,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/everdellNewLeaf.jpeg", 
+        imagePath: everdellNewLeaf, 
         title: "Everdell: New Leaf", 
         description: descriptions.everdellNewLeaf,
         storageLocation: "Below Drawers Locker G-Right",
@@ -1045,7 +1310,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/evolution.jpeg", 
+        imagePath: evolution, 
         title: "Evolution", 
         description: descriptions.evolution,
         storageLocation: "Below Drawers Locker G-Right",
@@ -1056,7 +1321,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/explodingKittens.jpeg", 
+        imagePath: explodingKittens, 
         title: "Exploding Kittens", 
         description: descriptions.explodingKittens,
         storageLocation: "Top Drawer Locker G-Right",
@@ -1067,7 +1332,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/fitToPrint.jpeg",
+        imagePath: fitToPrint,
         title: "Fit to Print",
         description: descriptions.fitToPrint,
         storageLocation: "2nd Shelf Locker E",
@@ -1078,7 +1343,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/fiveTribes.jpeg",
+        imagePath: fiveTribes,
         title: "Five Tribes",
         description: descriptions.fiveTribes,
         storageLocation: "Top Shelf Locker B",
@@ -1089,7 +1354,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/fogOfLove.jpeg",
+        imagePath: fogOfLove,
         title: "Fog of Love",
         description: descriptions.fogOfLove,
         storageLocation: "Bottom Shelf Locker E",
@@ -1100,7 +1365,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/foodChainMagnate.jpeg",
+        imagePath: foodChainMagnate,
         title: "Food Chain Magnate",
         description: descriptions.foodChainMagnate,
         storageLocation: "3rd Shelf Locker E",
@@ -1111,7 +1376,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/forestShuffle.webp", 
+        imagePath: forestShuffle, 
         title: "Forest Shuffle", 
         description: descriptions.forestShuffle,
         storageLocation: "Bottom Drawer Locker G-Right",
@@ -1122,7 +1387,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/formaggio.jpeg",
+        imagePath: formaggio,
         title: "Formaggio",
         description: descriptions.formaggio,
         storageLocation: "Top Shelf Locker B",
@@ -1133,7 +1398,7 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/fromage.jpeg",
+        imagePath: fromage,
         title: "Fromage", 
         description: descriptions.fromage,
         storageLocation: "Top Shelf Locker B",
@@ -1144,61 +1409,61 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/funemployed.jpeg", 
+        imagePath: funemployed, 
         title: "Funemployed", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/furyOfDracula.webp", 
+        imagePath: furyOfDracula, 
         title: "Fury of Dracula", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/fuse.jpeg",
+        imagePath: fuse,
         title: "Fuse",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/gameOfThrones.webp", 
+        imagePath: gameOfThrones, 
         title: "Game of Thrones", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/go.jpeg",
+        imagePath: go,
         title: "Go",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/gonutsForDonuts.jpeg",
+        imagePath: gonutsForDonuts,
         title: "Gonuts for Donuts",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/grandAustriaHotel.webp",
+        imagePath: grandAustriaHotel,
         title: "Grand Austria Hotel",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/gravwell.jpeg",
+        imagePath: gravwell,
         title: "Gravwell",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/hanabi.jpeg", 
+        imagePath: hanabi, 
         title: "Hanabi", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/harmonies.jpeg",
+        imagePath: harmonies,
         title: "Harmonies",
         description: descriptions.harmonies,
         storageLocation: "4th Shelf Locker C",
@@ -1209,421 +1474,421 @@ const games_database = [
         }
     },
     { 
-        imagePath: "./src/assets/gamePhotos/heat.jpeg", 
+        imagePath: heat, 
         title: "Heat: Pedal to the Metal", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/horizonsOfSpiritIsland.jpeg",
+        imagePath: horizonsOfSpiritIsland,
         title: "Horizons of Spirit Island",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/horselessCarriage.webp",
+        imagePath: horselessCarriage,
         title: "Horseless Carriage",
         description: "TBA",
         storageLocation: "Top Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/hyperborea.jpeg",
+        imagePath: hyperborea,
         title: "Hyperborea",
         description: "TBA",
         storageLocation: "Top Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/iceCool.jpeg",
+        imagePath: iceCool,
         title: "Ice Cool",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/iceCool2.jpeg",
+        imagePath: iceCool2,
         title: "Ice Cool 2",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/incanGold.png",
+        imagePath: incanGold,
         title: "Incan Gold",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/irishGauge.jpeg",
+        imagePath: irishGauge,
         title: "Irish Gauge",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/jenga.jpeg",
+        imagePath: jenga,
         title: "Jenga",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/jungleSpeed.jpeg",
+        imagePath: jungleSpeed,
         title: "Jungle Speed",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/justOne.jpeg",
+        imagePath: justOne,
         title: "Just One",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/keyflower.png",
+        imagePath: keyflower,
         title: "Keyflower",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/keyflowerTheMerchants.jpeg",
+        imagePath: keyflowerTheMerchants,
         title: "Keyflower the Merchants",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/kingdomino.jpeg",
+        imagePath: kingdomino,
         title: "Kingdomino",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/kyotoMoneyMakesTheWorldGoDown.jpeg",
+        imagePath: kyotoMoneyMakesTheWorldGoDown,
         title: "Kyoto: Money Makes the World Go Down",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/lanternsTheHarvestFestival.jpeg",
+        imagePath: lanternsTheHarvestFestival,
         title: "Lanterns: The Harvest Festival",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/leHavre.webp",
+        imagePath: leHavre,
         title: "Le Havre",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/lemonadeStand.jpeg",
+        imagePath: lemonadeStand,
         title: "Lemonade Stand",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/letterJam.jpeg",
+        imagePath: letterJam,
         title: "Letter Jam",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/lettersFromWhitechapel.png", 
+        imagePath: lettersFromWhitechapel, 
         title: "Letters from Whitechapel", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/liarsDice.jpeg",
+        imagePath: liarsDice,
         title: "Liar's Dice",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/libertalia.webp", 
+        imagePath: libertalia, 
         title: "Libertalia", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/lostCities.jpeg",
+        imagePath: lostCities,
         title: "Lost Cities",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/lostRuinsOfArnak.jpeg",
+        imagePath: lostRuinsOfArnak,
         title: "Lost Ruins of Arnak",
         description: "TBA",
         storageLocation: "Top Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/loveLetterPrincessPrincessEverAfter.jpeg",
+        imagePath: loveLetterPrincessPrincessEverAfter,
         title: "Love Letter: Princess Princess Ever After",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/machiKoro.jpeg",
+        imagePath: machiKoro,
         title: "Machi Koro",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/mageKnight.webp",
+        imagePath: mageKnight,
         title: "Mage Knight",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/mansionsOfMadness.jpeg",
+        imagePath: mansionsOfMadness,
         title: "Mansions of Madness",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/medici.jpeg",
+        imagePath: medici,
         title: "Medici",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/memoir44.webp",
+        imagePath: memoir44,
         title: "Memoir '44",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/mentalBlocks.jpeg",
+        imagePath: mentalBlocks,
         title: "Mental Blocks",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/miceAndMystics.webp",
+        imagePath: miceAndMystics,
         title: "Mice & Mystics",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/modernArt.jpeg",
+        imagePath: modernArt,
         title: "Modern Art",
         description: "TBA",
         storageLocation: "3rd Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/monopolyCheatersEdition.jpeg",
+        imagePath: monopolyCheatersEdition,
         title: "Monopoly: Cheater's Edition",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/monopolyScoobyDooEdition.jpeg",
+        imagePath: monopolyScoobyDooEdition,
         title: "Monopoly: Scooby-Doo Edition",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/myFathersWork.jpeg",
+        imagePath: myFathersWork,
         title: "My Father's Work",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker C",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/mysterium.jpeg", 
+        imagePath: mysterium, 
         title: "Mysterium", 
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/mysticPaths.jpeg",
+        imagePath: mysticPaths,
         title: "Mystic Paths",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/nertz.jpeg",
+        imagePath: nertz,
         title: "Nertz",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/noThanks.jpeg",
+        imagePath: noThanks,
         title: "No Thanks!",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/oceans.jpeg",
+        imagePath: oceans,
         title: "Oceans",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/oneNightUltimateWerewolf.webp",
+        imagePath: oneNightUltimateWerewolf,
         title: "One Night Ultimate Werewolf",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/pandemicIberia.jpeg",
+        imagePath: pandemicIberia,
         title: "Pandemic: Iberia",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/pandemicOnTheBrink.webp",
+        imagePath: pandemicOnTheBrink,
         title: "Pandemic: On the brink",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/paranormalDetectives.jpeg",
+        imagePath: paranormalDetectives,
         title: "Paranormal Detectives",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/parks.webp",
+        imagePath: parks,
         title: "Parks",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/patchwork.jpeg",
+        imagePath: patchwork,
         title: "Patchwork",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/pennyPress.avif",
+        imagePath: pennyPress,
         title: "Penny Press",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/planes.jpeg",
+        imagePath: planes,
         title: "Planes",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/planet.jpeg",
+        imagePath: planet,
         title: "Planet",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/potionExplosion.png",
+        imagePath: potionExplosion,
         title: "Potion Explosion",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/powerGrid.jpeg",
+        imagePath: powerGrid,
         title: "Power Grid",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/puertoRico.jpeg",
+        imagePath: puertoRico,
         title: "Puerto Rico",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/quoridor.jpeg",
+        imagePath: quoridor,
         title: "Quoridor",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/raidersOfTheNorthSea.jpeg",
+        imagePath: raidersOfTheNorthSea,
         title: "Raiders of the North Sea",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/railroadInkChallenge.png",
+        imagePath: railroadInkChallenge,
         title: "Railroad Ink Challenge",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/railwaysOfTheWorld.jpeg",
+        imagePath: railwaysOfTheWorld,
         title: "Railways of the World",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/raiseYourGoblets.jpeg",
+        imagePath: raiseYourGoblets,
         title: "Raise Your Goblets",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/redRising.jpeg",
+        imagePath: redRising,
         title: "Red Rising",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/rollForTheGalaxy.png",
+        imagePath: rollForTheGalaxy,
         title: "Roll for the Galaxy",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/root.webp",
+        imagePath: root,
         title: "Root",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/rootTheMarauderExpansion.webp",
+        imagePath: rootTheMarauderExpansion,
         title: "Root: The Marauder Expansion",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/rootTheRiverfolkExpansion.webp",
+        imagePath: rootTheRiverfolkExpansion,
         title: "Root: The Riverfolk Expansion",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/rootTheUnderworldExpansion.webp",
+        imagePath: rootTheUnderworldExpansion,
         title: "Root: The Underworld Expansion",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/saboteur.jpeg", 
+        imagePath: saboteur, 
         title: "Saboteur", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/sagrada.jpeg",
+        imagePath: sagrada,
         title: "Sagrada",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/santorini.jpeg",
+        imagePath: santorini,
         title: "Santorini",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/scoobyDooBetrayalAtMysteryMansion.jpeg",
+        imagePath: scoobyDooBetrayalAtMysteryMansion,
         title: "Scooby-Doo! Betrayal at Mystery Mansion",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/scoobyDooHideAndShriekGame.webp",
+        imagePath: scoobyDooHideAndShriekGame,
         title: "Scooby-Doo! Hide and Shriek Game",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/scoobyDooThrillsAndSpillsGame.jpeg",
+        imagePath: scoobyDooThrillsAndSpillsGame,
         title: "Scooby-Doo! Thrills and Spills Game",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
@@ -1635,43 +1900,43 @@ const games_database = [
         storageLocation: "Top Drawer Locker G-Right",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/scoville.webp", 
+        imagePath: scoville, 
         title: "Scoville", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/set.webp", 
+        imagePath: set, 
         title: "Set", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/shadowsOverCamelot.webp",
+        imagePath: shadowsOverCamelot,
         title: "Shadows Over Camelot",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F"
     },
     { 
-        imagePath: "./src/assets/gamePhotos/sheriffOfNottingham.webp", 
+        imagePath: sheriffOfNottingham, 
         title: "Sheriff of Nottingham", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/shogi.jpeg",
+        imagePath: shogi,
         title: "Shogi",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/skull.jpeg",
+        imagePath: skull,
         title: "Skull",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/slayTheSpire.jpeg", 
+        imagePath: slayTheSpire, 
         title: "Slay the Spire", 
         description: descriptions.slayTheSpire,
         storageLocation: "Bottom Shelf Locker B",
@@ -1682,37 +1947,37 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/smallworld.jpeg",
+        imagePath: smallworld,
         title: "Smallworld",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/smallworldUnderground.jpeg",
+        imagePath: smallworldUnderground,
         title: "Smallworld: Underground",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/snollygoster.jpeg",
+        imagePath: snollygoster,
         title: "Snollygoster",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/soClover.jpeg",
+        imagePath: soClover,
         title: "So Clover",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/specterOps.jpeg",
+        imagePath: specterOps,
         title: "Specter Ops",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/spiritIsland.webp",
+        imagePath: spiritIsland,
         title: "Spirit Island", 
         description: descriptions.spiritIsland,
         storageLocation: "Bottom Shelf Locker B",
@@ -1723,421 +1988,421 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/spiritIslandFeatherAndFlame.webp",
+        imagePath: spiritIslandFeatherAndFlame,
         title: "Spirit Island: Feather and Flame",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/spiritIslandJaggedEarth.jpeg",
+        imagePath: spiritIslandJaggedEarth,
         title: "Spirit Island: Jagged Earth",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/splendor.jpeg",
+        imagePath: splendor,
         title: "Splendor",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/spyfall.webp",
+        imagePath: spyfall,
         title: "Spyfall",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/stardewValley.jpeg",
+        imagePath: stardewValley,
         title: "Stardew Valley",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/starWarsRebellion.jpeg",
+        imagePath: starWarsRebellion,
         title: "Star Wars Rebellion",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/subdivision.webp",
+        imagePath: subdivision,
         title: "Subdivision",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/suburbia.jpeg",
+        imagePath: suburbia,
         title: "Suburbia",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/sushiGo.png", 
+        imagePath: sushiGo, 
         title: "Sushi Go!", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/sushiGoParty.webp",
+        imagePath: sushiGoParty,
         title: "Sushi Go Party!",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker G-Right",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/sythe.webp", 
+        imagePath: sythe, 
         title: "Sythe", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/takenoko.jpeg",
+        imagePath: takenoko,
         title: "Takenoko",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/terraformingMars.jpeg",
+        imagePath: terraformingMars,
         title: "Terraforming Mars",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/terraformingMarsAresExpedition.jpeg",
+        imagePath: terraformingMarsAresExpedition,
         title: "Terraforming Mars: Ares Expedition",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/terraformingMarsColonies.jpeg",
+        imagePath: terraformingMarsColonies,
         title: "Terraforming Mars: Colonies",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/terraMystica.jpeg",
+        imagePath: terraMystica,
         title: "terra Mystica",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/terrorBelow.jpeg",
+        imagePath: terrorBelow,
         title: "Terror Below",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/terrorBelowHiddenCache.jpeg",
+        imagePath: terrorBelowHiddenCache,
         title: "Terror Below: Hidden Cache",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/terrorInMeepleCity.webp",
+        imagePath: terrorInMeepleCity,
         title: "Terror in Meeplecity",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/theArrival.avif", 
+        imagePath: theArrival, 
         title: "The Arrival", 
         description: "TBA",
         storageLocation: "2nd Shelf Locker G-Left",
     },
     {
-        imagePath: "./src/assets/gamePhotos/theCrewMissionDeepSea.webp",
+        imagePath: theCrewMissionDeepSea,
         title: "The Crew: Mission Deep Sea",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/theFoxInTheForest.webp",
+        imagePath: theFoxInTheForest,
         title: "The Fox in the Forest",
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/theIsleOfCats.jpeg",
+        imagePath: theIsleOfCats,
         title: "The Isle of Cats",
         description: "TBA",
         storageLocation: "Top Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/theQuacksOfQuedlinburg.jpeg",
+        imagePath: theQuacksOfQuedlinburg,
         title: "The Quacks of Quedlinburg",
         description: "TBA",
         storageLocation: "2nd Shelf Locker C",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/theRepublicOfRome.jpeg", 
+        imagePath: theRepublicOfRome, 
         title: "The Republic of Rome", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/theResistance.jpeg",
+        imagePath: theResistance,
         title: "The Resistance",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/theSearchForPlanetX.jpeg",
+        imagePath: theSearchForPlanetX,
         title: "The Search for Planet X",
         description: "TBA",
         storageLocation: "2nd Shelf Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/theTeaDragonSociety.jpeg",
+        imagePath: theTeaDragonSociety,
         title: "The Tea Dragon Society",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/ticketToRide.jpeg",
+        imagePath: ticketToRide,
         title: "Ticket To Ride",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/ticketToRideUnitedKingdom.webp",
+        imagePath: ticketToRideUnitedKingdom,
         title: "Ticket To Ride: United Kingdom",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/tigrisAndEuphrates.jpeg",
+        imagePath: tigrisAndEuphrates,
         title: "Tigris & Euphrates",
         description: "TBA",
         storageLocation: "Top Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/timeStories.jpeg",
+        imagePath: timeStories,
         title: "Time Stories",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/tomorrow.jpeg", 
+        imagePath: tomorrow, 
         title: "Tomorrow", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/trains.jpeg",
+        imagePath: trains,
         title: "Trains",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/trajan.webp",
+        imagePath: trajan,
         title: "Trajan",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/trickerion.jpeg",
+        imagePath: trickerion,
         title: "Trickerion",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/tsukuyumi.jpeg",
+        imagePath: tsukuyumi,
         title: "Tsukuyumi",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/tuscanyEssentialEdition.jpeg",
+        imagePath: tuscanyEssentialEdition,
         title: "Tuscany: Essential Edition",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/twilightImperium.webp",
+        imagePath: twilightImperium,
         title: "Twilight Imperium",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker E",
     },
     {
-        imagePath: "./src/assets/gamePhotos/twilightImperiumRex.webp",
+        imagePath: twilightImperiumRex,
         title: "Twilight Imperium Rex: Final Days of an Empire",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/twilightInscription.jpeg",
+        imagePath: twilightInscription,
         title: "Twilight Inscription",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/twoRoomsAndABoom.jpeg",
+        imagePath: twoRoomsAndABoom,
         title: "Two Rooms and a Boom",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/tzokin.webp",
+        imagePath: tzokin,
         title: "Tzolk'In",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/underwaterCities.jpeg",
+        imagePath: underwaterCities,
         title: "Underwater Cities",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/underwaterCitiesNewDiscoveries.jpeg",
+        imagePath: underwaterCitiesNewDiscoveries,
         title: "Underwater Cities: New Discoveries",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/unfair.jpeg",
+        imagePath: unfair,
         title: "Unfair",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/unlock.jpeg",
+        imagePath: unlock,
         title: "Unlock!",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/unlockSecretAdventuresANosideStory.jpeg",
+        imagePath: unlockSecretAdventuresANosideStory,
         title: "Unlock! Secret Adventures: A Noside Story",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/unlockSecretAdventuresTheAdventuresOfOz.webp",
+        imagePath: unlockSecretAdventuresTheAdventuresOfOz,
         title: "Unlock! Secret Adventures: The Adventures of Oz",
         description: "TBA",
         storageLocation: "4th Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/uno.jpeg",
+        imagePath: uno,
         title: "Uno",
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/vastTheCrystalCaverns.webp",
+        imagePath: vastTheCrystalCaverns,
         title: "Vast: The Crystal Caverns",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/villainous.jpeg",
+        imagePath: villainous,
         title: "Villainous",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/viticulture.webp",
+        imagePath: viticulture,
         title: "Viticulture",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/wanderingTowers.jpeg", 
+        imagePath: wanderingTowers, 
         title: "Wandering Towers", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/warChest.jpeg",
+        imagePath: warChest,
         title: "War Chest",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/warOfWhispers.jpeg", 
+        imagePath: warOfWhispers, 
         title: "War of Whispers", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/wastelandExpress.jpeg",
+        imagePath: wastelandExpress,
         title: "Wasteland Express",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/waterfallPark.jpeg", 
+        imagePath: waterfallPark, 
         title: "Waterfall Park", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/watergate.jpeg",
+        imagePath: watergate,
         title: "Watergate",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/wavelength.jpeg", 
+        imagePath: wavelength, 
         title: "Wavelength", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/weDidntPlaytestThisAtAll.jpeg",
+        imagePath: weDidntPlaytestThisAtAll,
         title: "We Didn't Playtest This at All",
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/welcomeToYourPerfectHome.jpeg",
+        imagePath: welcomeToYourPerfectHome,
         title: "Welcome to Your Perfect Home",
         description: "TBA",
         storageLocation: "Top Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/werewords.webp",
+        imagePath: werewords,
         title: "Werewords",
         description: "TBA",
         storageLocation: "2nd Drawer Locker G-Right",
     },
     {
-        imagePath: "./src/assets/gamePhotos/wingspan.jpeg",
+        imagePath: wingspan,
         title: "Wingspan",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     {
-        imagePath: "./src/assets/gamePhotos/wingspanAsia.webp",
+        imagePath: wingspanAsia,
         title: "Wingspan: Asia",
         description: "TBA",
         storageLocation: "2nd Shelf Locker F",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/witsAndWagers.jpeg", 
+        imagePath: witsAndWagers, 
         title: "Wits & Wagers", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/worldsFair1893.jpeg",
+        imagePath: worldsFair1893,
         title: "World's Fair: 1893",
         description: "TBA",
         storageLocation: "Bottom Drawer Locker B",
     },
     {
-        imagePath: "./src/assets/gamePhotos/xiaLegendsOfADriftSystem.jpeg",
+        imagePath: xiaLegendsOfADriftSystem,
         title: "Xia: Legends of a Drift System",
         description: "TBA",
         storageLocation: "Bottom Shelf Locker E",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/yetiInMySpaghetti.avif", 
+        imagePath: yetiInMySpaghetti, 
         title: "Yeti in My Spaghetti", 
         description: "TBA",
         storageLocation: "3rd Shelf Locker C",
     },
     {
-        imagePath: "./src/assets/gamePhotos/zombieDice.jpeg",
+        imagePath: zombieDice,
         title: "Zombie Dice",
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
