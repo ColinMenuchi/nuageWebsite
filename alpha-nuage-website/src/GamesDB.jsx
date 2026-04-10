@@ -969,7 +969,7 @@ const games_database = [
         }
     },
     {
-        imagePath: "./src/assets/gamePhotos/Codenames.webp",
+        imagePath: codenames,
         title: "Codenames",
         description: descriptions.codenames,
         storageLocation: "Bottom Drawer Locker G-Right",
