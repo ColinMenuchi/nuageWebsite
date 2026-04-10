@@ -55,12 +55,12 @@ function About() {
 
         <h1 className="about-heading">Meet Our eBoard</h1>
         <div className="about-eboard-grid">
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/kimberlyTai.jpeg" title="Kimberly Tai" cardText="Club President and Forest Shuffle Enthusiast" popUpText={taiText} favoriteGame={findGame("Forest Shuffle")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/oscarAdler.jpeg" title="Oscar Adler" cardText="Club Vice President and Ark Nova Enjoyer" popUpText={adlerText} favoriteGame={findGame("Ark Nova")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinTroan.jpeg" title="Colin Troan" cardText="Club Treasurer and Slay the Spire Fanatic" popUpText={troanText} favoriteGame={findGame("Slay the Spire")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/mattDavis.jpeg" title="Matt Davis" cardText="Club Secretary and Spirit Island Addict" popUpText={davisText} favoriteGame={findGame("Spirit Island")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/ellieHenderson.jpeg" title="Ellie Henderson" cardText="Club Game Master and Harmonies Connoissuer" popUpText={hendersonText} favoriteGame={findGame("Harmonies")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinMenuchi.jpeg" title="Colin Menuchi" cardText="Club PR Director and Chess Grandmaster" popUpText={menuchiText} favoriteGame={findGame("Chess")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/kimberlyTai.jpeg" title="Kimberly Tai" cardText="Club President and Forest Shuffle Shuffler" popUpText={taiText} favoriteGame={findGame("Forest Shuffle")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/oscarAdler.jpeg" title="Oscar Adler" cardText="Club Vice President and Ark Nova Activist" popUpText={adlerText} favoriteGame={findGame("Ark Nova")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinTroan.jpeg" title="Colin Troan" cardText="Club Treasurer and Slay the Spire Silent" popUpText={troanText} favoriteGame={findGame("Slay the Spire")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/mattDavis.jpeg" title="Matt Davis" cardText="Club Secretary and Spirit Island Inquirer" popUpText={davisText} favoriteGame={findGame("Spirit Island")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/ellieHenderson.jpeg" title="Ellie Henderson" cardText="Club Game Master and Harmonies Heroine" popUpText={hendersonText} favoriteGame={findGame("Harmonies")} />
+            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinMenuchi.jpeg" title="Colin Menuchi" cardText="Club PR Director and Chess Crandmaster" popUpText={menuchiText} favoriteGame={findGame("Chess")} />
         </div>
     </div>
     );
