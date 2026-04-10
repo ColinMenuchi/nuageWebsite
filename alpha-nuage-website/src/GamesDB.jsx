@@ -1894,7 +1894,7 @@ const games_database = [
         storageLocation: "2nd Shelf Locker C",
     },
     { 
-        imagePath: "./src/assets/gamePhotos/Scout.jpeg", 
+        imagePath: scout, 
         title: "Scout", 
         description: "TBA",
         storageLocation: "Top Drawer Locker G-Right",
