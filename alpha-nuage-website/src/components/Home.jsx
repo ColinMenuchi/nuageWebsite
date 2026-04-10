@@ -79,7 +79,8 @@ const STATS = [
   { icon: "🎉", label: "Membership", value: "Free to Join" },
   { icon: "📷", label: "Instagram", value: "Over 1,000 Followers" },
   { icon: "🎮", label: "Discord", value: "Over 1,400 Members"},
-  { icon: "📈", label: "(We Don't Own This Game)", value: "John Company"}
+  { icon: "📈", label: "(We Don't Own This Game)", value: "John Company"},
+  { icon: "🎌", label: "Anime Fans", value: "1,400+", hidden: "alphys" }
 ]
 
 function Home({ onNavigate }) {
@@ -125,7 +126,12 @@ function Home({ onNavigate }) {
           {/* Stats embedded in the who section */}
           <div className="stats-bar">
             {STATS.map(s => (
-              <div className="stat-pill" key={s.label}>
+              <div
+                className="stat-pill"
+                key={s.label}
+                onClick={s.hidden ? () => onNavigate(s.hidden) : undefined}
+                style={s.hidden ? { cursor: "pointer" } : undefined}
+              >
                 <span className="stat-pill-icon">{s.icon}</span>
                 <div>
                   <div className="stat-pill-value">{s.value}</div>

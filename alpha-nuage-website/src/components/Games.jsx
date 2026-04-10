@@ -2,9 +2,11 @@ import { useState, useEffect, useRef } from "react";
 
 import games_database from "../GamesDB.jsx"
 import AboutPopUp from "./AboutPopUp.jsx";
+import Card from "./Card.jsx";
+import homeImg from "../assets/hiddenFigures/home.avif";
 import "./Games.css";
 
-function Games() {
+function Games({ onNavigate }) {
 
     // Array of Game Genres
     const game_genres = [
@@ -99,8 +101,9 @@ function Games() {
     return(
     <div>
         {/* Games Page Header */}
-        <h1 style={{ marginLeft: "50px", marginTop: "30px", fontFamily: "papyrus",
-        }}
+        <h1
+            style={{ marginLeft: "50px", marginTop: "30px", fontFamily: "papyrus", cursor: "pointer" }}
+            onClick={() => onNavigate("knight")}
         >
             Browse Our Game Collection:
         </h1>
@@ -252,6 +255,22 @@ function Games() {
                 tags={game.tags}
             />
         ))}
+            {search.trim().toLowerCase() === "sans" && (
+                <Card
+                    title="sans."
+                    imagePath="src/assets/hiddenFigures/aBadTime.webp"
+                    text="* you're gonna have a bad time."
+                    onClick={() => onNavigate("badtime")}
+                />
+            )}
+            {search.trim().toLowerCase() === "home" && (
+                <Card
+                    title="Home"
+                    imagePath={homeImg}
+                    text="* you feel like you're forgetting something."
+                    onClick={() => onNavigate("toriel")}
+                />
+            )}
         </div>
     </div>);
 }

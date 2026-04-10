@@ -1,4 +1,17 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-3px); }
+    75% { transform: translateX(3px); }
+}
+
+.shake {
+    display: inline-block;
+    animation: shake 0.3s infinite;
+}
+
 /* CSS styling for cards on the home page */
 .page-home .card {
   border: 1px solid hsl(0, 0%, 80%);
