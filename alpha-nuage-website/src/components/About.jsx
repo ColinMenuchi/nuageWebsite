@@ -1,6 +1,13 @@
 import EBoardPopUp from "./EBoardPopUp.jsx"
 import games_database from "../GamesDB.jsx"
 import "./About.css"
+import twelvePlayerSpiritIsland from "../assets/twelvePlayerSpiritIsland.jpeg"
+import kimberlyTai from "../assets/eBoardPhotos/kimberlyTai.jpeg"
+import oscarAdler from "../assets/eBoardPhotos/oscarAdler.jpeg"
+import colinTroan from "../assets/eBoardPhotos/colinTroan.jpeg"
+import mattDavis from "../assets/eBoardPhotos/mattDavis.jpeg"
+import ellieHenderson from "../assets/eBoardPhotos/ellieHenderson.jpeg"
+import colinMenuchi from "../assets/eBoardPhotos/colinMenuchi.jpeg"
 
 const findGame = (title) => games_database.find(g => g.title === title)
 
@@ -39,7 +46,7 @@ function About() {
                 in the fall of 2015.
             </p>
             <img
-                src="./src/assets/twelvePlayerSpiritIsland.jpeg"
+                src={twelvePlayerSpiritIsland}
                 alt="NUAGE members playing Spirit Island"
                 className="about-story-image"
             />
@@ -55,12 +62,12 @@ function About() {
 
         <h1 className="about-heading">Meet Our eBoard</h1>
         <div className="about-eboard-grid">
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/kimberlyTai.jpeg" title="Kimberly Tai" cardText="Club President and Forest Shuffle Shuffler" popUpText={taiText} favoriteGame={findGame("Forest Shuffle")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/oscarAdler.jpeg" title="Oscar Adler" cardText="Club Vice President and Ark Nova Activist" popUpText={adlerText} favoriteGame={findGame("Ark Nova")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinTroan.jpeg" title="Colin Troan" cardText="Club Treasurer and Slay the Spire Silent" popUpText={troanText} favoriteGame={findGame("Slay the Spire")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/mattDavis.jpeg" title="Matt Davis" cardText="Club Secretary and Spirit Island Inquirer" popUpText={davisText} favoriteGame={findGame("Spirit Island")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/ellieHenderson.jpeg" title="Ellie Henderson" cardText="Club Game Master and Harmonies Heroine" popUpText={hendersonText} favoriteGame={findGame("Harmonies")} />
-            <EBoardPopUp imagePath="./src/assets/eBoardPhotos/colinMenuchi.jpeg" title="Colin Menuchi" cardText="Club PR Director and Chess Crandmaster" popUpText={menuchiText} favoriteGame={findGame("Chess")} />
+            <EBoardPopUp imagePath={kimberlyTai} title="Kimberly Tai" cardText="Club President and Forest Shuffle Shuffler" popUpText={taiText} favoriteGame={findGame("Forest Shuffle")} />
+            <EBoardPopUp imagePath={oscarAdler} title="Oscar Adler" cardText="Club Vice President and Ark Nova Activist" popUpText={adlerText} favoriteGame={findGame("Ark Nova")} />
+            <EBoardPopUp imagePath={colinTroan} title="Colin Troan" cardText="Club Treasurer and Slay the Spire Silent" popUpText={troanText} favoriteGame={findGame("Slay the Spire")} />
+            <EBoardPopUp imagePath={mattDavis} title="Matt Davis" cardText="Club Secretary and Spirit Island Inquirer" popUpText={davisText} favoriteGame={findGame("Spirit Island")} />
+            <EBoardPopUp imagePath={ellieHenderson} title="Ellie Henderson" cardText="Club Game Master and Harmonies Heroine" popUpText={hendersonText} favoriteGame={findGame("Harmonies")} />
+            <EBoardPopUp imagePath={colinMenuchi} title="Colin Menuchi" cardText="Club PR Director and Chess Crandmaster" popUpText={menuchiText} favoriteGame={findGame("Chess")} />
         </div>
     </div>
     );

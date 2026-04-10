@@ -4,6 +4,7 @@ import games_database from "../GamesDB.jsx"
 import AboutPopUp from "./AboutPopUp.jsx";
 import Card from "./Card.jsx";
 import homeImg from "../assets/hiddenFigures/home.avif";
+import aBadTime from "../assets/hiddenFigures/aBadTime.webp";
 import "./Games.css";
 
 function Games({ onNavigate }) {
@@ -258,7 +259,7 @@ function Games({ onNavigate }) {
             {search.trim().toLowerCase() === "sans" && (
                 <Card
                     title="sans."
-                    imagePath="src/assets/hiddenFigures/aBadTime.webp"
+                    imagePath={aBadTime}
                     text="* you're gonna have a bad time."
                     onClick={() => onNavigate("badtime")}
                 />
