@@ -20,7 +20,7 @@ function About() {
                     "A fun fact about him is he has a gold framed trichromatic portrait of a tiger that he made. " +
                     "His name is Roscoe.";
     const davisText = "Matt is a 2nd year at Northeastern studying Electrical & Computer Engineering! " +
-                    "A fun fact he likes is that \"Northeastern University is primarily remwoend for its " +
+                    "A fun fact he likes is that \"Northeastern University is primarily renowned for its " +
                     "top-ranked experiential learning model, featuring a robust cooperative educa-...\"";
     const troanText = "Colin is a 2nd year at Northeastern studying Math & Economics! A fun fact about " +
                     "him is that he used to be an acrobat.";
