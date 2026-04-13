@@ -1411,20 +1411,35 @@ const games_database = [
     { 
         imagePath: funemployed, 
         title: "Funemployed", 
-        description: "TBA",
+        description: descriptions.funemployed,
         storageLocation: "Top Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.humor, game_genres.party_game, game_genres.word_game]
+        }
     },
     { 
         imagePath: furyOfDracula, 
         title: "Fury of Dracula", 
-        description: "TBA",
+        description: descriptions.furyOfDracula,
         storageLocation: "Top Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.adventure, game_genres.based_on_a_book, game_genres.horror, game_genres.social_deduction]
+        }
     },
     {
         imagePath: fuse,
         title: "Fuse",
-        description: "TBA",
+        description: descriptions.fuse,
         storageLocation: "Top Drawer Locker B",
+        tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.cooperative, game_genres.dice, game_genres.family_game]
+        }
     },
     { 
         imagePath: gameOfThrones, 
