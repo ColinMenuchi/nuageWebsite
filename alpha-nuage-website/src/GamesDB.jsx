@@ -1959,7 +1959,7 @@ const games_database = [
         tags: {storageLocker: "Locker B",
             complexity: "Heavy",
             players: max_players.four,
-            genres: [game_genres.adventure, game_genres.cooperative, game_genres.card_game, game_genres.fantasy, game_genres.strategy]
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.card_game, game_genres.fantasy, game_genres.popular, game_genres.strategy]
         }
     },
     {
@@ -2000,7 +2000,7 @@ const games_database = [
         tags: {storageLocker: "Locker B",
             complexity: "Super Heavy",
             players: max_players.four,
-            genres: [game_genres.cooperative, game_genres.fantasy, game_genres.strategy]
+            genres: [game_genres.cooperative, game_genres.fantasy, game_genres.popular, game_genres.strategy]
         }
     },
     {
