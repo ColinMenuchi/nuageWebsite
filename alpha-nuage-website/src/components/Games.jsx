@@ -29,6 +29,7 @@ function Games({ onNavigate }) {
         "Number Game",
         "Party Game",
         "Political",
+        "Popular at NUAGE",
         "Puzzle Game",
         "Social Deduction",
         "Sports",
