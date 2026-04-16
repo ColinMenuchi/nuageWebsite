@@ -1503,8 +1503,13 @@ const games_database = [
     {
         imagePath: horizonsOfSpiritIsland,
         title: "Horizons of Spirit Island",
-        description: "TBA",
+        description: descriptions.horizonsOfSpiritIsland,
         storageLocation: "Bottom Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Heavy",
+            players: max_players.three,
+            genres: [game_genres.cooperative, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: horselessCarriage,
