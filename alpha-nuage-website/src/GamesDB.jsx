@@ -1514,8 +1514,13 @@ const games_database = [
     {
         imagePath: horselessCarriage,
         title: "Horseless Carriage",
-        description: "TBA",
+        description: descriptions.horselessCarriage,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Super Heavy",
+            players: max_players.five,
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: hyperborea,
