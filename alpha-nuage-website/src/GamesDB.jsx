@@ -1525,8 +1525,13 @@ const games_database = [
     {
         imagePath: hyperborea,
         title: "Hyperborea",
-        description: "TBA",
+        description: descriptions.hyperborea,
         storageLocation: "Top Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.six,
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: iceCool,
