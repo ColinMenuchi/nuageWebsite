@@ -1492,8 +1492,13 @@ const games_database = [
     { 
         imagePath: heat, 
         title: "Heat: Pedal to the Metal", 
-        description: "TBA",
+        description: descriptions.heatPetalToTheMetal,
         storageLocation: "Top Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.family_game, game_genres.sports]
+        }
     },
     {
         imagePath: horizonsOfSpiritIsland,
