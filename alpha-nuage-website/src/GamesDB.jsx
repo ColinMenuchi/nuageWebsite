@@ -1445,14 +1445,24 @@ const games_database = [
     { 
         imagePath: gameOfThrones, 
         title: "Game of Thrones", 
-        description: "TBA",
+        description: descriptions.gameOfThrones,
         storageLocation: "Top Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "High",
+            players: max_players.six,
+            genres: [game_genres.based_on_a_book, game_genres.bluffing, game_genres.fantasy, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: go,
         title: "Go",
-        description: "TBA",
+        description: descriptions.go,
         storageLocation: "4th Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "High",
+            players: max_players.two,
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: gonutsForDonuts,
