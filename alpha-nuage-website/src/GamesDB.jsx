@@ -1467,20 +1467,35 @@ const games_database = [
     {
         imagePath: gonutsForDonuts,
         title: "Gonuts for Donuts",
-        description: "TBA",
+        description: descriptions.gonutsForDonuts,
         storageLocation: "Top Drawer Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.bluffing, game_genres.card_game, game_genres.family_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: grandAustriaHotel,
         title: "Grand Austria Hotel",
-        description: "TBA",
+        description: descriptions.grandAustriaHotel,
         storageLocation: "3rd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.dice, game_genres.strategy]
+        }
     },
     {
         imagePath: gravwell,
         title: "Gravwell",
-        description: "TBA",
+        description: descriptions.gravwell,
         storageLocation: "3rd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.card_game, game_genres.family_game, game_genres.popular]
+        }
     },
     { 
         imagePath: hanabi, 
@@ -1989,7 +2004,7 @@ const games_database = [
         tags: {storageLocker: "Locker B",
             complexity: "Heavy",
             players: max_players.four,
-            genres: [game_genres.adventure, game_genres.cooperative, game_genres.card_game, game_genres.fantasy, game_genres.popular, game_genres.strategy]
+            genres: [game_genres.adventure, game_genres.based_on_a_video_game, game_genres.cooperative, game_genres.card_game, game_genres.fantasy, game_genres.popular, game_genres.strategy]
         }
     },
     {
