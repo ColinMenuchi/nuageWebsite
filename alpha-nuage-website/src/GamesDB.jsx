@@ -1500,8 +1500,13 @@ const games_database = [
     { 
         imagePath: hanabi, 
         title: "Hanabi", 
-        description: "TBA",
+        description: descriptions.hanabi,
         storageLocation: "Top Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.card_game, game_genres.cooperative, game_genres.family_game, game_genres.popular, game_genres.social_deduction]
+        }
     },
     {
         imagePath: harmonies,
