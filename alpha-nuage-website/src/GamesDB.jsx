@@ -1566,14 +1566,24 @@ const games_database = [
     {
         imagePath: iceCool,
         title: "Ice Cool",
-        description: "TBA",
+        description: descriptions.iceCool,
         storageLocation: "4th Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            game_genres: [game_genres.animals, game_genres.family_game]
+        }
     },
     {
         imagePath: iceCool2,
         title: "Ice Cool 2",
-        description: "TBA",
+        description: descriptions.iceCool2,
         storageLocation: "4th Shelf Locker C",
+        tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            game_genres: [game_genres.animals, game_genres.expansion, game_genres.family_game]
+        }
     },
     {
         imagePath: incanGold,
