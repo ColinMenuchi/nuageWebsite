@@ -1588,14 +1588,24 @@ const games_database = [
     {
         imagePath: incanGold,
         title: "Incan Gold",
-        description: "TBA",
+        description: descriptions.incanGold,
         storageLocation: "Bottom Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            game_genres: [game_genres.bluffing, game_genres.card_game, game_genres.family_game, game_genres.party_game, game_genres.popular]
+        }
     },
     {
         imagePath: irishGauge,
         title: "Irish Gauge",
-        description: "TBA",
+        description: descriptions.irishGauge,
         storageLocation: "3rd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Modest",
+            players: max_players.five,
+            game_genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: jenga,
