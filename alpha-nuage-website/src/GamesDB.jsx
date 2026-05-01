@@ -1610,8 +1610,13 @@ const games_database = [
     {
         imagePath: jenga,
         title: "Jenga",
-        description: "TBA",
+        description: descriptions.jenga,
         storageLocation: "Bottom Shelf Locker F",
+        tags: {storageLocker: "Locker F",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            game_genres: [game_genres.family_game, game_genres.party_game]
+        }
     },
     {
         imagePath: jungleSpeed,
