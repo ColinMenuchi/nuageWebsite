@@ -1621,8 +1621,13 @@ const games_database = [
     {
         imagePath: jungleSpeed,
         title: "Jungle Speed",
-        description: "TBA",
+        description: descriptions.jungleSpeed,
         storageLocation: "Top Drawer Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            game_genres: [game_genres.card_game, game_genres.party_game]
+        }
     },
     {
         imagePath: justOne,
