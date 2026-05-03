@@ -1632,8 +1632,13 @@ const games_database = [
     {
         imagePath: justOne,
         title: "Just One",
-        description: "TBA",
+        description: descriptions.justOne,
         storageLocation: "Bottom Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            game_genres: [game_genres.cooperative, game_genres.party_game, game_genres.social_deduction, game_genres.word_game]
+        }
     },
     {
         imagePath: keyflower,
