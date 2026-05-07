@@ -1713,7 +1713,7 @@ const games_database = [
         storageLocation: "2nd Drawer Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
             players: max_players.four,
-            genres: [card_game]
+            genres: [game_genres.card_game]
         }
     },
     {
