@@ -1665,14 +1665,23 @@ const games_database = [
     {
         imagePath: kingdomino,
         title: "Kingdomino",
-        description: "TBA",
+        description: descriptions.kingdomino,
         storageLocation: "Top Drawer Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.four,
+            game_genres: [game_genres.family_game, game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: kyotoMoneyMakesTheWorldGoDown,
         title: "Kyoto: Money Makes the World Go Down",
-        description: "TBA",
+        description: descriptions.kyoto,
         storageLocation: "Top Drawer Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            game_genres: [game_genres.uncategorized]
+        }
     },
     {
         imagePath: lanternsTheHarvestFestival,

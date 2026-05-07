@@ -122,7 +122,8 @@ const descriptions = {
     justOne: "Just One is a co-operative party game in which you all play together to get the best score! Your goal each round is to get one player — the active player — to guess a mystery word based on the clues given by teammates. Can you achieve a perfect score by guessing all the mystery words?",
     keyFlower: "Keyflower is a game for two to six players played over four rounds. Each round represents a season: spring, summer, autumn, and finally winter. Each player starts the game with a \"home\" tile and an initial team of eight workers, each of which is colored red, yellow, or blue. Workers of matching colors are used by the players to bid for tiles to add to their villages. Matching workers may alternatively be used to generate resources, skills and additional workers, not only from the player's own tiles, but also from the tiles in the other players' villages and from the new tiles being auctioned.",
     keyFlowerTheMerchants: "In Keyflower: The Merchants, the second expansion for Keyflower, players continue to develop their village by building extensions and cabins, entering into lucrative contracts, and encountering new combinations of items on the incoming boats.",
-    
+    kingdomino: "In Kingdomino, you are a lord seeking new lands in which to expand your kingdom. You must explore all the lands, including wheat fields, lakes, and mountains, in order to spot the best plots, while competing with other lords to acquire them first.",
+    kyoto: "Kyoto takes players straight into one of the burning issues of our time: climate change — and not with a wagging finger, but by putting them into the shoes of the decision makers.",
 
 
     harmonies: "In Harmonies, build landscapes by placing colored tokens and create habitats for your animals. To earn the most points and win the game, incorporate the habitats in your landscapes wisely and have as many animals as you can settle there.",
