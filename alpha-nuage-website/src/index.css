@@ -1,6 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 @keyframes shake {
     0%, 100% { transform: translateX(0); }
     25% { transform: translateX(-3px); }
@@ -298,13 +306,14 @@
     margin-left: 0;
     min-width: 140px;
     max-width: 160px;
-    min-height: unset;
+    min-height: 240px;
   }
 
   .page-games .card .card-image {
     max-width: 120px;
     min-height: 120px;
     max-height: 120px;
+    object-fit: contain;
   }
 
   .page-games .popup-inner {
