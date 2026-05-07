@@ -1643,14 +1643,24 @@ const games_database = [
     {
         imagePath: keyflower,
         title: "Keyflower",
-        description: "TBA",
+        description: descriptions.keyFlower,
         storageLocation: "3rd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Heavy",
+            players: max_players.six,
+            game_genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: keyflowerTheMerchants,
         title: "Keyflower the Merchants",
-        description: "TBA",
+        description: descriptions.keyFlowerTheMerchants,
         storageLocation: "3rd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Heavy",
+            players: max_players.six,
+            game_genres: [game_genres.expansion, game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: kingdomino,
