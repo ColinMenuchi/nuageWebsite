@@ -277,3 +277,48 @@
 .top-right-button:hover {
   background: hsl(0, 0%, 83%);
 }
+
+@media (max-width: 768px) {
+  .page-home .card {
+    margin: 16px;
+  }
+
+  .page-about .card {
+    margin-left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .page-about .card .card-image {
+    min-width: unset;
+    max-width: 100%;
+  }
+
+  .page-games .card {
+    margin-left: 0;
+    min-width: 140px;
+    max-width: 160px;
+    min-height: unset;
+  }
+
+  .page-games .card .card-image {
+    max-width: 120px;
+    min-height: 120px;
+    max-height: 120px;
+  }
+
+  .page-games .popup-inner {
+    flex-direction: column;
+  }
+
+  .page-games .popup-image {
+    width: 100%;
+    min-width: unset;
+    max-height: 200px;
+  }
+
+  .popup-content {
+    max-height: none;
+    padding: 16px;
+  }
+}

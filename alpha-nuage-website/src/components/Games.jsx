@@ -104,12 +104,13 @@ function Games({ onNavigate }) {
     <div>
         {/* Games Page Header */}
         <h1
+            className="games-page-header"
             style={{ marginLeft: "50px", marginTop: "30px", fontFamily: "papyrus", cursor: "pointer" }}
             onClick={() => onNavigate("knight")}
         >
             Browse Our Game Collection:
         </h1>
-        <p style={{ marginLeft: "50px"}}
+        <p className="games-page-subtext" style={{ marginLeft: "50px"}}
         >Only about 1/3 of our games have a completed entry and can show up when applying filters. Click on a game to view its entry.</p>
 
         {/* Search Bar */}
@@ -122,7 +123,7 @@ function Games({ onNavigate }) {
         />
 
         {/* Filter Selection Menu */}
-        <div style={{ marginLeft: "50px", position: "relative" }} ref={filterRef}>
+        <div className="games-filter-row" style={{ marginLeft: "50px", position: "relative" }} ref={filterRef}>
             <button
                 className={`filter-btn${activeFilterCount > 0 ? " filter-btn--active" : ""}`}
                 onClick={() => setFiltersOpen(!filtersOpen)}
@@ -246,7 +247,7 @@ function Games({ onNavigate }) {
 
 
         {/* Game Cards */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginLeft: "50px" }}>
+        <div className="games-card-grid" style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginLeft: "50px" }}>
             {filteredGames.map((game) => (
                 <AboutPopUp
                 key={game.title}

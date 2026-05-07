@@ -196,3 +196,47 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 32px 16px;
+  }
+
+  .about-heading {
+    font-size: 28px;
+  }
+
+  .about-story {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .about-story-image {
+    width: 100%;
+    min-width: unset;
+    max-height: 260px;
+  }
+
+  .about-eboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .eboard-popup-inner {
+    flex-direction: column;
+  }
+
+  .eboard-popup-left {
+    width: 100%;
+    min-width: unset;
+    border-right: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .eboard-popup-photo {
+    height: 220px;
+  }
+
+  .eboard-popup-game {
+    max-height: none;
+  }
+}

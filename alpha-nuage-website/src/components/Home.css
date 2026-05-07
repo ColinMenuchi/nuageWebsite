@@ -325,3 +325,39 @@
   color: white;
   transform: scale(1.04);
 }
+
+@media (max-width: 768px) {
+  .who-section {
+    flex-direction: column;
+    margin: 24px 16px;
+    gap: 24px;
+  }
+
+  .carousel {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+
+  .timeline-featured-row {
+    flex-direction: column;
+    margin: 0 16px 40px;
+    gap: 32px;
+  }
+
+  .timeline {
+    max-height: 320px;
+  }
+
+  .who-heading,
+  .timeline-heading {
+    font-size: 26px;
+  }
+
+  .stats-bar {
+    gap: 8px;
+  }
+
+  .stat-pill {
+    padding: 6px 12px;
+  }
+}
