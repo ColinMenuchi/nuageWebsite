@@ -1571,7 +1571,7 @@ const games_database = [
         tags: {storageLocker: "Locker C",
             complexity: "Light",
             players: max_players.four,
-            game_genres: [game_genres.animals, game_genres.family_game]
+            genres: [game_genres.animals, game_genres.family_game]
         }
     },
     {
@@ -1582,7 +1582,7 @@ const games_database = [
         tags: {storageLocker: "Locker C",
             complexity: "Light",
             players: max_players.four,
-            game_genres: [game_genres.animals, game_genres.expansion, game_genres.family_game]
+            genres: [game_genres.animals, game_genres.expansion, game_genres.family_game]
         }
     },
     {
@@ -1593,7 +1593,7 @@ const games_database = [
         tags: {storageLocker: "Locker G-Right",
             complexity: "Light",
             players: max_players.seven_plus,
-            game_genres: [game_genres.bluffing, game_genres.card_game, game_genres.family_game, game_genres.party_game, game_genres.popular]
+            genres: [game_genres.bluffing, game_genres.card_game, game_genres.family_game, game_genres.party_game, game_genres.popular]
         }
     },
     {
@@ -1604,7 +1604,7 @@ const games_database = [
         tags: {storageLocker: "Locker E",
             complexity: "Modest",
             players: max_players.five,
-            game_genres: [game_genres.historical, game_genres.strategy]
+            genres: [game_genres.historical, game_genres.strategy]
         }
     },
     {
@@ -1615,7 +1615,7 @@ const games_database = [
         tags: {storageLocker: "Locker F",
             complexity: "Light",
             players: max_players.seven_plus,
-            game_genres: [game_genres.family_game, game_genres.party_game]
+            genres: [game_genres.family_game, game_genres.party_game]
         }
     },
     {
@@ -1626,7 +1626,7 @@ const games_database = [
         tags: {storageLocker: "Locker B",
             complexity: "Light",
             players: max_players.seven_plus,
-            game_genres: [game_genres.card_game, game_genres.party_game]
+            genres: [game_genres.card_game, game_genres.party_game]
         }
     },
     {
@@ -1637,7 +1637,7 @@ const games_database = [
         tags: {storageLocker: "Locker G-Right",
             complexity: "Light",
             players: max_players.seven_plus,
-            game_genres: [game_genres.cooperative, game_genres.party_game, game_genres.social_deduction, game_genres.word_game]
+            genres: [game_genres.cooperative, game_genres.party_game, game_genres.social_deduction, game_genres.word_game]
         }
     },
     {
@@ -1648,7 +1648,7 @@ const games_database = [
         tags: {storageLocker: "Locker E",
             complexity: "Heavy",
             players: max_players.six,
-            game_genres: [game_genres.historical, game_genres.strategy]
+            genres: [game_genres.historical, game_genres.strategy]
         }
     },
     {
@@ -1659,7 +1659,7 @@ const games_database = [
         tags: {storageLocker: "Locker E",
             complexity: "Heavy",
             players: max_players.six,
-            game_genres: [game_genres.expansion, game_genres.historical, game_genres.strategy]
+            genres: [game_genres.expansion, game_genres.historical, game_genres.strategy]
         }
     },
     {
@@ -1670,7 +1670,7 @@ const games_database = [
         tags: {storageLocker: "Locker B",
             complexity: "Light",
             players: max_players.four,
-            game_genres: [game_genres.family_game, game_genres.puzzle_game, game_genres.strategy]
+            genres: [game_genres.family_game, game_genres.puzzle_game, game_genres.strategy]
         }
     },
     {
@@ -1680,7 +1680,7 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B",
             complexity: "Modest",
-            game_genres: [game_genres.uncategorized]
+            genres: [game_genres.uncategorized]
         }
     },
     {
