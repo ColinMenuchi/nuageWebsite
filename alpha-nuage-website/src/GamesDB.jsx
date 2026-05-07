@@ -1680,26 +1680,41 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B",
             complexity: "Modest",
+            players: max_players,six,
             genres: [game_genres.uncategorized]
         }
     },
     {
         imagePath: lanternsTheHarvestFestival,
         title: "Lanterns: The Harvest Festival",
-        description: "TBA",
+        description: descriptions.lanterns,
         storageLocation: "Bottom Drawer Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.family_game, game_genres.strategy]
+        }
     },
     {
         imagePath: leHavre,
         title: "Le Havre",
-        description: "TBA",
+        description: descriptions.leHavre,
         storageLocation: "3rd Shelf Locker E",
+        tags: {storageLocker: "Locker E",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: lemonadeStand,
         title: "Lemonade Stand",
-        description: "TBA",
+        description: descriptions.lemonadeStand,
         storageLocation: "2nd Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            players: max_players.four,
+            genres: [card_game]
+        }
     },
     {
         imagePath: letterJam,
