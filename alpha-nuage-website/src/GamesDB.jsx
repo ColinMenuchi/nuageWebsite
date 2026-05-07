@@ -1680,7 +1680,7 @@ const games_database = [
         storageLocation: "Top Drawer Locker B",
         tags: {storageLocker: "Locker B",
             complexity: "Modest",
-            players: max_players,six,
+            players: max_players.six,
             genres: [game_genres.uncategorized]
         }
     },
