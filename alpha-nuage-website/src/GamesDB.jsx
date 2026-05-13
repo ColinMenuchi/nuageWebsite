@@ -1731,8 +1731,13 @@ const games_database = [
     { 
         imagePath: lettersFromWhitechapel, 
         title: "Letters from Whitechapel", 
-        description: "TBA",
+        description: descriptions.lettersFromWhitechapel,
         storageLocation: "Top Shelf Locker B",
+        tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.bluffing, game_genres.social_deduction, game_genres.strategy]
+        }
     },
     {
         imagePath: liarsDice,
