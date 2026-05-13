@@ -1712,6 +1712,7 @@ const games_database = [
         description: descriptions.lemonadeStand,
         storageLocation: "2nd Drawer Locker G-Right",
         tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
             players: max_players.four,
             genres: [game_genres.card_game]
         }
@@ -1719,8 +1720,13 @@ const games_database = [
     {
         imagePath: letterJam,
         title: "Letter Jam",
-        description: "TBA",
+        description: descriptions.letterJam,
         storageLocation: "Bottom Drawer Locker G-Right",
+        tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.card_game, game_genres.cooperative, game_genres.family_game, game_genres.party_game, game_genres.word_game]
+        }
     },
     { 
         imagePath: lettersFromWhitechapel, 
