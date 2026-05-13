@@ -1742,344 +1742,629 @@ const games_database = [
     {
         imagePath: liarsDice,
         title: "Liar's Dice",
-        description: "TBA",
+        description: descriptions.liarsDice,
         storageLocation: "Bottom Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.bluffing, game_genres.party_game, game_genres.dice]
+        }
     },
     { 
         imagePath: libertalia, 
-        title: "Libertalia", 
-        description: "TBA",
+        title: "Libertalia",
+        description: descriptions.libertalia,
         storageLocation: "Top Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.strategy, game_genres.bluffing]
+        }
     },
     {
         imagePath: lostCities,
         title: "Lost Cities",
-        description: "TBA",
+        description: descriptions.lostCities,
         storageLocation: "Bottom Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.two,
+            genres: [game_genres.card_game, game_genres.strategy]
+        }
     },
     {
         imagePath: lostRuinsOfArnak,
         title: "Lost Ruins of Arnak",
-        description: "TBA",
+        description: descriptions.lostRuinsOfArnak,
         storageLocation: "Top Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.adventure, game_genres.strategy]
+        }
     },
     {
         imagePath: loveLetterPrincessPrincessEverAfter,
         title: "Love Letter: Princess Princess Ever After",
-        description: "TBA",
+        description: descriptions.loveLetter,
         storageLocation: "2nd Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: machiKoro,
         title: "Machi Koro",
-        description: "TBA",
+        description: descriptions.machiKoro,
         storageLocation: "3rd Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.dice, game_genres.family_game]
+        }
     },
     {
         imagePath: mageKnight,
         title: "Mage Knight",
-        description: "TBA",
+        description: descriptions.mageKnight,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Super Heavy",
+            players: max_players.four,
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: mansionsOfMadness,
         title: "Mansions of Madness",
-        description: "TBA",
+        description: descriptions.mansionsOfMadness,
         storageLocation: "Bottom Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.horror, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: medici,
         title: "Medici",
-        description: "TBA",
+        description: descriptions.medici,
         storageLocation: "3rd Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: memoir44,
         title: "Memoir '44",
-        description: "TBA",
+        description: descriptions.memoir44,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.seven_plus,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: mentalBlocks,
         title: "Mental Blocks",
-        description: "TBA",
+        description: descriptions.mentalBlocks,
         storageLocation: "3rd Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.cooperative, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: miceAndMystics,
         title: "Mice & Mystics",
-        description: "TBA",
+        description: descriptions.miceAndMystics,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.fantasy]
+        }
     },
     {
         imagePath: modernArt,
         title: "Modern Art",
-        description: "TBA",
+        description: descriptions.modernArt,
         storageLocation: "3rd Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: monopolyCheatersEdition,
         title: "Monopoly: Cheater's Edition",
-        description: "TBA",
+        description: descriptions.monopolyCheatersEdition,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.family_game]
+        }
     },
     {
         imagePath: monopolyScoobyDooEdition,
         title: "Monopoly: Scooby-Doo Edition",
-        description: "TBA",
+        description: descriptions.monopolyScoobyDoo,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.family_game]
+        }
     },
     {
         imagePath: myFathersWork,
         title: "My Father's Work",
-        description: "TBA",
+        description: descriptions.myFathersWork,
         storageLocation: "Bottom Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.horror, game_genres.strategy]
+        }
     },
     { 
         imagePath: mysterium, 
-        title: "Mysterium", 
-        description: "TBA",
+        title: "Mysterium",
+        description: descriptions.mysterium,
         storageLocation: "Top Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.cooperative, game_genres.horror, game_genres.social_deduction]
+        }
     },
     {
         imagePath: mysticPaths,
         title: "Mystic Paths",
-        description: "TBA",
+        description: descriptions.mysticPaths,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: nertz,
         title: "Nertz",
-        description: "TBA",
+        description: descriptions.nertz,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.party_game]
+        }
     },
     {
         imagePath: noThanks,
         title: "No Thanks!",
-        description: "TBA",
+        description: descriptions.noThanks,
         storageLocation: "2nd Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.number_game]
+        }
     },
     {
         imagePath: oceans,
         title: "Oceans",
-        description: "TBA",
+        description: descriptions.oceans,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.animals, game_genres.environmental, game_genres.strategy]
+        }
     },
     {
         imagePath: oneNightUltimateWerewolf,
         title: "One Night Ultimate Werewolf",
-        description: "TBA",
+        description: descriptions.oneNightUltimateWerewolf,
         storageLocation: "2nd Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.party_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: pandemicIberia,
         title: "Pandemic: Iberia",
-        description: "TBA",
+        description: descriptions.pandemicIberia,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.cooperative, game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: pandemicOnTheBrink,
         title: "Pandemic: On the brink",
-        description: "TBA",
+        description: descriptions.pandemicOnTheBrink,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.cooperative, game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: paranormalDetectives,
         title: "Paranormal Detectives",
-        description: "TBA",
+        description: descriptions.paranormalDetectives,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.horror, game_genres.social_deduction]
+        }
     },
     {
         imagePath: parks,
         title: "Parks",
-        description: "TBA",
+        description: descriptions.parks,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.environmental, game_genres.strategy]
+        }
     },
     {
         imagePath: patchwork,
         title: "Patchwork",
-        description: "TBA",
+        description: descriptions.patchwork,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.two,
+            genres: [game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: pennyPress,
         title: "Penny Press",
-        description: "TBA",
+        description: descriptions.pennyPress,
         storageLocation: "Bottom Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: planes,
         title: "Planes",
-        description: "TBA",
+        description: descriptions.planes,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.family_game, game_genres.strategy]
+        }
     },
     {
         imagePath: planet,
         title: "Planet",
-        description: "TBA",
+        description: descriptions.planet,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.animals, game_genres.environmental, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: potionExplosion,
         title: "Potion Explosion",
-        description: "TBA",
+        description: descriptions.potionExplosion,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.fantasy, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: powerGrid,
         title: "Power Grid",
-        description: "TBA",
+        description: descriptions.powerGrid,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: puertoRico,
         title: "Puerto Rico",
-        description: "TBA",
+        description: descriptions.puertoRico,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: quoridor,
         title: "Quoridor",
-        description: "TBA",
+        description: descriptions.quoridor,
         storageLocation: "Bottom Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: raidersOfTheNorthSea,
         title: "Raiders of the North Sea",
-        description: "TBA",
+        description: descriptions.raidersOfTheNorthSea,
         storageLocation: "4th Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: railroadInkChallenge,
         title: "Railroad Ink Challenge",
-        description: "TBA",
+        description: descriptions.railroadInk,
         storageLocation: "2nd Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: railwaysOfTheWorld,
         title: "Railways of the World",
-        description: "TBA",
+        description: descriptions.railwaysOfTheWorld,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: raiseYourGoblets,
         title: "Raise Your Goblets",
-        description: "TBA",
+        description: descriptions.raiseYourGoblets,
         storageLocation: "Bottom Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.bluffing, game_genres.humor, game_genres.party_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: redRising,
         title: "Red Rising",
-        description: "TBA",
+        description: descriptions.redRising,
         storageLocation: "Bottom Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.based_on_a_book, game_genres.card_game, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: rollForTheGalaxy,
         title: "Roll for the Galaxy",
-        description: "TBA",
+        description: descriptions.rollForTheGalaxy,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.dice, game_genres.strategy]
+        }
     },
     {
         imagePath: root,
         title: "Root",
-        description: "TBA",
+        description: descriptions.root,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.adventure, game_genres.fantasy, game_genres.popular, game_genres.strategy]
+        }
     },
     {
         imagePath: rootTheMarauderExpansion,
         title: "Root: The Marauder Expansion",
-        description: "TBA",
+        description: descriptions.rootMarauder,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.expansion, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: rootTheRiverfolkExpansion,
         title: "Root: The Riverfolk Expansion",
-        description: "TBA",
+        description: descriptions.rootRiverfolk,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.expansion, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: rootTheUnderworldExpansion,
         title: "Root: The Underworld Expansion",
-        description: "TBA",
+        description: descriptions.rootUnderworld,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.expansion, game_genres.fantasy, game_genres.strategy]
+        }
     },
     { 
         imagePath: saboteur, 
-        title: "Saboteur", 
-        description: "TBA",
+        title: "Saboteur",
+        description: descriptions.saboteur,
         storageLocation: "Top Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.party_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: sagrada,
         title: "Sagrada",
-        description: "TBA",
+        description: descriptions.sagrada,
         storageLocation: "Bottom Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.dice, game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: santorini,
         title: "Santorini",
-        description: "TBA",
+        description: descriptions.santorini,
         storageLocation: "Bottom Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.fantasy, game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: scoobyDooBetrayalAtMysteryMansion,
         title: "Scooby-Doo! Betrayal at Mystery Mansion",
-        description: "TBA",
+        description: descriptions.scoobyDooBetrayal,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.family_game, game_genres.horror, game_genres.social_deduction]
+        }
     },
     {
         imagePath: scoobyDooHideAndShriekGame,
         title: "Scooby-Doo! Hide and Shriek Game",
-        description: "TBA",
+        description: descriptions.scoobyDooHideAndShriek,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.cooperative, game_genres.family_game]
+        }
     },
     {
         imagePath: scoobyDooThrillsAndSpillsGame,
         title: "Scooby-Doo! Thrills and Spills Game",
-        description: "TBA",
+        description: descriptions.scoobyDooThrills,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.family_game]
+        }
     },
     { 
         imagePath: scout, 
-        title: "Scout", 
-        description: "TBA",
+        title: "Scout",
+        description: descriptions.scout,
         storageLocation: "Top Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.card_game]
+        }
     },
     { 
         imagePath: scoville, 
-        title: "Scoville", 
-        description: "TBA",
+        title: "Scoville",
+        description: descriptions.scoville,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.strategy]
+        }
     },
     { 
         imagePath: set, 
-        title: "Set", 
-        description: "TBA",
+        title: "Set",
+        description: descriptions.set,
         storageLocation: "Top Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.number_game, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: shadowsOverCamelot,
         title: "Shadows Over Camelot",
-        description: "TBA",
-        storageLocation: "2nd Shelf Locker F"
+        description: descriptions.shadowsOverCamelot,
+        storageLocation: "2nd Shelf Locker F",
+        tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.seven_plus,
+            genres: [game_genres.cooperative, game_genres.fantasy, game_genres.historical, game_genres.social_deduction]
+        }
     },
     { 
         imagePath: sheriffOfNottingham, 
-        title: "Sheriff of Nottingham", 
-        description: "TBA",
+        title: "Sheriff of Nottingham",
+        description: descriptions.sheriffOfNottingham,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.bluffing, game_genres.party_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: shogi,
         title: "Shogi",
-        description: "TBA",
+        description: descriptions.shogi,
         storageLocation: "4th Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.two,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: skull,
         title: "Skull",
-        description: "TBA",
+        description: descriptions.skull,
         storageLocation: "2nd Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.bluffing, game_genres.party_game, game_genres.social_deduction]
+        }
     },
     { 
         imagePath: slayTheSpire, 
@@ -2095,32 +2380,57 @@ const games_database = [
     {
         imagePath: smallworld,
         title: "Smallworld",
-        description: "TBA",
+        description: descriptions.smallworld,
         storageLocation: "Bottom Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: smallworldUnderground,
         title: "Smallworld: Underground",
-        description: "TBA",
+        description: descriptions.smallworldUnderground,
         storageLocation: "Bottom Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: snollygoster,
         title: "Snollygoster",
-        description: "TBA",
+        description: descriptions.snollygoster,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.bluffing, game_genres.humor, game_genres.party_game, game_genres.political]
+        }
     },
     {
         imagePath: soClover,
         title: "So Clover",
-        description: "TBA",
+        description: descriptions.soClover,
         storageLocation: "Bottom Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.cooperative, game_genres.party_game, game_genres.word_game]
+        }
     },
     {
         imagePath: specterOps,
         title: "Specter Ops",
-        description: "TBA",
+        description: descriptions.specterOps,
         storageLocation: "Bottom Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.adventure, game_genres.social_deduction]
+        }
     },
     { 
         imagePath: spiritIsland,
@@ -2136,422 +2446,772 @@ const games_database = [
     {
         imagePath: spiritIslandFeatherAndFlame,
         title: "Spirit Island: Feather and Flame",
-        description: "TBA",
+        description: descriptions.spiritIslandFeatherAndFlame,
         storageLocation: "Bottom Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Super Heavy",
+            players: max_players.four,
+            genres: [game_genres.cooperative, game_genres.expansion, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: spiritIslandJaggedEarth,
         title: "Spirit Island: Jagged Earth",
-        description: "TBA",
+        description: descriptions.spiritIslandJaggedEarth,
         storageLocation: "Bottom Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Super Heavy",
+            players: max_players.four,
+            genres: [game_genres.cooperative, game_genres.expansion, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: splendor,
         title: "Splendor",
-        description: "TBA",
+        description: descriptions.splendor,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: spyfall,
         title: "Spyfall",
-        description: "TBA",
+        description: descriptions.spyfall,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.bluffing, game_genres.party_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: stardewValley,
         title: "Stardew Valley",
-        description: "TBA",
+        description: descriptions.stardewValley,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.based_on_a_video_game, game_genres.cooperative, game_genres.strategy]
+        }
     },
     {
         imagePath: starWarsRebellion,
         title: "Star Wars Rebellion",
-        description: "TBA",
+        description: descriptions.starWarsRebellion,
         storageLocation: "Bottom Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.based_on_a_video_game, game_genres.fantasy, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: subdivision,
         title: "Subdivision",
-        description: "TBA",
+        description: descriptions.subdivision,
         storageLocation: "Bottom Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: suburbia,
         title: "Suburbia",
-        description: "TBA",
+        description: descriptions.suburbia,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.strategy]
+        }
     },
     { 
         imagePath: sushiGo, 
-        title: "Sushi Go!", 
-        description: "TBA",
+        title: "Sushi Go!",
+        description: descriptions.sushiGo,
         storageLocation: "Top Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.card_game, game_genres.family_game]
+        }
     },
     {
         imagePath: sushiGoParty,
         title: "Sushi Go Party!",
-        description: "TBA",
+        description: descriptions.sushiGoParty,
         storageLocation: "Bottom Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.family_game]
+        }
     },
     { 
         imagePath: sythe, 
-        title: "Sythe", 
-        description: "TBA",
+        title: "Sythe",
+        description: descriptions.scythe,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.fantasy, game_genres.historical, game_genres.popular, game_genres.strategy]
+        }
     },
     {
         imagePath: takenoko,
         title: "Takenoko",
-        description: "TBA",
+        description: descriptions.takenoko,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.animals, game_genres.family_game, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: terraformingMars,
         title: "Terraforming Mars",
-        description: "TBA",
+        description: descriptions.terraformingMars,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.environmental, game_genres.popular, game_genres.strategy]
+        }
     },
     {
         imagePath: terraformingMarsAresExpedition,
         title: "Terraforming Mars: Ares Expedition",
-        description: "TBA",
+        description: descriptions.terraformingMarsAresExpedition,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.card_game, game_genres.environmental, game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: terraformingMarsColonies,
         title: "Terraforming Mars: Colonies",
-        description: "TBA",
+        description: descriptions.terraformingMarsColonies,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.environmental, game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: terraMystica,
         title: "terra Mystica",
-        description: "TBA",
+        description: descriptions.terraMystica,
         storageLocation: "Bottom Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: terrorBelow,
         title: "Terror Below",
-        description: "TBA",
+        description: descriptions.terrorBelow,
         storageLocation: "4th Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.adventure, game_genres.horror, game_genres.strategy]
+        }
     },
     {
         imagePath: terrorBelowHiddenCache,
         title: "Terror Below: Hidden Cache",
-        description: "TBA",
+        description: descriptions.terrorBelowHiddenCache,
         storageLocation: "4th Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.adventure, game_genres.expansion, game_genres.horror]
+        }
     },
     {
         imagePath: terrorInMeepleCity,
         title: "Terror in Meeplecity",
-        description: "TBA",
+        description: descriptions.terrorInMeepleCity,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.fantasy, game_genres.humor, game_genres.party_game]
+        }
     },
     { 
         imagePath: theArrival, 
-        title: "The Arrival", 
-        description: "TBA",
+        title: "The Arrival",
+        description: descriptions.theArrival,
         storageLocation: "2nd Shelf Locker G-Left",
+            tags: {storageLocker: "Locker G-Left",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: theCrewMissionDeepSea,
         title: "The Crew: Mission Deep Sea",
-        description: "TBA",
+        description: descriptions.theCrewMissionDeepSea,
         storageLocation: "2nd Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.card_game, game_genres.cooperative]
+        }
     },
     {
         imagePath: theFoxInTheForest,
         title: "The Fox in the Forest",
-        description: "TBA",
+        description: descriptions.theFoxInTheForest,
         storageLocation: "Top Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.two,
+            genres: [game_genres.card_game, game_genres.fantasy]
+        }
     },
     {
         imagePath: theIsleOfCats,
         title: "The Isle of Cats",
-        description: "TBA",
+        description: descriptions.theIsleOfCats,
         storageLocation: "Top Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.animals, game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: theQuacksOfQuedlinburg,
         title: "The Quacks of Quedlinburg",
-        description: "TBA",
+        description: descriptions.theQuacksOfQuedlinburg,
         storageLocation: "2nd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.humor, game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     { 
         imagePath: theRepublicOfRome, 
-        title: "The Republic of Rome", 
-        description: "TBA",
+        title: "The Republic of Rome",
+        description: descriptions.theRepublicOfRome,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Super Heavy",
+            players: max_players.six,
+            genres: [game_genres.historical, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: theResistance,
         title: "The Resistance",
-        description: "TBA",
+        description: descriptions.theResistance,
         storageLocation: "2nd Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.party_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: theSearchForPlanetX,
         title: "The Search for Planet X",
-        description: "TBA",
+        description: descriptions.theSearchForPlanetX,
         storageLocation: "2nd Shelf Locker B",
+            tags: {storageLocker: "Locker B",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: theTeaDragonSociety,
         title: "The Tea Dragon Society",
-        description: "TBA",
+        description: descriptions.theTeaDragonSociety,
         storageLocation: "2nd Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.cooperative, game_genres.fantasy]
+        }
     },
     {
         imagePath: ticketToRide,
         title: "Ticket To Ride",
-        description: "TBA",
+        description: descriptions.ticketToRide,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.family_game, game_genres.popular, game_genres.strategy]
+        }
     },
     {
         imagePath: ticketToRideUnitedKingdom,
         title: "Ticket To Ride: United Kingdom",
-        description: "TBA",
+        description: descriptions.ticketToRideUK,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.expansion, game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: tigrisAndEuphrates,
         title: "Tigris & Euphrates",
-        description: "TBA",
+        description: descriptions.tigrisAndEuphrates,
         storageLocation: "Top Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.historical, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: timeStories,
         title: "Time Stories",
-        description: "TBA",
+        description: descriptions.timeStories,
         storageLocation: "Bottom Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.historical]
+        }
     },
     { 
         imagePath: tomorrow, 
-        title: "Tomorrow", 
-        description: "TBA",
+        title: "Tomorrow",
+        description: descriptions.tomorrow,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.uncategorized]
+        }
     },
     {
         imagePath: trains,
         title: "Trains",
-        description: "TBA",
+        description: descriptions.trains,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: trajan,
         title: "Trajan",
-        description: "TBA",
+        description: descriptions.trajan,
         storageLocation: "4th Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: trickerion,
         title: "Trickerion",
-        description: "TBA",
+        description: descriptions.trickerion,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: tsukuyumi,
         title: "Tsukuyumi",
-        description: "TBA",
+        description: descriptions.tsukuyumi,
         storageLocation: "Bottom Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: tuscanyEssentialEdition,
         title: "Tuscany: Essential Edition",
-        description: "TBA",
+        description: descriptions.tuscanyEssentialEdition,
         storageLocation: "Bottom Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: twilightImperium,
         title: "Twilight Imperium",
-        description: "TBA",
+        description: descriptions.twilightImperium,
         storageLocation: "Bottom Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Super Heavy",
+            players: max_players.six,
+            genres: [game_genres.fantasy, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: twilightImperiumRex,
         title: "Twilight Imperium Rex: Final Days of an Empire",
-        description: "TBA",
+        description: descriptions.twilightImperiumRex,
         storageLocation: "Bottom Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Heavy",
+            players: max_players.six,
+            genres: [game_genres.fantasy, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: twilightInscription,
         title: "Twilight Inscription",
-        description: "TBA",
+        description: descriptions.twilightInscription,
         storageLocation: "4th Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Heavy",
+            players: max_players.seven_plus,
+            genres: [game_genres.fantasy, game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: twoRoomsAndABoom,
         title: "Two Rooms and a Boom",
-        description: "TBA",
+        description: descriptions.twoRoomsAndABoom,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.party_game, game_genres.social_deduction]
+        }
     },
     {
         imagePath: tzokin,
         title: "Tzolk'In",
-        description: "TBA",
+        description: descriptions.tzolkin,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: underwaterCities,
         title: "Underwater Cities",
-        description: "TBA",
+        description: descriptions.underwaterCities,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.strategy]
+        }
     },
     {
         imagePath: underwaterCitiesNewDiscoveries,
         title: "Underwater Cities: New Discoveries",
-        description: "TBA",
+        description: descriptions.underwaterCitiesNewDiscoveries,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Heavy",
+            players: max_players.four,
+            genres: [game_genres.expansion, game_genres.strategy]
+        }
     },
     {
         imagePath: unfair,
         title: "Unfair",
-        description: "TBA",
+        description: descriptions.unfair,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.humor, game_genres.strategy]
+        }
     },
     {
         imagePath: unlock,
         title: "Unlock!",
-        description: "TBA",
+        description: descriptions.unlock,
         storageLocation: "4th Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: unlockSecretAdventuresANosideStory,
         title: "Unlock! Secret Adventures: A Noside Story",
-        description: "TBA",
+        description: descriptions.unlockANosideStory,
         storageLocation: "4th Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.expansion, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: unlockSecretAdventuresTheAdventuresOfOz,
         title: "Unlock! Secret Adventures: The Adventures of Oz",
-        description: "TBA",
+        description: descriptions.unlockAdventuresOfOz,
         storageLocation: "4th Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.adventure, game_genres.cooperative, game_genres.expansion, game_genres.puzzle_game]
+        }
     },
     {
         imagePath: uno,
         title: "Uno",
-        description: "TBA",
+        description: descriptions.uno,
         storageLocation: "Top Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.family_game]
+        }
     },
     {
         imagePath: vastTheCrystalCaverns,
         title: "Vast: The Crystal Caverns",
-        description: "TBA",
+        description: descriptions.vastTheCrystalCaverns,
         storageLocation: "Bottom Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.adventure, game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: villainous,
         title: "Villainous",
-        description: "TBA",
+        description: descriptions.villainous,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.fantasy, game_genres.strategy]
+        }
     },
     {
         imagePath: viticulture,
         title: "Viticulture",
-        description: "TBA",
+        description: descriptions.viticulture,
         storageLocation: "Bottom Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Modest",
+            players: max_players.six,
+            genres: [game_genres.popular, game_genres.strategy]
+        }
     },
     { 
         imagePath: wanderingTowers, 
-        title: "Wandering Towers", 
-        description: "TBA",
+        title: "Wandering Towers",
+        description: descriptions.wanderingTowers,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.six,
+            genres: [game_genres.fantasy, game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: warChest,
         title: "War Chest",
-        description: "TBA",
+        description: descriptions.warChest,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     { 
         imagePath: warOfWhispers, 
-        title: "War of Whispers", 
-        description: "TBA",
+        title: "War of Whispers",
+        description: descriptions.warOfWhispers,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Modest",
+            players: max_players.four,
+            genres: [game_genres.political, game_genres.strategy]
+        }
     },
     {
         imagePath: wastelandExpress,
         title: "Wasteland Express",
-        description: "TBA",
+        description: descriptions.wastelandExpress,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.adventure, game_genres.strategy]
+        }
     },
     { 
         imagePath: waterfallPark, 
-        title: "Waterfall Park", 
-        description: "TBA",
+        title: "Waterfall Park",
+        description: descriptions.waterfallPark,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.five,
+            genres: [game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: watergate,
         title: "Watergate",
-        description: "TBA",
+        description: descriptions.watergate,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Modest",
+            players: max_players.two,
+            genres: [game_genres.historical, game_genres.political, game_genres.strategy]
+        }
     },
     { 
         imagePath: wavelength, 
-        title: "Wavelength", 
-        description: "TBA",
+        title: "Wavelength",
+        description: descriptions.wavelength,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.party_game, game_genres.social_deduction, game_genres.word_game]
+        }
     },
     {
         imagePath: weDidntPlaytestThisAtAll,
         title: "We Didn't Playtest This at All",
-        description: "TBA",
+        description: descriptions.weDidntPlaytestThisAtAll,
         storageLocation: "Top Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.card_game, game_genres.humor, game_genres.party_game]
+        }
     },
     {
         imagePath: welcomeToYourPerfectHome,
         title: "Welcome to Your Perfect Home",
-        description: "TBA",
+        description: descriptions.welcomeToYourPerfectHome,
         storageLocation: "Top Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.puzzle_game, game_genres.strategy]
+        }
     },
     {
         imagePath: werewords,
         title: "Werewords",
-        description: "TBA",
+        description: descriptions.werewords,
         storageLocation: "2nd Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.party_game, game_genres.social_deduction, game_genres.word_game]
+        }
     },
     {
         imagePath: wingspan,
         title: "Wingspan",
-        description: "TBA",
+        description: descriptions.wingspan,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.animals, game_genres.environmental, game_genres.popular, game_genres.strategy]
+        }
     },
     {
         imagePath: wingspanAsia,
         title: "Wingspan: Asia",
-        description: "TBA",
+        description: descriptions.wingspanAsia,
         storageLocation: "2nd Shelf Locker F",
+            tags: {storageLocker: "Locker F",
+            complexity: "Modest",
+            players: max_players.five,
+            genres: [game_genres.animals, game_genres.environmental, game_genres.expansion, game_genres.strategy]
+        }
     },
     { 
         imagePath: witsAndWagers, 
-        title: "Wits & Wagers", 
-        description: "TBA",
+        title: "Wits & Wagers",
+        description: descriptions.witsAndWagers,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.number_game, game_genres.party_game]
+        }
     },
     {
         imagePath: worldsFair1893,
         title: "World's Fair: 1893",
-        description: "TBA",
+        description: descriptions.worldsFair1893,
         storageLocation: "Bottom Drawer Locker B",
+            tags: {storageLocker: "Locker B Drawers",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.historical, game_genres.strategy]
+        }
     },
     {
         imagePath: xiaLegendsOfADriftSystem,
         title: "Xia: Legends of a Drift System",
-        description: "TBA",
+        description: descriptions.xia,
         storageLocation: "Bottom Shelf Locker E",
+            tags: {storageLocker: "Locker E",
+            complexity: "Heavy",
+            players: max_players.five,
+            genres: [game_genres.adventure, game_genres.fantasy, game_genres.strategy]
+        }
     },
     { 
         imagePath: yetiInMySpaghetti, 
-        title: "Yeti in My Spaghetti", 
-        description: "TBA",
+        title: "Yeti in My Spaghetti",
+        description: descriptions.yetiInMySpaghetti,
         storageLocation: "3rd Shelf Locker C",
+            tags: {storageLocker: "Locker C",
+            complexity: "Light",
+            players: max_players.four,
+            genres: [game_genres.family_game, game_genres.humor]
+        }
     },
     {
         imagePath: zombieDice,
         title: "Zombie Dice",
-        description: "TBA",
+        description: descriptions.zombieDice,
         storageLocation: "Top Drawer Locker G-Right",
+            tags: {storageLocker: "Locker G-Right",
+            complexity: "Light",
+            players: max_players.seven_plus,
+            genres: [game_genres.dice, game_genres.humor, game_genres.party_game]
+        }
     },
 ]
 
