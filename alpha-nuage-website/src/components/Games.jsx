@@ -2,12 +2,9 @@ import { useState, useEffect, useRef } from "react";
 
 import games_database from "../GamesDB.jsx"
 import AboutPopUp from "./AboutPopUp.jsx";
-import Card from "./Card.jsx";
-import homeImg from "../assets/hiddenFigures/home.avif";
-import aBadTime from "../assets/hiddenFigures/aBadTime.webp";
 import "./Games.css";
 
-function Games({ onNavigate }) {
+function Games() {
 
     // Array of Game Genres
     const game_genres = [
@@ -105,8 +102,7 @@ function Games({ onNavigate }) {
         {/* Games Page Header */}
         <h1
             className="games-page-header"
-            style={{ marginLeft: "50px", marginTop: "30px", fontFamily: "papyrus", cursor: "pointer" }}
-            onClick={() => onNavigate("knight")}
+            style={{ marginLeft: "50px", marginTop: "30px" }}
         >
             Browse Our Game Collection:
         </h1>
@@ -256,22 +252,6 @@ function Games({ onNavigate }) {
                 tags={game.tags}
             />
         ))}
-            {search.trim().toLowerCase() === "sans" && (
-                <Card
-                    title="sans."
-                    imagePath={aBadTime}
-                    text="* you're gonna have a bad time."
-                    onClick={() => onNavigate("badtime")}
-                />
-            )}
-            {search.trim().toLowerCase() === "home" && (
-                <Card
-                    title="Home"
-                    imagePath={homeImg}
-                    text="* you feel like you're forgetting something."
-                    onClick={() => onNavigate("toriel")}
-                />
-            )}
         </div>
     </div>);
 }
