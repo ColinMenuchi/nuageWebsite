@@ -110,8 +110,6 @@ function Games({ onNavigate }) {
         >
             Browse Our Game Collection:
         </h1>
-        <p className="games-page-subtext" style={{ marginLeft: "50px"}}
-        >Only about 1/3 of our games have a completed entry and can show up when applying filters. Click on a game to view its entry.</p>
 
         {/* Search Bar */}
         <input
