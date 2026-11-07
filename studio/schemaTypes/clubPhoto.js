@@ -13,7 +13,7 @@ export default {
     {
       name: 'alt',
       title: 'Caption',
-      description: 'Shown as alt text; also used as a caption if you add one later.',
+      description: 'Shown as alternate text in lieu of the photo if it [the photo] cannot render for whatever reason.',
       type: 'string',
     },
   ],
