@@ -8,7 +8,6 @@ const NAV_PAGES = [
   { label: "Home",     page: "home", color: "cyan" },
   { label: "About Us", page: "about", color: "cyan" },
   { label: "Games",    page: "games", color: "cyan" },
-  { label: "Donate",   page: "donate", color: "cyan" },
 ];
 
 const SOCIAL_LINKS = [

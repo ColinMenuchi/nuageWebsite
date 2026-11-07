@@ -1,105 +1,50 @@
 import { useMemo, useState, useEffect } from 'react';
-import { fetchGames, fetchTimelineEvents, fetchSiteSettings } from '../lib/content.js'
+import { fetchGames, fetchTimelineEvents, fetchSiteSettings, fetchClubPhotos } from '../lib/content.js'
 import banner from '../assets/nuageBanner.jpg'
 import './Home.css'
 
-// Imports fo Club Photos
-import botc1 from '../assets/clubPhotos/botc.jpeg'
-import botc2 from '../assets/clubPhotos/botc2.jpeg'
-import cards from '../assets/clubPhotos/cards.jpeg'
-import catan from '../assets/clubPhotos/catan.jpeg'
-import codenames from '../assets/clubPhotos/codenames.jpeg'
-import coup  from '../assets/clubPhotos/coup.jpeg'
-import dominion from '../assets/clubPhotos/dominion.jpeg'
-import drivingFatalities from '../assets/clubPhotos/drivingFatalities.jpeg'
-import everdell from '../assets/clubPhotos/everdell.jpeg'
-import forestShuffle from '../assets/clubPhotos/forestShuffle.jpeg'
-import groupPhoto from '../assets/clubPhotos/groupPhoto.jpeg'
-import happy from '../assets/clubPhotos/happy.jpeg'
-import house from '../assets/clubPhotos/house.jpeg'
-import hutkin from '../assets/clubPhotos/hutkin.jpeg'
-import miku from '../assets/clubPhotos/miku.jpeg'
-import mysterium from '../assets/clubPhotos/mysterium.jpeg'
-import root1 from '../assets/clubPhotos/root.jpeg'
-import root2 from '../assets/clubPhotos/root2.jpeg'
-import slayTheSpire1 from '../assets/clubPhotos/slayTheSpire.jpeg'
-import slayTheSpire2 from '../assets/clubPhotos/slayTheSpire2.jpeg'
-import spiritIsland from '../assets/clubPhotos/spiritIsland.jpeg'
-import vast from '../assets/clubPhotos/vast.jpeg'
-
-const ALL_CLUB_PHOTOS = [
-  { src: botc1, alt: "BOTC1" },
-  { src: botc2, alt: "BOTC2" },
-  { src: cards, alt: "Cards" },
-  { src: catan, alt: "Catan" },
-  { src: codenames, alt: "Codenames" },
-  { src: coup, alt: "Coup" },
-  { src: dominion, alt: "Dominion" },
-  { src: drivingFatalities, alt: "Rare Photo" },
-  { src: everdell, alt: "Megan's Favorite Game" },
-  { src: forestShuffle, alt: "Forest Shuffle" },
-  { src: groupPhoto, alt: "Everyone" },
-  { src: happy, alt: "YAY" },
-  { src: house, alt: "More Mouse Bites" },
-  { src: hutkin, alt: "Max" },
-  { src: miku, alt: "Beam" },
-  { src: mysterium, alt: "Mysterium" },
-  { src: root1, alt: "Root1" },
-  { src: root2, alt: "Root2" },
-  { src: slayTheSpire1, alt: "StS1" },
-  { src: slayTheSpire2, alt: "StS2" },
-  { src: spiritIsland, alt: "Spirit Island" },
-  { src: vast, alt: "Vast" },
-]
-
-const RANDOM_INDICES = []
-for (let i = 0; i < 5; i++) {
-  let random_index = Math.floor(Math.random() * ALL_CLUB_PHOTOS.length)
-  while (RANDOM_INDICES.includes(random_index)) {
-    random_index = Math.floor(Math.random() * ALL_CLUB_PHOTOS.length)
+function pickRandomPhotos(photos, count) {
+  const indices = [];
+  while (indices.length < Math.min(count, photos.length)) {
+    const i = Math.floor(Math.random() * photos.length);
+    if (!indices.includes(i)) indices.push(i);
   }
-  RANDOM_INDICES.push(random_index)
-}
-
-const WHO_PHOTOS = []
-for (const index of RANDOM_INDICES) {
-  WHO_PHOTOS.push(ALL_CLUB_PHOTOS[index])
+  return indices.map(i => photos[i]);
 }
 
 function Home({ onNavigate }) {
-  const [carouselIndex, setCarouselIndex] = useState(0);
-  const prevPhoto = () => setCarouselIndex(i => (i - 1 + WHO_PHOTOS.length) % WHO_PHOTOS.length);
-  const nextPhoto = () => setCarouselIndex(i => (i + 1) % WHO_PHOTOS.length);
-
-  useEffect(() => {
-    const interval = setInterval(nextPhoto, 4000);
-    return () => clearInterval(interval);
-  }, []);
-
   // Content fetched from Sanity
   const [games, setGames] = useState([]);
   const [timelineEvents, setTimelineEvents] = useState([]);
   const [settings, setSettings] = useState(null);
+  const [clubPhotos, setClubPhotos] = useState([]);
 
   useEffect(() => {
-    Promise.all([fetchGames(), fetchTimelineEvents(), fetchSiteSettings()]).then(
-      ([gamesData, eventsData, settingsData]) => {
+    Promise.all([fetchGames(), fetchTimelineEvents(), fetchSiteSettings(), fetchClubPhotos()]).then(
+      ([gamesData, eventsData, settingsData, photosData]) => {
         setGames(gamesData);
         setTimelineEvents(eventsData);
         setSettings(settingsData);
+        setClubPhotos(photosData);
       }
     );
   }, []);
 
+  const WHO_PHOTOS = useMemo(() => pickRandomPhotos(clubPhotos, 5), [clubPhotos]);
+
+  const [carouselIndex, setCarouselIndex] = useState(0);
+  const prevPhoto = () => setCarouselIndex(i => WHO_PHOTOS.length === 0 ? 0 : (i - 1 + WHO_PHOTOS.length) % WHO_PHOTOS.length);
+  const nextPhoto = () => setCarouselIndex(i => WHO_PHOTOS.length === 0 ? 0 : (i + 1) % WHO_PHOTOS.length);
+
+  useEffect(() => {
+    const interval = setInterval(nextPhoto, 4000);
+    return () => clearInterval(interval);
+  }, [WHO_PHOTOS]);
+
   const STATS = settings
     ? [
         { icon: "🎲", label: "Games", value: `${games.length}+` },
-        { icon: "📅", label: "Game Nights", value: settings.meetingSchedule },
-        { icon: "📍", label: "Location", value: settings.location },
-        { icon: "🎉", label: "Membership", value: settings.membershipNote },
-        { icon: "📷", label: "Instagram", value: settings.instagramStat },
-        { icon: "🎮", label: "Discord", value: settings.discordStat },
-        { icon: "📈", label: "(We Own This Game Now!)", value: "John Company" },
+        ...(settings.stats ?? []),
       ]
     : [];
 
@@ -151,11 +96,12 @@ function Home({ onNavigate }) {
           </div>
         </div>
 
+        {WHO_PHOTOS.length > 0 && (
         <div className="carousel">
           <img
             className="carousel-img"
-            src={WHO_PHOTOS[carouselIndex].src}
-            alt={WHO_PHOTOS[carouselIndex].alt}
+            src={WHO_PHOTOS[carouselIndex]?.src}
+            alt={WHO_PHOTOS[carouselIndex]?.alt}
           />
           <button className="carousel-btn carousel-btn--prev" onClick={prevPhoto}>‹</button>
           <button className="carousel-btn carousel-btn--next" onClick={nextPhoto}>›</button>
@@ -169,6 +115,7 @@ function Home({ onNavigate }) {
             ))}
           </div>
         </div>
+        )}
       </section>
 
       {/* Events Timeline + Featured Game row */}
