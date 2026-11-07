@@ -1,0 +1,2 @@
+import{t as e}from"../../static/rolldown-runtime-DN1TCW_I.js";const t=e((e=>{e.Fragment=Symbol.for(`react.fragment`),e.jsxDEV=void 0}))();export default t;export const Fragment=t.Fragment;export const jsxDEV=t.jsxDEV;
+//# sourceMappingURL=jsx-dev-runtime-nGf5kV6i.mjs.map

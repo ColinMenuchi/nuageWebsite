@@ -1,13 +1,7 @@
 import { useMemo, useState, useEffect } from 'react';
-// import Header from './Header.jsx'
-// import Subheader from './Subheader.jsx'
-import games_database from '../GamesDB.jsx'
+import { fetchGames, fetchTimelineEvents, fetchSiteSettings } from '../lib/content.js'
 import banner from '../assets/nuageBanner.jpg'
-import azul from '../assets/gamePhotos/azul.jpeg'
-import wingspan from '../assets/gamePhotos/wingspan.jpeg'
-import ticketToRide from '../assets/gamePhotos/ticketToRide.jpeg'
 import './Home.css'
-import TIMELINE_EVENTS from '../timelineEvents.jsx'
 
 // Imports fo Club Photos
 import botc1 from '../assets/clubPhotos/botc.jpeg'
@@ -72,16 +66,6 @@ for (const index of RANDOM_INDICES) {
   WHO_PHOTOS.push(ALL_CLUB_PHOTOS[index])
 }
 
-const STATS = [
-  { icon: "🎲", label: "Games", value: `${games_database.length}+` },
-  { icon: "📅", label: "Game Nights", value: "Fri & Sat at 7PM" },
-  { icon: "📍", label: "Location", value: "Forsyth Building, Room 201" },
-  { icon: "🎉", label: "Membership", value: "Free to Join" },
-  { icon: "📷", label: "Instagram", value: "Over 1,000 Followers" },
-  { icon: "🎮", label: "Discord", value: "Over 1,400 Members"},
-  { icon: "📈", label: "(We Don't Own This Game)", value: "John Company"},
-]
-
 function Home({ onNavigate }) {
   const [carouselIndex, setCarouselIndex] = useState(0);
   const prevPhoto = () => setCarouselIndex(i => (i - 1 + WHO_PHOTOS.length) % WHO_PHOTOS.length);
@@ -92,10 +76,38 @@ function Home({ onNavigate }) {
     return () => clearInterval(interval);
   }, []);
 
-  const featuredGame = useMemo(() => {
-    const i = Math.floor(Math.random() * games_database.length);
-    return games_database[i];
+  // Content fetched from Sanity
+  const [games, setGames] = useState([]);
+  const [timelineEvents, setTimelineEvents] = useState([]);
+  const [settings, setSettings] = useState(null);
+
+  useEffect(() => {
+    Promise.all([fetchGames(), fetchTimelineEvents(), fetchSiteSettings()]).then(
+      ([gamesData, eventsData, settingsData]) => {
+        setGames(gamesData);
+        setTimelineEvents(eventsData);
+        setSettings(settingsData);
+      }
+    );
   }, []);
+
+  const STATS = settings
+    ? [
+        { icon: "🎲", label: "Games", value: `${games.length}+` },
+        { icon: "📅", label: "Game Nights", value: settings.meetingSchedule },
+        { icon: "📍", label: "Location", value: settings.location },
+        { icon: "🎉", label: "Membership", value: settings.membershipNote },
+        { icon: "📷", label: "Instagram", value: settings.instagramStat },
+        { icon: "🎮", label: "Discord", value: settings.discordStat },
+        { icon: "📈", label: "(We Don't Own This Game)", value: "John Company" },
+      ]
+    : [];
+
+  const featuredGame = useMemo(() => {
+    if (games.length === 0) return null;
+    const i = Math.floor(Math.random() * games.length);
+    return games[i];
+  }, [games]);
 
   return (
     <>
@@ -164,7 +176,7 @@ function Home({ onNavigate }) {
       <section className="timeline-section">
         <h2 className="timeline-heading">Events</h2>
         <div className="timeline">
-          {TIMELINE_EVENTS.map((event, i) => (
+          {timelineEvents.map((event, i) => (
             <div className="timeline-item" key={i}>
               <div className="timeline-marker" />
               <div className="timeline-content">
@@ -178,6 +190,7 @@ function Home({ onNavigate }) {
       </section>
 
       {/* Featured Game Spotlight */}
+      {featuredGame && (
       <div className="featured-section">
         <p className="featured-heading">You Should Check Out:</p>
         <div className="featured-card">
@@ -214,6 +227,7 @@ function Home({ onNavigate }) {
           </div>
         </div>
       </div>
+      )}
       </div>
     </>
   )

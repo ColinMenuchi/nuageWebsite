@@ -1,0 +1,107 @@
+const COMPLEXITIES = ['Light', 'Modest', 'Heavy', 'Super Heavy']
+const PLAYER_COUNTS = ['2', '3', '4', '5', '6', '7+']
+const GENRES = [
+  'Adventure',
+  'Animals',
+  'Based on a Book',
+  'Based on a Video Game',
+  'Bluffing',
+  'Card Game',
+  'Cooperative',
+  'Dice',
+  'Environmental',
+  'Expansion for Base Game',
+  'Fantasy',
+  'Family Game',
+  'Historical',
+  'Horror',
+  'Humor',
+  'Number Game',
+  'Party Game',
+  'Political',
+  'Popular at NUAGE',
+  'Puzzle Game',
+  'Social Deduction',
+  'Sports',
+  'Strategy',
+  'Uncategorized',
+  'Word Game',
+]
+const LOCKERS = [
+  'Locker E',
+  'Locker G-Left',
+  'Locker G-Right',
+  'Locker C',
+  'Locker B',
+  'Locker B Drawers',
+  'Locker F',
+]
+
+export default {
+  name: 'game',
+  title: 'Game',
+  type: 'document',
+  fields: [
+    {
+      name: 'title',
+      title: 'Title',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {source: 'title'},
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'coverImage',
+      title: 'Cover image',
+      type: 'image',
+      options: {hotspot: true},
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'description',
+      title: 'Description',
+      type: 'text',
+      rows: 4,
+    },
+    {
+      name: 'complexity',
+      title: 'Complexity',
+      type: 'string',
+      options: {list: COMPLEXITIES},
+    },
+    {
+      name: 'maxPlayers',
+      title: 'Max players',
+      type: 'string',
+      options: {list: PLAYER_COUNTS},
+    },
+    {
+      name: 'genres',
+      title: 'Genres',
+      type: 'array',
+      of: [{type: 'string'}],
+      options: {list: GENRES},
+    },
+    {
+      name: 'storageLocker',
+      title: 'Storage locker',
+      description: 'Used for filtering on the Games page.',
+      type: 'string',
+      options: {list: LOCKERS},
+    },
+    {
+      name: 'storageLocationDetail',
+      title: 'Storage location detail',
+      description: 'The exact spot shown on the game card, e.g. "Top Shelf Locker E".',
+      type: 'string',
+    },
+  ],
+  preview: {
+    select: {title: 'title', subtitle: 'storageLocationDetail', media: 'coverImage'},
+  },
+}

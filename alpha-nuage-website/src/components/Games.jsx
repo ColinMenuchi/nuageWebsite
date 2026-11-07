@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-import games_database from "../GamesDB.jsx"
+import { fetchGames } from "../lib/content.js"
 import AboutPopUp from "./AboutPopUp.jsx";
 import "./Games.css";
 
@@ -43,8 +43,15 @@ function Games() {
         "6", 
         "7+",]
 
-    // Array of Games
-    const games_list = games_database
+    // Games fetched from Sanity
+    const [games_list, setGamesList] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        fetchGames()
+            .then(setGamesList)
+            .finally(() => setLoading(false));
+    }, []);
 
     // State for Search
     const [search, setSearch] = useState("");
@@ -241,6 +248,9 @@ function Games() {
 
 
         {/* Game Cards */}
+        {loading && (
+            <p style={{ marginLeft: "50px", marginTop: "20px" }}>Loading games&hellip;</p>
+        )}
         <div className="games-card-grid" style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginLeft: "50px" }}>
             {filteredGames.map((game) => (
                 <AboutPopUp
