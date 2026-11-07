@@ -99,7 +99,7 @@ function Home({ onNavigate }) {
         { icon: "🎉", label: "Membership", value: settings.membershipNote },
         { icon: "📷", label: "Instagram", value: settings.instagramStat },
         { icon: "🎮", label: "Discord", value: settings.discordStat },
-        { icon: "📈", label: "(We Don't Own This Game)", value: "John Company" },
+        { icon: "📈", label: "(We Own This Game Now!)", value: "John Company" },
       ]
     : [];
 
