@@ -4,38 +4,51 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'meetingSchedule',
-      title: 'Meeting schedule',
-      description: 'Shown in the Home page stats bar, e.g. "Fri & Sat at 7PM".',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
-    },
-    {
-      name: 'location',
-      title: 'Location',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
-    },
-    {
-      name: 'membershipNote',
-      title: 'Membership note',
-      description: 'e.g. "Free to Join".',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
-    },
-    {
-      name: 'instagramStat',
-      title: 'Instagram stat',
-      description: 'e.g. "Over 1,000 Followers".',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
-    },
-    {
-      name: 'discordStat',
-      title: 'Discord stat',
-      description: 'e.g. "Over 1,400 Members".',
-      type: 'string',
-      validation: (Rule) => Rule.required(),
+      name: 'stats',
+      title: 'Stats',
+      description:
+        'The stat pills on the Home page, under "Who Are We?". Add, remove, reorder, or edit ' +
+        'any of them freely. The "Games" count is calculated automatically from the collection ' +
+        'and always shown first, so it does not need an entry here.',
+      type: 'array',
+      of: [
+        {
+          type: 'object',
+          name: 'stat',
+          fields: [
+            {
+              name: 'icon',
+              title: 'Icon',
+              description: 'A single emoji, e.g. 📅',
+              type: 'string',
+              validation: (Rule) => Rule.required(),
+            },
+            {
+              name: 'label',
+              title: 'Label',
+              type: 'string',
+              validation: (Rule) => Rule.required(),
+            },
+            {
+              name: 'value',
+              title: 'Value',
+              type: 'string',
+              validation: (Rule) => Rule.required(),
+            },
+          ],
+          preview: {
+            select: {title: 'label', subtitle: 'value', icon: 'icon'},
+            prepare({title, subtitle, icon}) {
+              return {title: `${icon ?? ''} ${title ?? ''}`.trim(), subtitle}
+            },
+          },
+        },
+      ],
     },
   ],
+  preview: {
+    prepare() {
+      return {title: 'Site Settings'}
+    },
+  },
 }

@@ -5,6 +5,7 @@ export const structure = (S) =>
       S.documentTypeListItem('game').title('Games'),
       S.documentTypeListItem('timelineEvent').title('Schedule'),
       S.documentTypeListItem('eboardMember').title('eBoard'),
+      S.documentTypeListItem('clubPhoto').title('Club Photos'),
       S.divider(),
       S.listItem()
         .title('Site Settings')

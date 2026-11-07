@@ -59,7 +59,13 @@ export async function fetchEboardMembers() {
 }
 
 export async function fetchSiteSettings() {
-  return sanityClient.fetch(
-    `*[_type == "siteSettings"][0]{ meetingSchedule, location, membershipNote, instagramStat, discordStat }`,
-  )
+  return sanityClient.fetch(`*[_type == "siteSettings"][0]{ stats }`)
+}
+
+export async function fetchClubPhotos() {
+  const docs = await sanityClient.fetch(`*[_type == "clubPhoto"]{ alt, image }`)
+  return docs.map((doc) => ({
+    src: doc.image ? urlFor(doc.image).width(800).url() : undefined,
+    alt: doc.alt,
+  }))
 }
