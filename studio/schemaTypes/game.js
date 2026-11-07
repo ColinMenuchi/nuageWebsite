@@ -49,13 +49,6 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      options: {source: 'title'},
-      validation: (Rule) => Rule.required(),
-    },
-    {
       name: 'coverImage',
       title: 'Cover image',
       type: 'image',

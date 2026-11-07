@@ -203,7 +203,6 @@ async function migrateGames() {
       _id: id,
       _type: 'game',
       title: game.title,
-      slug: {_type: 'slug', current: slugify(game.title)},
       coverImage,
       description: game.description,
       complexity: game.tags?.complexity,
