@@ -28,6 +28,7 @@ const GENRES = [
   'Word Game',
 ]
 const LOCKERS = [
+  'Locker A',
   'Locker E',
   'Locker G-Left',
   'Locker G-Right',

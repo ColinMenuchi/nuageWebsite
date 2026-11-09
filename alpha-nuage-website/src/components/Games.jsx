@@ -214,7 +214,7 @@ function Games() {
                         <p className="filter-section-title">Storage Location</p>
                         <p className="filter-section-subtitle">Only displays games that fit at least one selected storage location.</p>
                         <div className="filter-chips">
-                            {["Locker E", "Locker G-Left", "Locker G-Right",
+                            {["Locker A", "Locker E", "Locker G-Left", "Locker G-Right",
                                 "Locker C", "Locker B", "Locker B Drawers", "Locker F"].map(locker => (
                                 <span className="filter-chip" key={locker}>
                                     <input
